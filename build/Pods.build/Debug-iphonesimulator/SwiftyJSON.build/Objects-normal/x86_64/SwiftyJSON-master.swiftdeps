@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "07ace8dc26d3145ef1bbe89057474c69"
+build_time: [532554104, 220444000]
+inputs:
+  "/Volumes/KINGSTON/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [530044214, 0]
