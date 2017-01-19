@@ -300,7 +300,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         }else{
             imgScope.isHidden = true
         }
-        
+        /* Edition start */
         if viaSegueSerie == 1 {
             self.txtComponents.text = "- Student's Book\n\n- Student's CD"
             imgDet1.image = UIImage(named: "schoolcubbyhouse1.png")
@@ -311,8 +311,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.text = "There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages."
             self.txtComponentsTeachers.text = "- Guía del Maestro (In Spanish)\n\n- Class & Resource CD\n\n- Story Cards\n\n- Flashcards"
             self.txtMoreComponentsTeachers.text = "In the Teacher’s Guide, teacher’s will  nd instructions to build a play house—similar to those in the Values section—where students can develop their creativity and motor skills.\n\nTeachers will also  nd suggestions to use the cubby houses— children can keep their toys or school materials inside or get in to color and play.\n\nBy building their cubby houses, students will enjoy themselves while understanding and visualizing the value in a more memorable way!"
-            self.txtISBNStudents.text = "Level 1          756009844452\nLevel 2          756009844469\nLevel 3          756009844476"
-            self.txtISBNTeachers.text = "Level 1          756009845183\nLevel 2          756009845900\nLevel 3          756009845900"
+            self.txtISBNStudents.text = "Pack Cubby House (SB+CD)\nLevel 1          7506009844452\nLevel 2          7506009844469\nLevel 3          7506009844476"
+            self.txtISBNTeachers.text = "Pack Cubby House (GUIA+CLASS +FLASH)\nLevel 1          7506009845176\nLevel 2          7506009845206\nLevel 3          7506009845183\n\nStory Cards\nLevel 1          7506009843745\nLevel 2          7506009843752\nLevel 3          7506009843769"
             
         } else if viaSegueSerie == 2 {
             self.txtComponents.text = "-Student’s Book\n \n- Resource Booklet \n \n- Hands-on Activity Pad \n \n- Student’s CD"
@@ -324,8 +324,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "-Teacher’s Guide in Spanish\n \n-Class CD\n \n-Flashcards\n \n-Fun Activity Mat with Pebble Puppet\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 1          7506009834934\nLevel 2          7506009834941\nLevel 3          7506009834958"
-            self.txtISBNTeachers.text = "Level 1          7506009835405\nLevel 2          7506009835412\nLevel 3          7506009835429"
+            self.txtISBNStudents.text = "Pack Pebbles (SB+CD+RSC Booklet+AP)\nLevel 1          7506009834934\nLevel 2          7506009834941\nLevel 3          7506009834958"
+            self.txtISBNTeachers.text = "Pack Pebbles (Guia + Class CD)\nLevel 1          7506009835405\nLevel 2          7506009835412\nLevel 3          7506009835429\n\nFlashcards\nLevel 1          9786070605161\nLevel 2          9786070605208\nLevel 3          9786070605246\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663"
             
         } else if viaSegueSerie == 3 {
             self.txtComponents.text = "- Student’s Book Activity Pad\n \n-Student’s Audio CD (Level 1)\n \n-Student’s Audio/Interactive CD-ROM (Levels 2 and 3)\n \n-Student’s (Resource Pack)\n \n-Finger and Stick Puppets - Stickers\n \n-Mini- fashcards"
@@ -337,8 +337,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Guide\n \n-Big Books\n \n-Posters &amp; Cutouts\n \n-Teacher’s Resource CD-ROM\n \n-Class Audio\n \n-Classroom Language Cards\n \n-Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level K          7506009837508\nLevel 1          7506009834934\nLevel 2          7506009834941\nLevel 3          7506009834958"
-            self.txtISBNTeachers.text = "Level 1          7506009835405\nLevel 2          7506009835412\nLevel 3          7506009835429"
+            self.txtISBNStudents.text = "Pack Gumdrops (SB&TN+CD&CLASS CD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009837508\n\nPack Gumdrops (SB+CD+RSC Pack)\nLevel 1          7506009837515\nLevel 2          7506009837522\nLevel 3          7506009837539\nLevel N          N/A\n\nActivity Pad\nLevel 1          9786070607394\nLevel 2          9786070607400\nLevel 3          9786070607417\nLevel N          N/A"
+            self.txtISBNTeachers.text = "Pack Gumdrops (TG+Class CD)\nLevel 1          7506009837546\nLevel 2          7506009837553\nLevel 3          7506009837560\nLevel N          N/A\n\nBig Book\nLevel 1          9786070607424\nLevel 2          9786070607431\nLevel 3          9786070607448\nLevel N          N/A\n\nPosters & Posters Cutouts\nLevel 1          7506009836471\nLevel 2          7506009836488\nLevel 3          7506009836495\nLevel N          N/A\n\nTeacher's Resource CD-ROM\nLevel 1          7506009836402\nLevel 2          7506009836433\nLevel 3          7506009836464\nLevel N          N/A\n\nClassroom Language Cards (Level 1,2 and 3)\nLevel 1          9786070607455\nLevel 2          9786070607455\nLevel 3          9786070607455\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844179\nLevel 2          7506009844179\nLevel 3          7506009844179\nLevel N          N/A"
             
         } else if viaSegueSerie == 4 {
             self.txtComponents.text = "- Student’s Book\n \n-Stickers\n \n-Activity Book\n \n-Student’s CD\n \n-Interactive CD (Levels 2 and 3)\n \n-Tippy Toes App (Level 1)"
@@ -350,8 +350,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "-Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 1          7506009842755\nLevel 2          7506009842762\nLevel 3          7506009842779"
-            self.txtISBNTeachers.isHidden = true
+            self.txtISBNStudents.text = "Pack Tippy Toes (SB+CD+STK+MY FIRST...)\nLevel 1          7506009842755\nLevel 2          7506009842762\nLevel 3          7506009842779\n\nActivity Book\nLevel 1          9786070602641\nLevel 2          9786070602658\nLevel 3          9786070602665"
+            self.txtISBNTeachers.isHidden = false
+            self.txtISBNTeachers.text = "Teacher’s Guide\nLevel 1          9786070602672\nLevel 2          9786070602689\nLevel 3          9786070602696\n\nClass CD\nLevel 1          7506009807518\nLevel 2          7506009807525\nLevel 3          7506009807532\n\nBig Book\nLevel 1          9786070602702\nLevel 2          9786070602719\nLevel 3          9786070602726\n\nPosters & Cutouts\nLevel 1          7506009807181\nLevel 2          7506009807198\nLevel 3          7506009807204\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663\n\nPuppets (Level 3)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          7506009807846\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844162\nLevel 2          7506009844162\nLevel 3          7506009844162"
             
         } else if viaSegueSerie == 5 {
             self.txtComponents.text = "- Student’s Book\n \n-Stickers\n \n-Activity Book\n \n-Student’s CD\n \n-Interactive CD (Levels 2 and 3)\n \n-Tippy Toes App (Level 1)"
@@ -375,8 +376,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             "Its purpose is to extend students’ conceptual understanding and allow them to practice skills and behaviors through new experiences.\n\n" +
             "Evaluate:\n" +
             "This stage encourages learners to assess their understanding and abilities."
-            self.txtISBNStudents.text = "Level 1          7506009842489\nLevel 2          7506009842571\nLevel 3          7506009842588\nLevel 4          7506009842595"
-            self.txtISBNTeachers.text = "Level 1          7506009842601\nLevel 2          7506009842618\nLevel 3          7506009842625"
+            self.txtISBNStudents.text = "Pack Crickets Nursery (SB+CLASS & RCD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009842489\n\nPack Crickets (SB+CD+TALES)\nLevel 1          7506009842571\nLevel 2          7506009842588\nLevel 3          7506009842595\nLevel N          N/A\nPractice Book\nLevel 1          9786070610783\nLevel 2          9786070610738\nLevel 3          9786070610745\nLevel N          N/A"
+            self.txtISBNTeachers.isHidden = false
+            self.txtISBNTeachers.text = "Pack Crickets Teacher (TG+TR+SC+F+TA+CLF)\nLevel 1          7506009842601\nLevel 2          7506009842618\nLevel 3          7506009842625\nLevel N          N/A\n\nFlashcards (Level N)\nLevel 1          7506009842502\nLevel 2          N/A\nLevel 3          N/A\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          N/A\nLevel 2          7506009844186\nLevel 3          7506009844186\nLevel N          7506009844186"
+        
             
         } else if viaSegueSerie == 8 {
             self.txtComponents.text = "- Student’s Book \n \n- Resource Pack \n \n- Student’s CD"
@@ -388,8 +391,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Guide with Pocket Cube\n \n- Resource Pack \n \n- Teacher’s Resource CD \n \n- Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 2          7506009842816\nLevel 3          7506009842823"
-            self.txtISBNTeachers.text = "Level 2          7506009842359\nLevel 3          7506009842366"
+            self.txtISBNStudents.text = "Pack Math A. (SB+RESOURCE+SRCD)\nLevel 2          7506009842816\nLevel 3          7506009842823"
+            self.txtISBNTeachers.text = "Pack Math A. (TG+TCD+RES+CUBE)\nLevel 2          7506009842359\nLevel 3          7506009842366"
             
         } else if viaSegueSerie == 9 {
             self.txtComponents.text = "- Student’s Book \n \n- Student’s CD"
@@ -401,8 +404,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Guide in Spanish\n \n- Flashcards\n \n- Teacher’s Resource CD with Audio\n \n- Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 1          7506009840263\nLevel 2          7506009840270\nLevel 3          7506009840287\nLevel 4          7506009840294\nLevel 5          7506009840300\nLevel 6          7506009840317\n"
-            self.txtISBNTeachers.text = "Level 1          7506009840638\nLevel 2          7506009840645\nLevel 3          7506009840652\nLevel 4          7506009840676\nLevel 5          7506009840669\nLevel 6          7506009840683\n"
+            self.txtISBNStudents.text = "Pack Abracadabra (SB + CD)\nLevel 1          7506009840263\nLevel 2          7506009840270\nLevel 3          7506009840287\nLevel 4          7506009840294\nLevel 5          7506009840300\nLevel 6          7506009840317"
+            self.txtISBNTeachers.text = "Pack Abracadabra (GM+TRCD)\nLevel 1          7506009840638\nLevel 2          7506009840645\nLevel 3          7506009840652\nLevel 4          7506009840676\nLevel 5          7506009840669\nLevel 6          7506009840683\n\nFlashcards\nLevel 1          9786070609350\nLevel 2          9786070609374\nLevel 3          9786070609367\nLevel 4          9786070609398\nLevel 5          9786070609381\nLevel 6          9786070610097\n\nDigital Book CD\nLevel 1          9786070612985\nLevel 2          9786070613005\nLevel 3          9786070613029\nLevel 4          9786070612749\nLevel 5          9786070612961\nLevel 6          9786070612954"
             
         } else if viaSegueSerie == 10 {
             self.txtComponents.text = "Student’s Book & Activity Book combo\n \n-Student’s Audio CD\n \n-Playing Cards & Stickers (Levels 1 and 2)\n \n-Playing Cards (Levels 3 and 4)"
@@ -414,8 +417,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n-Posters \n \n-Flashcards\n \n-Puppet included in the  ashcards pack (Levels 1 and 2)\n \n-Class Audio & Resource CD\n \n-Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 1          7506009840102\nLevel 2          7506009840119\nLevel 3          7506009840324\nLevel 4          7506009840126\nLevel 5          7506009840331\nLevel 6          7506009840133\n"
-            self.txtISBNTeachers.text = "Level 1          7506009840348\nLevel 2          7506009840355\nLevel 3          7506009840362\nLevel 4          7506009840379\nLevel 5          7506009840386\nLevel 6          7506009840393\n"
+            self.txtISBNStudents.text = "Pack Beep (SB&AB+PC+ Stickers+CD)\nLevel 1          7506009840102\nLevel 2          7506009840119\nLevel 3          N/A\nLevel 4          N/A\nLevel 5          N/A\nLevel 6          N/A\n\nPack Beep (SB&AB+PlayingCards+CD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          7506009840324\nLevel 4          7506009840126\nLevel 5          N/A\nLevel 6          N/A\n\nPack Beep (SB&AB+CD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel 4          N/A\nLevel 5          7506009840331\nLevel 6          7506009840133"
+            self.txtISBNTeachers.text = "Pack Beep (TB + Class CD + Flashcards)\nLevel 1          7506009840348\nLevel 2          7506009840355\nLevel 3          7506009840362\nLevel 4          7506009840379\nLevel 5          7506009840386\nLevel 6          7506009840393\n\nPosters\nLevel 1          7506009839533\nLevel 2          7506009839540\nLevel 3          7506009839557\nLevel 4          7506009839564\nLevel 5          7506009839571\nLevel 6          7506009839588\n\nDigital Book CD\nLevel 1          9786070613036\nLevel 2          9786070612862\nLevel 3          9786070612909\nLevel 4          9786070612978\nLevel 5          9786070612886\nLevel 6          9786070612923"
             
         } else if viaSegueSerie == 12 {
             self.txtComponents.text = "- Student’s Book \n \n- Workbook \n \n- Student’s CD \n \n- Cool Reading"
@@ -427,8 +430,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Guide (printed and digital)\n \n- Guía del Maestro (printed and digital)\n \n- Teacher’s Resource CD (with audio, crafts instructions, extra activities, tests and word lists)\n \n- Flashcards \n \n- Cool Reading\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.isHidden = true
-            self.txtISBNTeachers.isHidden = true
+            self.txtISBNStudents.isHidden = false
+            self.txtISBNStudents.text = "Pack Cool Kids SE\nLevel 1          7506009846265\nLevel 2          7506009846272\nLevel 3          7506009846289\nLevel 4          7506009846296\nLevel 5          7506009846302\nLevel 6          7506009846319\n\nWorkbook\nLevel 1          *TBA\nLevel 2          *TBA\nLevel 3          *TBA\nLevel 4          *TBA\nLevel 5          *TBA\nLevel 6          *TBA"
+            self.txtISBNTeachers.isHidden = false
+            self.txtISBNTeachers.text = "Pack Cool Kids SE (Teacher’s Guide)\nLevel 1          7506009846388\nLevel 2          7506009846395\nLevel 3          7506009846401\nLevel 4          7506009846418\nLevel 5          7506009846425\nLevel 6          7506009846432\n\nPack Cool Kids SE (Guía del Maestro)\nLevel 1          7506009846449\nLevel 2          7506009846456\nLevel 3          7506009846463\nLevel 4          7506009846470\nLevel 5          7506009846487\nLevel 6          7506009846494"
             
         } else if viaSegueSerie == 13 {
             self.txtComponents.text = "- Student’s Book\n \n- Student’s CD \n \n- Activity Book \n \n- Stickers"
@@ -440,8 +445,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book\n \n- Class CD &amp; CD-ROM\n \n- Puzzles (levels 1-3)\n \n- Word Kits (levels 4-6) \n \n- Digital Book\n \n- Poster with Word Cards and Cutouts\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 1          7506009805163\nLevel 2          7506009805170\nLevel 3          7506009805187\nLevel 4          7506009805194\nLevel 5          7506009805200\nLevel 6          7506009805217\n"
-            self.txtISBNTeachers.isHidden = true
+            self.txtISBNStudents.text = "Pack Lighthouse (SB + CD + Stickers)\nLevel 1          7506009805163\nLevel 2          7506009805170\nLevel 3          7506009805187\nLevel 4          7506009805194\nLevel 5          7506009805200\nLevel 6          7506009805217\n\nActivity Book\nLevel 1          9786076000427\nLevel 2          9786076000069\nLevel 3          9786076000700\nLevel 4          9786076000458\nLevel 5          9786076000403\nLevel 6          9786076000922"
+            self.txtISBNTeachers.isHidden = false
+            self.txtISBNTeachers.text = "Teacher’s Book\nLevel 1          9786076000441\nLevel 2          9786076000090\nLevel 3          9786076000717\nLevel 4          9786076000106\nLevel 5          9786076000410\nLevel 6          9786076000946\n\nClass CDs & CR ROM\nLevel 1          7506009804371\nLevel 2          7506009804418\nLevel 3          7506009804456\nLevel 4          7506009804494\nLevel 5          7506009804531\nLevel 6          7506009804579\n\nPoster & Cutouts\nLevel 1          7506009802414\nLevel 2          7506009802421\nLevel 3          7506009802438\nLevel 4          7506009802445\nLevel 5          7506009802452\nLevel 6          7506009802469\n\nPuzzles\nLevel 1          9786076000144\nLevel 2          9786076000083\nLevel 3          9786076000885\n\nWord Kits\nLevel 4          9786076000076\nLevel 5          9786076000397\nLevel 6          9786076000953\n\nDigital Book CD\nLevel 1          9786070608643\nLevel 2          9786070608650\nLevel 3          9786070608667\nLevel 4          9786070608667\nLevel 5          9786070608681\nLevel 6          9786070608698"
             
         } else if viaSegueSerie == 21 {
             self.txtComponents.text = "- Student’s Book with Audio CD"
@@ -453,8 +459,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Booklet\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 1          7506009842830\nLevel 2          7506009842847\nLevel 3          7506009842854\nLevel 4          7506009842861\nLevel 5          7506009842878\nLevel 6          7506009842885\n"
-            self.txtISBNTeachers.text = "Level 1          9786070610837\nLevel 2          9786070610981\nLevel 3          9786070610998\nLevel 4          9786070611001\nLevel 5          9786070611018\nLevel 6          9786070611025\n"
+            self.txtISBNStudents.text = "Pack Pathway to Grammar (SB + CD)\nLevel 1          7506009842830\nLevel 2          7506009842847\nLevel 3          7506009842854\nLevel 4          7506009842861\nLevel 5          7506009842878\nLevel 6          7506009842885"
+            self.txtISBNTeachers.text = "Teacher’s Booklet\nLevel 1          9786070610837\nLevel 2          9786070610981\nLevel 3          9786070610998\nLevel 4          9786070611001\nLevel 5          9786070611018\nLevel 6          9786070611025"
             
         } else if viaSegueSerie == 20 {
             self.txtComponents.text = "- Student’s Book with Activity Cards"
