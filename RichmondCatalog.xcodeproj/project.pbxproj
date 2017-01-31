@@ -488,6 +488,7 @@
 		8220FD381E150990003D57DA /* StoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220FD371E150990003D57DA /* StoresTableViewCell.swift */; };
 		8220FD3A1E153032003D57DA /* StateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220FD391E153032003D57DA /* StateDetailsViewController.swift */; };
 		8220FD3C1E15C373003D57DA /* SearchSerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220FD3B1E15C373003D57DA /* SearchSerieViewController.swift */; };
+		822A1BCA1E3CE9C400E704EB /* ready_set_go_table.png in Resources */ = {isa = PBXBuildFile; fileRef = 822A1BC91E3CE9C400E704EB /* ready_set_go_table.png */; };
 		822E02D01E2456CA00AEAF92 /* cate3F.json in Resources */ = {isa = PBXBuildFile; fileRef = 822E02CF1E2456CA00AEAF92 /* cate3F.json */; };
 		822E02D21E2456E000AEAF92 /* cate4F.json in Resources */ = {isa = PBXBuildFile; fileRef = 822E02D11E2456E000AEAF92 /* cate4F.json */; };
 		822E02D41E24576100AEAF92 /* cate5F.json in Resources */ = {isa = PBXBuildFile; fileRef = 822E02D31E24576100AEAF92 /* cate5F.json */; };
@@ -507,6 +508,30 @@
 		823DC63E1E26945700CD8701 /* secundariastopwatchs2.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DC63C1E26945700CD8701 /* secundariastopwatchs2.png */; };
 		823DC6411E26949F00CD8701 /* adultsgoingpros1.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DC63F1E26949F00CD8701 /* adultsgoingpros1.png */; };
 		823DC6421E26949F00CD8701 /* adultsgoingpros2.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DC6401E26949F00CD8701 /* adultsgoingpros2.png */; };
+		826C09411E410D5400B5E1E7 /* richmondsolution.png in Resources */ = {isa = PBXBuildFile; fileRef = 826C09401E410D5300B5E1E7 /* richmondsolution.png */; };
+		826C09431E4112C500B5E1E7 /* simbol_key.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826C09421E4112C500B5E1E7 /* simbol_key.jpg */; };
+		826C09451E41136400B5E1E7 /* SimbolKeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C09441E41136400B5E1E7 /* SimbolKeyController.swift */; };
+		82AA6C0C1E3A2F4C0047EE4B /* media_readers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C0B1E3A2F4C0047EE4B /* media_readers.jpg */; };
+		82AA6C121E3A2F660047EE4B /* thumb_dvd_readers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C0D1E3A2F660047EE4B /* thumb_dvd_readers.jpg */; };
+		82AA6C131E3A2F660047EE4B /* thumb_infoquest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C0E1E3A2F660047EE4B /* thumb_infoquest.jpg */; };
+		82AA6C141E3A2F660047EE4B /* thumb_little_readers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C0F1E3A2F660047EE4B /* thumb_little_readers.jpg */; };
+		82AA6C151E3A2F660047EE4B /* thumb_richmond_readers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C101E3A2F660047EE4B /* thumb_richmond_readers.jpg */; };
+		82AA6C161E3A2F660047EE4B /* thumb_super_stars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C111E3A2F660047EE4B /* thumb_super_stars.jpg */; };
+		82AA6C191E3A2F7D0047EE4B /* thumbs_popcorn_readers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C171E3A2F7D0047EE4B /* thumbs_popcorn_readers.jpg */; };
+		82AA6C1A1E3A2F7D0047EE4B /* thumbs_ready_set_go.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C181E3A2F7D0047EE4B /* thumbs_ready_set_go.jpg */; };
+		82AA6C1D1E3A332B0047EE4B /* thumb_target_cambridge_english_first.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C1B1E3A332B0047EE4B /* thumb_target_cambridge_english_first.png */; };
+		82AA6C1E1E3A332B0047EE4B /* thumbs_practice_tests_ket_pet.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C1C1E3A332B0047EE4B /* thumbs_practice_tests_ket_pet.png */; };
+		82AA6C201E3A36260047EE4B /* tup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C1F1E3A36260047EE4B /* tup.jpg */; };
+		82AA6C241E3A3A760047EE4B /* thumbs_dictionary_fully_illustrated.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C211E3A3A760047EE4B /* thumbs_dictionary_fully_illustrated.png */; };
+		82AA6C251E3A3A760047EE4B /* thumbs_lessons_learned.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C221E3A3A760047EE4B /* thumbs_lessons_learned.png */; };
+		82AA6C261E3A3A760047EE4B /* thumbs_richmond_com_poc_min_dictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C231E3A3A760047EE4B /* thumbs_richmond_com_poc_min_dictionary.png */; };
+		82AA6C291E3A3A8D0047EE4B /* thumbs_richmond_first_dictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C271E3A3A8D0047EE4B /* thumbs_richmond_first_dictionary.png */; };
+		82AA6C2A1E3A3A8D0047EE4B /* thumbs_richmond_picture_dictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C281E3A3A8D0047EE4B /* thumbs_richmond_picture_dictionary.png */; };
+		82AA6C2D1E3A3AAA0047EE4B /* businesstheory.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C2B1E3A3AAA0047EE4B /* businesstheory.png */; };
+		82AA6C2E1E3A3AAA0047EE4B /* bussinessskill.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C2C1E3A3AAA0047EE4B /* bussinessskill.png */; };
+		82AA6C301E3A3AD30047EE4B /* primary_methodology_handbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C2F1E3A3AD30047EE4B /* primary_methodology_handbook.jpg */; };
+		82AA6C321E3A3ADE0047EE4B /* english_grammar.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C311E3A3ADE0047EE4B /* english_grammar.png */; };
+		82AA6C341E3A3AF80047EE4B /* handbooks_for_teachers.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C331E3A3AF80047EE4B /* handbooks_for_teachers.png */; };
 		82B88CB11E11EDEA00562610 /* azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B88CB01E11EDEA00562610 /* azul.png */; };
 		82B88CB31E11EE0300562610 /* teaching_english.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B88CB21E11EE0300562610 /* teaching_english.png */; };
 		82B88CB51E11EE5300562610 /* the_big_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B88CB41E11EE5300562610 /* the_big_picture.png */; };
@@ -1032,6 +1057,7 @@
 		8220FD371E150990003D57DA /* StoresTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresTableViewCell.swift; sourceTree = "<group>"; };
 		8220FD391E153032003D57DA /* StateDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailsViewController.swift; sourceTree = "<group>"; };
 		8220FD3B1E15C373003D57DA /* SearchSerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSerieViewController.swift; sourceTree = "<group>"; };
+		822A1BC91E3CE9C400E704EB /* ready_set_go_table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready_set_go_table.png; sourceTree = "<group>"; };
 		822E02CF1E2456CA00AEAF92 /* cate3F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cate3F.json; sourceTree = "<group>"; };
 		822E02D11E2456E000AEAF92 /* cate4F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cate4F.json; sourceTree = "<group>"; };
 		822E02D31E24576100AEAF92 /* cate5F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cate5F.json; sourceTree = "<group>"; };
@@ -1051,6 +1077,30 @@
 		823DC63C1E26945700CD8701 /* secundariastopwatchs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secundariastopwatchs2.png; sourceTree = "<group>"; };
 		823DC63F1E26949F00CD8701 /* adultsgoingpros1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adultsgoingpros1.png; sourceTree = "<group>"; };
 		823DC6401E26949F00CD8701 /* adultsgoingpros2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adultsgoingpros2.png; sourceTree = "<group>"; };
+		826C09401E410D5300B5E1E7 /* richmondsolution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = richmondsolution.png; sourceTree = "<group>"; };
+		826C09421E4112C500B5E1E7 /* simbol_key.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simbol_key.jpg; sourceTree = "<group>"; };
+		826C09441E41136400B5E1E7 /* SimbolKeyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimbolKeyController.swift; sourceTree = "<group>"; };
+		82AA6C0B1E3A2F4C0047EE4B /* media_readers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = media_readers.jpg; sourceTree = "<group>"; };
+		82AA6C0D1E3A2F660047EE4B /* thumb_dvd_readers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb_dvd_readers.jpg; sourceTree = "<group>"; };
+		82AA6C0E1E3A2F660047EE4B /* thumb_infoquest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb_infoquest.jpg; sourceTree = "<group>"; };
+		82AA6C0F1E3A2F660047EE4B /* thumb_little_readers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb_little_readers.jpg; sourceTree = "<group>"; };
+		82AA6C101E3A2F660047EE4B /* thumb_richmond_readers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb_richmond_readers.jpg; sourceTree = "<group>"; };
+		82AA6C111E3A2F660047EE4B /* thumb_super_stars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb_super_stars.jpg; sourceTree = "<group>"; };
+		82AA6C171E3A2F7D0047EE4B /* thumbs_popcorn_readers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbs_popcorn_readers.jpg; sourceTree = "<group>"; };
+		82AA6C181E3A2F7D0047EE4B /* thumbs_ready_set_go.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbs_ready_set_go.jpg; sourceTree = "<group>"; };
+		82AA6C1B1E3A332B0047EE4B /* thumb_target_cambridge_english_first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb_target_cambridge_english_first.png; sourceTree = "<group>"; };
+		82AA6C1C1E3A332B0047EE4B /* thumbs_practice_tests_ket_pet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_practice_tests_ket_pet.png; sourceTree = "<group>"; };
+		82AA6C1F1E3A36260047EE4B /* tup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tup.jpg; sourceTree = "<group>"; };
+		82AA6C211E3A3A760047EE4B /* thumbs_dictionary_fully_illustrated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_dictionary_fully_illustrated.png; sourceTree = "<group>"; };
+		82AA6C221E3A3A760047EE4B /* thumbs_lessons_learned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_lessons_learned.png; sourceTree = "<group>"; };
+		82AA6C231E3A3A760047EE4B /* thumbs_richmond_com_poc_min_dictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_richmond_com_poc_min_dictionary.png; sourceTree = "<group>"; };
+		82AA6C271E3A3A8D0047EE4B /* thumbs_richmond_first_dictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_richmond_first_dictionary.png; sourceTree = "<group>"; };
+		82AA6C281E3A3A8D0047EE4B /* thumbs_richmond_picture_dictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_richmond_picture_dictionary.png; sourceTree = "<group>"; };
+		82AA6C2B1E3A3AAA0047EE4B /* businesstheory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = businesstheory.png; sourceTree = "<group>"; };
+		82AA6C2C1E3A3AAA0047EE4B /* bussinessskill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bussinessskill.png; sourceTree = "<group>"; };
+		82AA6C2F1E3A3AD30047EE4B /* primary_methodology_handbook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = primary_methodology_handbook.jpg; sourceTree = "<group>"; };
+		82AA6C311E3A3ADE0047EE4B /* english_grammar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = english_grammar.png; sourceTree = "<group>"; };
+		82AA6C331E3A3AF80047EE4B /* handbooks_for_teachers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handbooks_for_teachers.png; sourceTree = "<group>"; };
 		82B88CB01E11EDEA00562610 /* azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azul.png; sourceTree = "<group>"; };
 		82B88CB21E11EE0300562610 /* teaching_english.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teaching_english.png; sourceTree = "<group>"; };
 		82B88CB41E11EE5300562610 /* the_big_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_big_picture.png; sourceTree = "<group>"; };
@@ -1180,6 +1230,7 @@
 				68D46DA51D59150900E54B46 /* Assets.xcassets */,
 				68D46DA71D59150900E54B46 /* LaunchScreen.storyboard */,
 				68D46DAA1D59150900E54B46 /* Info.plist */,
+				826C09441E41136400B5E1E7 /* SimbolKeyController.swift */,
 			);
 			path = RichmondCatalog;
 			sourceTree = "<group>";
@@ -1214,6 +1265,30 @@
 		68DD958F1D67B82200A433D6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				826C09421E4112C500B5E1E7 /* simbol_key.jpg */,
+				826C09401E410D5300B5E1E7 /* richmondsolution.png */,
+				822A1BC91E3CE9C400E704EB /* ready_set_go_table.png */,
+				82AA6C331E3A3AF80047EE4B /* handbooks_for_teachers.png */,
+				82AA6C311E3A3ADE0047EE4B /* english_grammar.png */,
+				82AA6C2F1E3A3AD30047EE4B /* primary_methodology_handbook.jpg */,
+				82AA6C2B1E3A3AAA0047EE4B /* businesstheory.png */,
+				82AA6C2C1E3A3AAA0047EE4B /* bussinessskill.png */,
+				82AA6C271E3A3A8D0047EE4B /* thumbs_richmond_first_dictionary.png */,
+				82AA6C281E3A3A8D0047EE4B /* thumbs_richmond_picture_dictionary.png */,
+				82AA6C211E3A3A760047EE4B /* thumbs_dictionary_fully_illustrated.png */,
+				82AA6C221E3A3A760047EE4B /* thumbs_lessons_learned.png */,
+				82AA6C231E3A3A760047EE4B /* thumbs_richmond_com_poc_min_dictionary.png */,
+				82AA6C1F1E3A36260047EE4B /* tup.jpg */,
+				82AA6C1B1E3A332B0047EE4B /* thumb_target_cambridge_english_first.png */,
+				82AA6C1C1E3A332B0047EE4B /* thumbs_practice_tests_ket_pet.png */,
+				82AA6C171E3A2F7D0047EE4B /* thumbs_popcorn_readers.jpg */,
+				82AA6C181E3A2F7D0047EE4B /* thumbs_ready_set_go.jpg */,
+				82AA6C0D1E3A2F660047EE4B /* thumb_dvd_readers.jpg */,
+				82AA6C0E1E3A2F660047EE4B /* thumb_infoquest.jpg */,
+				82AA6C0F1E3A2F660047EE4B /* thumb_little_readers.jpg */,
+				82AA6C101E3A2F660047EE4B /* thumb_richmond_readers.jpg */,
+				82AA6C111E3A2F660047EE4B /* thumb_super_stars.jpg */,
+				82AA6C0B1E3A2F4C0047EE4B /* media_readers.jpg */,
 				823DC63F1E26949F00CD8701 /* adultsgoingpros1.png */,
 				823DC6401E26949F00CD8701 /* adultsgoingpros2.png */,
 				823DC63B1E26945700CD8701 /* secundariastopwatchs1.png */,
@@ -1845,8 +1920,10 @@
 				68DD98DE1D67B95200A433D6 /* awesome_pack.jpg in Resources */,
 				68DD99031D67B95200A433D6 /* compact_dictionary.png in Resources */,
 				68DD9B0B1D67B95200A433D6 /* mazes_l.png in Resources */,
+				826C09411E410D5400B5E1E7 /* richmondsolution.png in Resources */,
 				68DD98E31D67B95200A433D6 /* beep_cardsstickers.jpg in Resources */,
 				822E02D61E24577100AEAF92 /* cate6F.json in Resources */,
+				82AA6C151E3A2F660047EE4B /* thumb_richmond_readers.jpg in Resources */,
 				68DD9B2D1D67B95200A433D6 /* next_step_l.png in Resources */,
 				68DD98FE1D67B95200A433D6 /* clil.png in Resources */,
 				68DD9B571D67B95200A433D6 /* pt_math.png in Resources */,
@@ -1857,6 +1934,7 @@
 				68DD9BA51D67B95200A433D6 /* suggested_hours.png in Resources */,
 				68DD98EB1D67B95200A433D6 /* business_l.png in Resources */,
 				68DD9AFF1D67B95200A433D6 /* lighthouse_stickers.jpg in Resources */,
+				82AA6C191E3A2F7D0047EE4B /* thumbs_popcorn_readers.jpg in Resources */,
 				68DD99181D67B95200A433D6 /* crickets_students_cds.jpg in Resources */,
 				68DD9AEC1D67B95200A433D6 /* kaleidoscope_sb.jpg in Resources */,
 				68DD9B6E1D67B95200A433D6 /* seven_cd.jpg in Resources */,
@@ -1867,12 +1945,14 @@
 				68DD9BC01D67B95200A433D6 /* tippy_toes_interactive_cd.jpg in Resources */,
 				68DD99D41D67B95200A433D6 /* first_l.png in Resources */,
 				68DD98D01D67B95200A433D6 /* app_mazes.jpg in Resources */,
+				82AA6C321E3A3ADE0047EE4B /* english_grammar.png in Resources */,
 				68DD9A021D67B95200A433D6 /* hours45.png in Resources */,
 				68DD9B721D67B95200A433D6 /* sgeo_students_book.jpg in Resources */,
 				68D46DA91D59150900E54B46 /* LaunchScreen.storyboard in Resources */,
 				68DD98D81D67B95200A433D6 /* atwork_ewb.jpg in Resources */,
 				68DD99D71D67B95200A433D6 /* framework_l.png in Resources */,
 				68DD990E1D67B95200A433D6 /* crickets_nur_students_book.jpg in Resources */,
+				82AA6C1E1E3A332B0047EE4B /* thumbs_practice_tests_ket_pet.png in Resources */,
 				68DD9A0C1D67B95200A433D6 /* ican_students_book.jpg in Resources */,
 				68DD9BCE1D67B95200A433D6 /* toeic_cd_introductory.jpg in Resources */,
 				823DC6391E26944600CD8701 /* primariaskyrockets1.png in Resources */,
@@ -1924,6 +2004,7 @@
 				68DD9B761D67B95200A433D6 /* site_pathway.jpg in Resources */,
 				68DD9B781D67B95200A433D6 /* site_thumbsup.jpg in Resources */,
 				68DD99DC1D67B95200A433D6 /* fun_way_l.png in Resources */,
+				82AA6C261E3A3A760047EE4B /* thumbs_richmond_com_poc_min_dictionary.png in Resources */,
 				682B9C971D5A9F2B00230D84 /* series.json in Resources */,
 				68DD98E01D67B95200A433D6 /* awesome_sb.jpg in Resources */,
 				68DD9BD91D67B95200A433D6 /* visual_grammar.png in Resources */,
@@ -1942,6 +2023,7 @@
 				68DD9AFB1D67B95200A433D6 /* lighthouse_activity_book.jpg in Resources */,
 				68DD99191D67B95200A433D6 /* crickets_tales.jpg in Resources */,
 				68DD9B981D67B95200A433D6 /* spotlight_wheresmycake.jpg in Resources */,
+				82AA6C1A1E3A2F7D0047EE4B /* thumbs_ready_set_go.jpg in Resources */,
 				68DD9A0F1D67B95200A433D6 /* id_l.png in Resources */,
 				68DD99221D67B95200A433D6 /* cubbyhouse.png in Resources */,
 				68DD98C61D67B95200A433D6 /* achievers_wb.jpg in Resources */,
@@ -1967,6 +2049,7 @@
 				68DD99CE1D67B95200A433D6 /* essential_l.png in Resources */,
 				68DD98D71D67B95200A433D6 /* asp.png in Resources */,
 				68DD9B711D67B95200A433D6 /* seven.png in Resources */,
+				82AA6C201E3A36260047EE4B /* tup.jpg in Resources */,
 				821B7BF71E215D8F00957AD3 /* cate2F.json in Resources */,
 				68DD9BB81D67B95200A433D6 /* thumbs_up_cd.jpg in Resources */,
 				68DD99111D67B95200A433D6 /* crickets_nursery_students.jpg in Resources */,
@@ -1993,6 +2076,7 @@
 				68DD991E1D67B95200A433D6 /* cub_story.jpg in Resources */,
 				68DD9B5F1D67B95200A433D6 /* rpt_ket_sb.jpg in Resources */,
 				68DD9B3C1D67B95200A433D6 /* pathway_to_math_evaluations.jpg in Resources */,
+				822A1BCA1E3CE9C400E704EB /* ready_set_go_table.png in Resources */,
 				68DD98DC1D67B95200A433D6 /* awesome_guide.jpg in Resources */,
 				A87FB0C11D9C1285009D4033 /* fsecondary.png in Resources */,
 				68DD9BC11D67B95200A433D6 /* tippy_toes_l.png in Resources */,
@@ -2013,6 +2097,7 @@
 				68DD98D91D67B95200A433D6 /* atwork_sb.jpg in Resources */,
 				8232B4BA1E25D08E00510A82 /* schooltippytoess2.png in Resources */,
 				68DD9B531D67B95200A433D6 /* pt_ielts_sb_w_ans.jpg in Resources */,
+				826C09431E4112C500B5E1E7 /* simbol_key.jpg in Resources */,
 				68DD99C71D67B95200A433D6 /* egis_w_ans.jpg in Resources */,
 				68DD99F61D67B95200A433D6 /* hours1_3.png in Resources */,
 				68DD99061D67B95200A433D6 /* cool_kids_l.png in Resources */,
@@ -2026,6 +2111,7 @@
 				68DD9B6D1D67B95200A433D6 /* S&GEO_STUDENTS_BOOK.png in Resources */,
 				68DD99C61D67B95200A433D6 /* egis_pb_wo_ans.jpg in Resources */,
 				68DD9B681D67B95200A433D6 /* rsg.png in Resources */,
+				82AA6C2D1E3A3AAA0047EE4B /* businesstheory.png in Resources */,
 				68DD99DE1D67B95200A433D6 /* fun_way_sb_cd_cut.jpg in Resources */,
 				68DD9B8B1D67B95200A433D6 /* spot_on_eng_as.jpg in Resources */,
 				68DD9B401D67B95200A433D6 /* pebbles_resource_booklet.jpg in Resources */,
@@ -2049,6 +2135,7 @@
 				822E02DA1E24579000AEAF92 /* cate8F.json in Resources */,
 				68DD9BCC1D67B95200A433D6 /* toeic_audioscriptanswe_introductory.jpg in Resources */,
 				68DD98F51D67B95200A433D6 /* cartoons_upper_dvd.jpg in Resources */,
+				82AA6C2E1E3A3AAA0047EE4B /* bussinessskill.png in Resources */,
 				68DD9A181D67B95200A433D6 /* intro_children.jpg in Resources */,
 				68DD9AFA1D67B95200A433D6 /* levels7.png in Resources */,
 				68DD9B551D67B95200A433D6 /* pt_literature.png in Resources */,
@@ -2063,6 +2150,7 @@
 				68DD9B3A1D67B95200A433D6 /* pathway_science_students_book.jpg in Resources */,
 				68DD9B231D67B95200A433D6 /* motion_sb.jpg in Resources */,
 				8232B4B21E25D00300510A82 /* schoolcubbyhouses2.png in Resources */,
+				82AA6C241E3A3A760047EE4B /* thumbs_dictionary_fully_illustrated.png in Resources */,
 				68DD9B7D1D67B95200A433D6 /* skyrocket_practice_book.jpg in Resources */,
 				68DD9B211D67B95200A433D6 /* mixed_ability.jpg in Resources */,
 				68DD9BCD1D67B95200A433D6 /* toeic_cd_advanced.jpg in Resources */,
@@ -2079,6 +2167,7 @@
 				68DD9B591D67B95200A433D6 /* pt_science.png in Resources */,
 				68FB19E21D6E595100F4C553 /* cat1F.json in Resources */,
 				68DD9BE11D67B95200A433D6 /* yle.png in Resources */,
+				82AA6C0C1E3A2F4C0047EE4B /* media_readers.jpg in Resources */,
 				68DD9B111D67B95200A433D6 /* MFL&S_CD.png in Resources */,
 				68DD99BE1D67B95200A433D6 /* digital_book.png in Resources */,
 				68DD9A161D67B95200A433D6 /* infoquest.png in Resources */,
@@ -2143,6 +2232,7 @@
 				68DD9B861D67B95200A433D6 /* spiral.png in Resources */,
 				68DD9AFE1D67B95200A433D6 /* lighthouse_pack.jpg in Resources */,
 				68DD9B811D67B95200A433D6 /* sp_english_l.png in Resources */,
+				82AA6C141E3A2F660047EE4B /* thumb_little_readers.jpg in Resources */,
 				68DD9BAB1D67B95200A433D6 /* tba_home.jpg in Resources */,
 				68DD99F81D67B95200A433D6 /* hours3_5.png in Resources */,
 				68DD99CA1D67B95200A433D6 /* eng_id_wb.jpg in Resources */,
@@ -2162,6 +2252,7 @@
 				68DD9B131D67B95200A433D6 /* MFL&S_SB.png in Resources */,
 				68FB19E51D6E595100F4C553 /* cat4F.json in Resources */,
 				82B88CB11E11EDEA00562610 /* azul.png in Resources */,
+				82AA6C251E3A3A760047EE4B /* thumbs_lessons_learned.png in Resources */,
 				68DD9B171D67B95200A433D6 /* mfls_l.png in Resources */,
 				68DD9B1F1D67B95200A433D6 /* mini_dictionary_l.png in Resources */,
 				68DD98C11D67B95200A433D6 /* abracadabra.png in Resources */,
@@ -2195,6 +2286,7 @@
 				68DD9B971D67B95200A433D6 /* spotlight_weekaway.jpg in Resources */,
 				68DD9BBE1D67B95200A433D6 /* tippy_toes_activity_book.jpg in Resources */,
 				68DD98D51D67B95200A433D6 /* apps.png in Resources */,
+				82AA6C341E3A3AF80047EE4B /* handbooks_for_teachers.png in Resources */,
 				68DD9BB11D67B95200A433D6 /* tba_meet_the_croods.jpg in Resources */,
 				68DD9B351D67B95200A433D6 /* pathway_gramm_sb.jpg in Resources */,
 				68DD9BC61D67B95200A433D6 /* tippy_toes.png in Resources */,
@@ -2205,6 +2297,7 @@
 				823DC63A1E26944600CD8701 /* primariaskyrockets2.png in Resources */,
 				68DD9B8F1D67B95200A433D6 /* spot_on_eng_practice_book.jpg in Resources */,
 				68DD99FF1D67B95200A433D6 /* hours10.png in Resources */,
+				82AA6C291E3A3A8D0047EE4B /* thumbs_richmond_first_dictionary.png in Resources */,
 				68DD9B031D67B95200A433D6 /* little_readers.png in Resources */,
 				68DD9B881D67B95200A433D6 /* splash.jpg in Resources */,
 				68DD99161D67B95200A433D6 /* crickets_students_cd.jpg in Resources */,
@@ -2226,6 +2319,7 @@
 				A87FB0BE1D9C1285009D4033 /* fpreschool.png in Resources */,
 				68DD99FE1D67B95200A433D6 /* hours7.png in Resources */,
 				68DD9AF11D67B95200A433D6 /* ket_schools.png in Resources */,
+				82AA6C131E3A2F660047EE4B /* thumb_infoquest.jpg in Resources */,
 				68DD99D91D67B95200A433D6 /* Full Image-100.png in Resources */,
 				68DD9B5D1D67B95200A433D6 /* rpt_cambridge_first_sb_w_ans.jpg in Resources */,
 				68DD99EA1D67B95200A433D6 /* gumdrops_l.png in Resources */,
@@ -2238,6 +2332,7 @@
 				68DD99FC1D67B95200A433D6 /* hours5.png in Resources */,
 				68DD98FC1D67B95200A433D6 /* chatting.png in Resources */,
 				68DD99C91D67B95200A433D6 /* eng_id_swb.jpg in Resources */,
+				82AA6C121E3A2F660047EE4B /* thumb_dvd_readers.jpg in Resources */,
 				68D46DA41D59150900E54B46 /* Main.storyboard in Resources */,
 				68DD9B8D1D67B95200A433D6 /* spot_on_eng_pack_sbpbascdtheth.jpg in Resources */,
 				68DD99C41D67B95200A433D6 /* eae_sb.jpg in Resources */,
@@ -2258,6 +2353,7 @@
 				68DD9A0B1D67B95200A433D6 /* ican_practice_book.jpg in Resources */,
 				68DD990C1D67B95200A433D6 /* crickets_l.png in Resources */,
 				68DD98D41D67B95200A433D6 /* apps_l.png in Resources */,
+				82AA6C161E3A2F660047EE4B /* thumb_super_stars.jpg in Resources */,
 				68DD98E51D67B95200A433D6 /* beep_l.png in Resources */,
 				68DD9AF51D67B95200A433D6 /* levels2.png in Resources */,
 				68DD9B411D67B95200A433D6 /* pebbles_student_book.jpg in Resources */,
@@ -2272,6 +2368,7 @@
 				68DD9BC21D67B95200A433D6 /* tippy_toes_pack.jpg in Resources */,
 				68DD9BA31D67B95200A433D6 /* stopwatch_toolkit.jpg in Resources */,
 				68DD99101D67B95200A433D6 /* crickets_nursery_class_resources.jpg in Resources */,
+				82AA6C1D1E3A332B0047EE4B /* thumb_target_cambridge_english_first.png in Resources */,
 				68DD99D31D67B95200A433D6 /* first_dictionary.png in Resources */,
 				68DD99021D67B95200A433D6 /* compact_dictionary_l.png in Resources */,
 				68DD98C31D67B95200A433D6 /* achievers_l.png in Resources */,
@@ -2305,6 +2402,7 @@
 				68DD9B251D67B95200A433D6 /* nafw_dvd.jpg in Resources */,
 				68DD9A121D67B95200A433D6 /* identities.png in Resources */,
 				68DD99051D67B95200A433D6 /* cool_kids_comic.jpg in Resources */,
+				82AA6C301E3A3AD30047EE4B /* primary_methodology_handbook.jpg in Resources */,
 				68DD9BCB1D67B95200A433D6 /* toeic_audioscriptanswe_intermediate.jpg in Resources */,
 				68DD9BD71D67B95200A433D6 /* visual_grammar_sb_w_ans.jpg in Resources */,
 				68DD9BE01D67B95200A433D6 /* yle_l.png in Resources */,
@@ -2331,6 +2429,7 @@
 				68DD99B81D67B95200A433D6 /* delta_advanced_skills_toefl.jpg in Resources */,
 				68DD9B041D67B95200A433D6 /* math_adv_app.jpg in Resources */,
 				68DD991A1D67B95200A433D6 /* crickets.png in Resources */,
+				82AA6C2A1E3A3A8D0047EE4B /* thumbs_richmond_picture_dictionary.png in Resources */,
 				68DD9B3F1D67B95200A433D6 /* pebbles_pack.jpg in Resources */,
 				68DD9AED1D67B95200A433D6 /* kaleidoscope.png in Resources */,
 				68DD9B751D67B95200A433D6 /* site_math.jpg in Resources */,
@@ -2405,6 +2504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D46DC41D59318600E54B46 /* SeriesTableViewController.swift in Sources */,
+				826C09451E41136400B5E1E7 /* SimbolKeyController.swift in Sources */,
 				8220FD361E1502B5003D57DA /* StoreListViewController.swift in Sources */,
 				A8A4D2941DA44D4000EA7247 /* TiendasViewController.swift in Sources */,
 				821E0A0C1E13A49100F40FAF /* SearchTableViewControllerNew.swift in Sources */,
@@ -2564,7 +2664,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = V3UNU9CQU4;
 				INFOPLIST_FILE = RichmondCatalog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.yanku.RichmondCatalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2583,7 +2683,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = V3UNU9CQU4;
 				INFOPLIST_FILE = RichmondCatalog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.yanku.RichmondCatalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -56,6 +56,16 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var vista3: UIView!
     @IBOutlet weak var vista4: UIView!
     @IBOutlet weak var imgIsnew: UIImageView!
+    
+    @IBOutlet weak var unoImg: UIImageView!
+    @IBOutlet weak var dosImg: UIImageView!
+    @IBOutlet weak var tresImg: UIImageView!
+    @IBOutlet weak var cuatroImg: UIImageView!
+    @IBOutlet weak var cincoImg: UIImageView!
+    @IBOutlet weak var seisImg: UIImageView!
+    @IBOutlet weak var sieteImg: UIImageView!
+    @IBOutlet weak var ochoImg: UIImageView!
+    
     @IBOutlet weak var imgDetailSerie: UIImageView!
     @IBOutlet weak var imgSampleUnit: UIImageView!
     @IBOutlet weak var imgScope: UIImageView!
@@ -77,6 +87,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var txtDet1: UITextView!
     @IBOutlet weak var txtDet2: UITextView!
     @IBOutlet weak var txtDet3: UITextView!
+    
+    @IBOutlet weak var imgTable: UIImageView!
     
     var colorsSegments = [
         UIColor(red:0.965,  green:0.585,  blue:0.116, alpha:1),
@@ -266,6 +278,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         imgSampleUnit.isHidden = true
         imgScope.isHidden = true
         
+        obtenerIconosComplementos()
+        
         txtTitleDetailSerie.text        = viaNombreSerie
         if obtenerAutores() == "no authors"{
             txtAuthDetailSerie.isHidden = true
@@ -300,12 +314,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         }else{
             imgScope.isHidden = true
         }
+        imgTable.isHidden = true;
         /* Edition start */
         if viaSegueSerie == 1 {
             self.txtComponents.text = "- Student's Book\n\n- Student's CD"
             imgDet1.image = UIImage(named: "schoolcubbyhouse1.png")
             imgDet2.image = UIImage(named: "schoolcubbyhouses2.png")
             imgDet3.image = UIImage(named: "schoolcubbyhouse3.png")
+            
+            unoImg.image = UIImage(named: "levels3.png")
+            dosImg.image = UIImage(named: "hours1_3.png")
+            
             self.txtDet1.text = "Each unit ends with a page to review vocabulary and language."
             self.txtDet2.text = "CLIL lessons explore an area related to the topic of the lesson."
             self.txtDet3.text = "There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages."
@@ -319,6 +338,11 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
+            
+            unoImg.image = UIImage(named: "levels3.png")
+            dosImg.image = UIImage(named: "hours1_3.png")
+            tresImg.image = UIImage(named: "audio.png")
+            
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
@@ -332,6 +356,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
+            
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
@@ -706,6 +738,22 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
+        } else if viaSegueSerie == 70 {
+            imgTable.isHidden = false
+            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            imgDetailSerie.isHidden = true
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
         } else if viaSegueSerie == 66 {
             self.txtComponents.isHidden = true
             imgDet1.isHidden = true
@@ -738,6 +786,20 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     
     @IBAction func regresar(){
         let _ = self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func openModal(_ sender: UIButton) {
+        let vc = (
+            storyboard?.instantiateViewController(
+                withIdentifier: "simbolkey")
+            )!
+        vc.view.backgroundColor = UIColor(
+            red: 0,
+            green: 0,
+            blue: 0,
+            alpha: 0.4)
+        vc.modalTransitionStyle = .crossDissolve
+        present(vc, animated: true, completion: nil)
     }
     
     func enviarLinkScope(sender: UIGestureRecognizer){
