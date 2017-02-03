@@ -1190,8 +1190,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 2(K1)\nWhat Shape Is It? :9786070606038\nFarm Animals : 9786070606021\nMy Clothes : 9786070606014\nHelping My Family: 9786070606052\n\n Level 3 (K2):\nEveryday Jobs :9786070606403\nWild Animals: 9786070606045\nMy New School : 9786070606069\nHow Do We Get There?: 9786070606533 \n\n\n\n"
-            //self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level 2(K1)\nWhat Shape Is It? :9786070606038\nFarm Animals : 9786070606021\nMy Clothes : 9786070606014\nHelping My Family: 9786070606052\n\n Level 3 (K2):\nEveryday Jobs :9786070606403\nWild Animals: 9786070606045\nMy New School : 9786070606069\nHow Do We Get There?: 9786070606533 \n\n Level 4 (K3):\nOur Living Earth: 9786070606564\n My Senses at Work: 9786070606311\nAnimals through the Seasons : 9786070606328\nTake a Ride: 9786070606557 \n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 71 {
             txtTitleDetailReaders.isHidden = false
@@ -1218,7 +1219,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 2 (K1):\nWhat Shape Is It?: 9786070606038\nFarm Animals: 9786070606021\nMy Clothes: 9786070606014\nHelping My Family: 9786070606052\n\nLevel 3 (K2):\n     Everyday Jobs: 9786070606403\nWild Animals: 9786070606045\nMy New School: 9786070606069\nHow Do We Get There?: 9786070606533\n\nLevel 4 (K3):\nOur Living Earth: 9786070606564\nMy Senses at Work: 9786070606311\nAnimals through the Seasons: 9786070606328\nTake a Ride: 9786070606557"
+            self.txtISBNStudents.text = "Level 1\nCrickle, Crackle, Pop: 9789707392229\n\n Level 2:\nShake and Shver : 9789707392236 \n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 72 {
@@ -1246,8 +1248,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level 1\nIn My Garden: 9789707392267\nDown on the Farm : 9789707392281\nJeepers Creepers : 9789707392250\n\n Level 2:\nFun and Games :9789707392311\nThose Animals: 9789707392304\nWhat´s Cooking?: 9789707392328\n\n Level 3:\nTap into Sap: 9789707392366\n\nLevel 4\nGrassland Safari :9789707392380\nOn the Wild Side : 9789707392403\n\n Level 5:\nA Way with Words:9789707392410\nGetting Together: 99789707392441\nCell City: 9789707392434\n\n Level 6:\nClose Up on Careers: 9789707392458\n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+
             
         } else if viaSegueSerie == 73 {
             txtTitleDetailReaders.isHidden = false
@@ -1274,7 +1278,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Early Reader 1:\nBe Healthy: 9786070606113\nButterfly Life Cycle : 9786070606168\nFace Painting: 9786070606618\nMeet a Beekeeper: 9786070606571\nMeet an Astronaut: 9786070606144\nGrow Grass Creatures: 9786070606199\nMy Community: 9786070606489\nOur Earth: 9786070606588\nWhy We Need Sleep: 9786070606601\n\nEarly Reader 2:\nTadpo le to Frog: 9786070606137\nWater for Life : 9786070606472\nSchool yard Games: 9786070606182\nMonkeys and Apes: 9786070606076\nDangerous Jobs: 9786070606175\nExplore Eclipses: 9786070606090\nAll about Sharks: 9786070606083\nMelting Ice: 9786070606120\n\nSolo Reader 1:\nWhales and Dolphins: 9786070606625\nWild Wind storms : 9786070606151\nEnd angered Animals: 9786070606465\nOn Safari: 9786070606373\nRecycling Race: 9786070606366\nSpace Junk: 9786070606106\nMaking Masks: 9786070606243\nExperiment with magnets: 9786070606205\n\nSolo Reader 2:\nSpace Stations: 9786070606250\nPuppets Making : 9786070606274\nMy Family Tree: 9786070606212\nDesert Animals: 9786070606342\nWhy Volcanoes Erupt: 9786070606519\nWorking with Apes: 9786070606229\nRadical Robos: 9786070606335\nAnimals in captivity: 9786070606236\n\nFluent Reader 1:\nThe Games: 9786070606540\nGlobal Warming : 9786070606267\nOur Greatest Inventions: 9786070606298\nHow Animals Defend Themselves: 9786070606359\nGreat Moments in History: 9786070606281\nSuper Science Experiments: 9786070606304\nMagnificent Mummies: 9786070606526\nSecret Codes: 9786070606397\n\nFluent Reader 2:\nCreating Cool Gadgets: 9786070606632\nExplore Extreme Sports:9786070606434\nHow the Brain Works: 9786070606427\nIt’s a Mystery: 9786070606595\nMake Your Own Web Page: 9786070606441\nHow Aircraft Fly: 9786070606496\nReptiles and Amphibians: 9786070606380\nWhy Earth quakes Occur: 9786070606502\nBody Smart: 9786070606458\n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 74 {
