@@ -101,7 +101,7 @@ class Subcategoria {
         var subcategoria = [Subcategoria]()
         subcategoria.append(Subcategoria(titulo: "CUBBY HOUSE", icono: #imageLiteral(resourceName:"cubbyhouse.png"), subtitulo: "Fanny Riva Palacio - Stefania Villareal"))
         subcategoria.append(Subcategoria(titulo: "PEBBLES", icono: #imageLiteral(resourceName:"pebbles.png"), subtitulo: "Marlina Bahena"))
-        subcategoria.append(Subcategoria(titulo: "GUMDROPS", icono: #imageLiteral(resourceName: "cool_kids.png"), subtitulo: "Rebecca Lee Williams"))
+        subcategoria.append(Subcategoria(titulo: "GUMDROPS", icono: #imageLiteral(resourceName:"gumdrops.png"), subtitulo: "Rebecca Lee Williams"))
         subcategoria.append(Subcategoria(titulo: "TIPPY TOES", icono: #imageLiteral(resourceName:"tippy_toes.png"), subtitulo: "Rebecca Lee Williams"))
         subcategoria.append(Subcategoria(titulo: "MY FIRST LETTERS AND SOUNDS", icono: #imageLiteral(resourceName: "mfls.png"), subtitulo: "Rachel Gonin - Rebecca Lee Williams"))
         subcategoria.append(Subcategoria(titulo: "CRICKETS", icono: #imageLiteral(resourceName:"crickets.png"), subtitulo: "Annette Flavel - Francisco Layda - Isabel Moreno - Fanny Riva Palacio"))
