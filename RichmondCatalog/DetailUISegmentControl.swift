@@ -1190,8 +1190,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
-            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level 2(K1)\nWhat Shape Is It? :9786070606038\nFarm Animals : 9786070606021\nMy Clothes : 9786070606014\nHelping My Family: 9786070606052\n\n Level 3 (K2):\nEveryday Jobs :9786070606403\nWild Animals: 9786070606045\nMy New School : 9786070606069\nHow Do We Get There?: 9786070606533 \n\n\n\n"
+            //self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 71 {
             txtTitleDetailReaders.isHidden = false
