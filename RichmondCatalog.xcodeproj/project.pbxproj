@@ -574,6 +574,36 @@
 		823DC63E1E26945700CD8701 /* secundariastopwatchs2.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DC63C1E26945700CD8701 /* secundariastopwatchs2.png */; };
 		823DC6411E26949F00CD8701 /* adultsgoingpros1.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DC63F1E26949F00CD8701 /* adultsgoingpros1.png */; };
 		823DC6421E26949F00CD8701 /* adultsgoingpros2.png in Resources */ = {isa = PBXBuildFile; fileRef = 823DC6401E26949F00CD8701 /* adultsgoingpros2.png */; };
+		8242BD521E4609C5004598F8 /* guia_del_maestro_pebbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD511E4609C5004598F8 /* guia_del_maestro_pebbles.png */; };
+		8242BD541E4609D1004598F8 /* class_cd_pebbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD531E4609D1004598F8 /* class_cd_pebbles.png */; };
+		8242BD561E4609DB004598F8 /* flash_cards_pebbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD551E4609DB004598F8 /* flash_cards_pebbles.png */; };
+		8242BD581E460BE5004598F8 /* digital_book_gumdrops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD571E460BE5004598F8 /* digital_book_gumdrops.png */; };
+		8242BD5A1E460BEF004598F8 /* class_audio_gumdrops1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD591E460BEF004598F8 /* class_audio_gumdrops1.png */; };
+		8242BD5C1E460BF8004598F8 /* classroom_lenguage_cards_gumdrops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD5B1E460BF8004598F8 /* classroom_lenguage_cards_gumdrops.png */; };
+		8242BD5E1E460C0B004598F8 /* teacher_cd_rom1_gumdrops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD5D1E460C0B004598F8 /* teacher_cd_rom1_gumdrops.png */; };
+		8242BD601E460C17004598F8 /* posters_cutouts_gumdrops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD5F1E460C17004598F8 /* posters_cutouts_gumdrops.png */; };
+		8242BD621E460C23004598F8 /* teacher_guide_gumdrops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD611E460C23004598F8 /* teacher_guide_gumdrops.png */; };
+		8242BD641E460C2C004598F8 /* big_book_gumdrops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD631E460C2C004598F8 /* big_book_gumdrops.png */; };
+		8242BD661E460E61004598F8 /* teachers_book_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD651E460E61004598F8 /* teachers_book_tippy_toes.png */; };
+		8242BD681E460E6E004598F8 /* class_cd_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD671E460E6E004598F8 /* class_cd_tippy_toes.png */; };
+		8242BD6A1E460E77004598F8 /* big_book_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD691E460E77004598F8 /* big_book_tippy_toes.png */; };
+		8242BD6C1E460E84004598F8 /* poster_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD6B1E460E84004598F8 /* poster_tippy_toes.png */; };
+		8242BD6E1E460E8D004598F8 /* fun_activity_mat_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD6D1E460E8D004598F8 /* fun_activity_mat_tippy_toes.png */; };
+		8242BD701E460E9C004598F8 /* puppet_tippy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD6F1E460E9C004598F8 /* puppet_tippy.png */; };
+		8242BD721E460EA5004598F8 /* digital_book_tippy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD711E460EA5004598F8 /* digital_book_tippy.png */; };
+		8242BD741E46102C004598F8 /* class_cd_mfls.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD731E46102C004598F8 /* class_cd_mfls.png */; };
+		8242BD7B1E461303004598F8 /* teachers_class_cd_crickets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD751E461303004598F8 /* teachers_class_cd_crickets.jpg */; };
+		8242BD7C1E461303004598F8 /* teachers_classroom_languaje_flashcards_crickets.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD761E461303004598F8 /* teachers_classroom_languaje_flashcards_crickets.png */; };
+		8242BD7D1E461303004598F8 /* teachers_flashcards_crickets.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD771E461303004598F8 /* teachers_flashcards_crickets.png */; };
+		8242BD7E1E461303004598F8 /* teachers_guide_crickets.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD781E461303004598F8 /* teachers_guide_crickets.png */; };
+		8242BD7F1E461303004598F8 /* teachers_resource_cd_class_cd_crickets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD791E461303004598F8 /* teachers_resource_cd_class_cd_crickets.jpg */; };
+		8242BD801E461303004598F8 /* teachers_story_cards_crickets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD7A1E461303004598F8 /* teachers_story_cards_crickets.jpg */; };
+		8242BD821E46132F004598F8 /* tales_crickets.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD811E46132F004598F8 /* tales_crickets.png */; };
+		8242BD841E461338004598F8 /* digital_book_crickets.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD831E461338004598F8 /* digital_book_crickets.png */; };
+		8242BD871E4616C5004598F8 /* math_adventures_teacher_guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD851E4616C5004598F8 /* math_adventures_teacher_guide.png */; };
+		8242BD881E4616C5004598F8 /* math_adventures_teacher_resource_cd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD861E4616C5004598F8 /* math_adventures_teacher_resource_cd.png */; };
+		8242BD8A1E4616CE004598F8 /* microsite_math.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD891E4616CE004598F8 /* microsite_math.png */; };
+		8242BD8C1E4616DA004598F8 /* digital_book_math.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD8B1E4616DA004598F8 /* digital_book_math.png */; };
 		8247D2B41E45521A00D9D3B1 /* stickers_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2B31E45521A00D9D3B1 /* stickers_tippy_toes.png */; };
 		8247D2B61E45522700D9D3B1 /* student_book_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2B51E45522700D9D3B1 /* student_book_tippy_toes.png */; };
 		8247D2B81E45522D00D9D3B1 /* student_cd_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2B71E45522D00D9D3B1 /* student_cd_tippy_toes.png */; };
@@ -593,6 +623,10 @@
 		8247D2D41E455B1F00D9D3B1 /* math_adventures_student_book.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2D31E455B1F00D9D3B1 /* math_adventures_student_book.png */; };
 		8247D2D61E455B2700D9D3B1 /* math_adventures_student_cd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2D51E455B2700D9D3B1 /* math_adventures_student_cd.png */; };
 		8247D2D81E455B3000D9D3B1 /* pack_sb_resoruces_cd_math.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2D71E455B3000D9D3B1 /* pack_sb_resoruces_cd_math.png */; };
+		8247D2DA1E45738800D9D3B1 /* guia_maestro_cubby.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2D91E45738800D9D3B1 /* guia_maestro_cubby.png */; };
+		8247D2DC1E45739000D9D3B1 /* cd_class_resource_cubby.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2DB1E45739000D9D3B1 /* cd_class_resource_cubby.png */; };
+		8247D2DE1E45739C00D9D3B1 /* story_cards_cubby.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2DD1E45739C00D9D3B1 /* story_cards_cubby.png */; };
+		8247D2E01E4573A600D9D3B1 /* flash_cards_cubby.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2DF1E4573A600D9D3B1 /* flash_cards_cubby.png */; };
 		826C09411E410D5400B5E1E7 /* richmondsolution.png in Resources */ = {isa = PBXBuildFile; fileRef = 826C09401E410D5300B5E1E7 /* richmondsolution.png */; };
 		826C09431E4112C500B5E1E7 /* simbol_key.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826C09421E4112C500B5E1E7 /* simbol_key.jpg */; };
 		826C09451E41136400B5E1E7 /* SimbolKeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C09441E41136400B5E1E7 /* SimbolKeyController.swift */; };
@@ -1228,6 +1262,36 @@
 		823DC63C1E26945700CD8701 /* secundariastopwatchs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secundariastopwatchs2.png; sourceTree = "<group>"; };
 		823DC63F1E26949F00CD8701 /* adultsgoingpros1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adultsgoingpros1.png; sourceTree = "<group>"; };
 		823DC6401E26949F00CD8701 /* adultsgoingpros2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adultsgoingpros2.png; sourceTree = "<group>"; };
+		8242BD511E4609C5004598F8 /* guia_del_maestro_pebbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guia_del_maestro_pebbles.png; sourceTree = "<group>"; };
+		8242BD531E4609D1004598F8 /* class_cd_pebbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_cd_pebbles.png; sourceTree = "<group>"; };
+		8242BD551E4609DB004598F8 /* flash_cards_pebbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash_cards_pebbles.png; sourceTree = "<group>"; };
+		8242BD571E460BE5004598F8 /* digital_book_gumdrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digital_book_gumdrops.png; sourceTree = "<group>"; };
+		8242BD591E460BEF004598F8 /* class_audio_gumdrops1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_audio_gumdrops1.png; sourceTree = "<group>"; };
+		8242BD5B1E460BF8004598F8 /* classroom_lenguage_cards_gumdrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classroom_lenguage_cards_gumdrops.png; sourceTree = "<group>"; };
+		8242BD5D1E460C0B004598F8 /* teacher_cd_rom1_gumdrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacher_cd_rom1_gumdrops.png; sourceTree = "<group>"; };
+		8242BD5F1E460C17004598F8 /* posters_cutouts_gumdrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posters_cutouts_gumdrops.png; sourceTree = "<group>"; };
+		8242BD611E460C23004598F8 /* teacher_guide_gumdrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacher_guide_gumdrops.png; sourceTree = "<group>"; };
+		8242BD631E460C2C004598F8 /* big_book_gumdrops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_book_gumdrops.png; sourceTree = "<group>"; };
+		8242BD651E460E61004598F8 /* teachers_book_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teachers_book_tippy_toes.png; sourceTree = "<group>"; };
+		8242BD671E460E6E004598F8 /* class_cd_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_cd_tippy_toes.png; sourceTree = "<group>"; };
+		8242BD691E460E77004598F8 /* big_book_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_book_tippy_toes.png; sourceTree = "<group>"; };
+		8242BD6B1E460E84004598F8 /* poster_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poster_tippy_toes.png; sourceTree = "<group>"; };
+		8242BD6D1E460E8D004598F8 /* fun_activity_mat_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fun_activity_mat_tippy_toes.png; sourceTree = "<group>"; };
+		8242BD6F1E460E9C004598F8 /* puppet_tippy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppet_tippy.png; sourceTree = "<group>"; };
+		8242BD711E460EA5004598F8 /* digital_book_tippy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digital_book_tippy.png; sourceTree = "<group>"; };
+		8242BD731E46102C004598F8 /* class_cd_mfls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_cd_mfls.png; sourceTree = "<group>"; };
+		8242BD751E461303004598F8 /* teachers_class_cd_crickets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teachers_class_cd_crickets.jpg; sourceTree = "<group>"; };
+		8242BD761E461303004598F8 /* teachers_classroom_languaje_flashcards_crickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teachers_classroom_languaje_flashcards_crickets.png; sourceTree = "<group>"; };
+		8242BD771E461303004598F8 /* teachers_flashcards_crickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teachers_flashcards_crickets.png; sourceTree = "<group>"; };
+		8242BD781E461303004598F8 /* teachers_guide_crickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teachers_guide_crickets.png; sourceTree = "<group>"; };
+		8242BD791E461303004598F8 /* teachers_resource_cd_class_cd_crickets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teachers_resource_cd_class_cd_crickets.jpg; sourceTree = "<group>"; };
+		8242BD7A1E461303004598F8 /* teachers_story_cards_crickets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teachers_story_cards_crickets.jpg; sourceTree = "<group>"; };
+		8242BD811E46132F004598F8 /* tales_crickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tales_crickets.png; sourceTree = "<group>"; };
+		8242BD831E461338004598F8 /* digital_book_crickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digital_book_crickets.png; sourceTree = "<group>"; };
+		8242BD851E4616C5004598F8 /* math_adventures_teacher_guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_adventures_teacher_guide.png; sourceTree = "<group>"; };
+		8242BD861E4616C5004598F8 /* math_adventures_teacher_resource_cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_adventures_teacher_resource_cd.png; sourceTree = "<group>"; };
+		8242BD891E4616CE004598F8 /* microsite_math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microsite_math.png; sourceTree = "<group>"; };
+		8242BD8B1E4616DA004598F8 /* digital_book_math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digital_book_math.png; sourceTree = "<group>"; };
 		8247D2B31E45521A00D9D3B1 /* stickers_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stickers_tippy_toes.png; sourceTree = "<group>"; };
 		8247D2B51E45522700D9D3B1 /* student_book_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_book_tippy_toes.png; sourceTree = "<group>"; };
 		8247D2B71E45522D00D9D3B1 /* student_cd_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_cd_tippy_toes.png; sourceTree = "<group>"; };
@@ -1247,6 +1311,10 @@
 		8247D2D31E455B1F00D9D3B1 /* math_adventures_student_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_adventures_student_book.png; sourceTree = "<group>"; };
 		8247D2D51E455B2700D9D3B1 /* math_adventures_student_cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_adventures_student_cd.png; sourceTree = "<group>"; };
 		8247D2D71E455B3000D9D3B1 /* pack_sb_resoruces_cd_math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pack_sb_resoruces_cd_math.png; sourceTree = "<group>"; };
+		8247D2D91E45738800D9D3B1 /* guia_maestro_cubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guia_maestro_cubby.png; sourceTree = "<group>"; };
+		8247D2DB1E45739000D9D3B1 /* cd_class_resource_cubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_class_resource_cubby.png; sourceTree = "<group>"; };
+		8247D2DD1E45739C00D9D3B1 /* story_cards_cubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = story_cards_cubby.png; sourceTree = "<group>"; };
+		8247D2DF1E4573A600D9D3B1 /* flash_cards_cubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash_cards_cubby.png; sourceTree = "<group>"; };
 		826C09401E410D5300B5E1E7 /* richmondsolution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = richmondsolution.png; sourceTree = "<group>"; };
 		826C09421E4112C500B5E1E7 /* simbol_key.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simbol_key.jpg; sourceTree = "<group>"; };
 		826C09441E41136400B5E1E7 /* SimbolKeyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimbolKeyController.swift; sourceTree = "<group>"; };
@@ -1435,6 +1503,40 @@
 		68DD958F1D67B82200A433D6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8242BD8B1E4616DA004598F8 /* digital_book_math.png */,
+				8242BD891E4616CE004598F8 /* microsite_math.png */,
+				8242BD851E4616C5004598F8 /* math_adventures_teacher_guide.png */,
+				8242BD861E4616C5004598F8 /* math_adventures_teacher_resource_cd.png */,
+				8242BD831E461338004598F8 /* digital_book_crickets.png */,
+				8242BD811E46132F004598F8 /* tales_crickets.png */,
+				8242BD751E461303004598F8 /* teachers_class_cd_crickets.jpg */,
+				8242BD761E461303004598F8 /* teachers_classroom_languaje_flashcards_crickets.png */,
+				8242BD771E461303004598F8 /* teachers_flashcards_crickets.png */,
+				8242BD781E461303004598F8 /* teachers_guide_crickets.png */,
+				8242BD791E461303004598F8 /* teachers_resource_cd_class_cd_crickets.jpg */,
+				8242BD7A1E461303004598F8 /* teachers_story_cards_crickets.jpg */,
+				8242BD731E46102C004598F8 /* class_cd_mfls.png */,
+				8242BD711E460EA5004598F8 /* digital_book_tippy.png */,
+				8242BD6F1E460E9C004598F8 /* puppet_tippy.png */,
+				8242BD6D1E460E8D004598F8 /* fun_activity_mat_tippy_toes.png */,
+				8242BD6B1E460E84004598F8 /* poster_tippy_toes.png */,
+				8242BD691E460E77004598F8 /* big_book_tippy_toes.png */,
+				8242BD671E460E6E004598F8 /* class_cd_tippy_toes.png */,
+				8242BD651E460E61004598F8 /* teachers_book_tippy_toes.png */,
+				8242BD631E460C2C004598F8 /* big_book_gumdrops.png */,
+				8242BD611E460C23004598F8 /* teacher_guide_gumdrops.png */,
+				8242BD5F1E460C17004598F8 /* posters_cutouts_gumdrops.png */,
+				8242BD5D1E460C0B004598F8 /* teacher_cd_rom1_gumdrops.png */,
+				8242BD5B1E460BF8004598F8 /* classroom_lenguage_cards_gumdrops.png */,
+				8242BD591E460BEF004598F8 /* class_audio_gumdrops1.png */,
+				8242BD571E460BE5004598F8 /* digital_book_gumdrops.png */,
+				8242BD551E4609DB004598F8 /* flash_cards_pebbles.png */,
+				8242BD531E4609D1004598F8 /* class_cd_pebbles.png */,
+				8242BD511E4609C5004598F8 /* guia_del_maestro_pebbles.png */,
+				8247D2DF1E4573A600D9D3B1 /* flash_cards_cubby.png */,
+				8247D2DD1E45739C00D9D3B1 /* story_cards_cubby.png */,
+				8247D2DB1E45739000D9D3B1 /* cd_class_resource_cubby.png */,
+				8247D2D91E45738800D9D3B1 /* guia_maestro_cubby.png */,
 				8247D2D71E455B3000D9D3B1 /* pack_sb_resoruces_cd_math.png */,
 				8247D2D51E455B2700D9D3B1 /* math_adventures_student_cd.png */,
 				8247D2D31E455B1F00D9D3B1 /* math_adventures_student_book.png */,
@@ -2183,7 +2285,9 @@
 				822E02D61E24577100AEAF92 /* cate6F.json in Resources */,
 				82AA6C151E3A2F660047EE4B /* thumb_richmond_readers.jpg in Resources */,
 				822DD0851E43AA0A0072493B /* student_book_pebbles.png in Resources */,
+				8242BD541E4609D1004598F8 /* class_cd_pebbles.png in Resources */,
 				68DD9B2D1D67B95200A433D6 /* next_step_l.png in Resources */,
+				8242BD701E460E9C004598F8 /* puppet_tippy.png in Resources */,
 				68DD98FE1D67B95200A433D6 /* clil.png in Resources */,
 				68DD9B571D67B95200A433D6 /* pt_math.png in Resources */,
 				68DD9A091D67B95200A433D6 /* ican_color_book.jpg in Resources */,
@@ -2204,6 +2308,7 @@
 				68DD99071D67B95200A433D6 /* cool_kids_pack.jpg in Resources */,
 				68DD9B391D67B95200A433D6 /* pathway_science_pack.jpg in Resources */,
 				68DD9BBD1D67B95200A433D6 /* thumbs.png in Resources */,
+				8242BD621E460C23004598F8 /* teacher_guide_gumdrops.png in Resources */,
 				68DD9BC01D67B95200A433D6 /* tippy_toes_interactive_cd.jpg in Resources */,
 				68DD99D41D67B95200A433D6 /* first_l.png in Resources */,
 				68DD98D01D67B95200A433D6 /* app_mazes.jpg in Resources */,
@@ -2214,6 +2319,7 @@
 				68DD98D81D67B95200A433D6 /* atwork_ewb.jpg in Resources */,
 				68DD99D71D67B95200A433D6 /* framework_l.png in Resources */,
 				68DD990E1D67B95200A433D6 /* crickets_nur_students_book.jpg in Resources */,
+				8242BD7C1E461303004598F8 /* teachers_classroom_languaje_flashcards_crickets.png in Resources */,
 				822DD0A11E43B3E80072493B /* skyrocket_cefr.png in Resources */,
 				82AA6C1E1E3A332B0047EE4B /* thumbs_practice_tests_ket_pet.png in Resources */,
 				68DD9A0C1D67B95200A433D6 /* ican_students_book.jpg in Resources */,
@@ -2234,6 +2340,7 @@
 				68DD99E21D67B95200A433D6 /* going_pro_l.png in Resources */,
 				68DD99211D67B95200A433D6 /* cubbyhouse_l.png in Resources */,
 				68DD99BA1D67B95200A433D6 /* delta_nextgen_essential_toefl.jpg in Resources */,
+				8242BD5A1E460BEF004598F8 /* class_audio_gumdrops1.png in Resources */,
 				A87FB0CE1D9DB1DF009D4033 /* sanpleUnit.png in Resources */,
 				68DD9B221D67B95200A433D6 /* motion_pack.jpg in Resources */,
 				68DD9B0A1D67B95200A433D6 /* math_adventures.png in Resources */,
@@ -2256,6 +2363,7 @@
 				68DD9B611D67B95200A433D6 /* RPT_MOVERS_PTCD.png in Resources */,
 				A87FB0BD1D9C1285009D4033 /* fexams.png in Resources */,
 				68DD95911D67B92A00A433D6 /* abp_l.png in Resources */,
+				8242BD641E460C2C004598F8 /* big_book_gumdrops.png in Resources */,
 				68DD9BC31D67B95200A433D6 /* tippy_toes_stickers.jpg in Resources */,
 				68DD99BD1D67B95200A433D6 /* dictionary_illustrated.png in Resources */,
 				68DD9A171D67B95200A433D6 /* inner_default.png in Resources */,
@@ -2308,6 +2416,7 @@
 				822DD0F11E43E2E00072493B /* portadas_popcorn_1.jpg in Resources */,
 				822DD0F31E43E2E00072493B /* portadas_popcorn_3.jpg in Resources */,
 				68DD98F41D67B95200A433D6 /* cartoons_lower_dvd.jpg in Resources */,
+				8242BD821E46132F004598F8 /* tales_crickets.png in Resources */,
 				68DD99BF1D67B95200A433D6 /* digital_resources.png in Resources */,
 				68DD99E31D67B95200A433D6 /* going_pro_sb.jpg in Resources */,
 				68DD9B951D67B95200A433D6 /* spotlight_seasons.jpg in Resources */,
@@ -2332,6 +2441,7 @@
 				8247D2C01E4554B100D9D3B1 /* student_book_mfls.png in Resources */,
 				68DD99111D67B95200A433D6 /* crickets_nursery_students.jpg in Resources */,
 				68DD9BDF1D67B95200A433D6 /* work.png in Resources */,
+				8247D2E01E4573A600D9D3B1 /* flash_cards_cubby.png in Resources */,
 				68DD9BA61D67B95200A433D6 /* super_stars_l.png in Resources */,
 				68DD9B7F1D67B95200A433D6 /* skyrocket.png in Resources */,
 				68DD991C1D67B95200A433D6 /* cub_flashcards.jpg in Resources */,
@@ -2373,6 +2483,7 @@
 				68DD9B2B1D67B95200A433D6 /* newamericanframework_resourcebook.jpg in Resources */,
 				68DD99B91D67B95200A433D6 /* delta_nextgen_essential_cd.jpg in Resources */,
 				68DD9BB51D67B95200A433D6 /* tba_the_animals_of_kung_fu_panda.jpg in Resources */,
+				8242BD7E1E461303004598F8 /* teachers_guide_crickets.png in Resources */,
 				68DD9BCF1D67B95200A433D6 /* toeic_introductory.jpg in Resources */,
 				68DD99C51D67B95200A433D6 /* egis_pb_w_ans.jpg in Resources */,
 				68DD9B2F1D67B95200A433D6 /* next_step_practice.jpg in Resources */,
@@ -2407,6 +2518,7 @@
 				68DD99C61D67B95200A433D6 /* egis_pb_wo_ans.jpg in Resources */,
 				68DD9B681D67B95200A433D6 /* rsg.png in Resources */,
 				82AA6C2D1E3A3AAA0047EE4B /* businesstheory.png in Resources */,
+				8242BD721E460EA5004598F8 /* digital_book_tippy.png in Resources */,
 				68DD99DE1D67B95200A433D6 /* fun_way_sb_cd_cut.jpg in Resources */,
 				68DD9B8B1D67B95200A433D6 /* spot_on_eng_as.jpg in Resources */,
 				68DD9B401D67B95200A433D6 /* pebbles_resource_booklet.jpg in Resources */,
@@ -2444,6 +2556,8 @@
 				68DD9B701D67B95200A433D6 /* seven_toefl.jpg in Resources */,
 				68DD9A0E1D67B95200A433D6 /* iconlist.png in Resources */,
 				68DD99F31D67B95200A433D6 /* handbook.png in Resources */,
+				8242BD681E460E6E004598F8 /* class_cd_tippy_toes.png in Resources */,
+				8247D2DA1E45738800D9D3B1 /* guia_maestro_cubby.png in Resources */,
 				8232B4B01E25D00300510A82 /* schoolcubbyhouse1.png in Resources */,
 				68DD9B261D67B95200A433D6 /* nafw_sb.jpg in Resources */,
 				68DD9B3A1D67B95200A433D6 /* pathway_science_students_book.jpg in Resources */,
@@ -2469,6 +2583,7 @@
 				68DD9BE11D67B95200A433D6 /* yle.png in Resources */,
 				82AA6C0C1E3A2F4C0047EE4B /* media_readers.jpg in Resources */,
 				68DD9B111D67B95200A433D6 /* MFL&S_CD.png in Resources */,
+				8247D2DE1E45739C00D9D3B1 /* story_cards_cubby.png in Resources */,
 				68DD99BE1D67B95200A433D6 /* digital_book.png in Resources */,
 				68DD9A161D67B95200A433D6 /* infoquest.png in Resources */,
 				68DD99DD1D67B95200A433D6 /* fun_way_sb_cd_cut_home.jpg in Resources */,
@@ -2488,6 +2603,7 @@
 				68DD9B7E1D67B95200A433D6 /* skyrocket_students_book.jpg in Resources */,
 				822DD0C31E43C5D70072493B /* visual_grammar_cefr.png in Resources */,
 				68DD9B851D67B95200A433D6 /* spiral_l.png in Resources */,
+				8242BD801E461303004598F8 /* teachers_story_cards_crickets.jpg in Resources */,
 				68DD9B511D67B95200A433D6 /* pt_grammar_l.png in Resources */,
 				68DD98CD1D67B95200A433D6 /* app_dictionary.jpg in Resources */,
 				822DD0831E43A9FB0072493B /* resourse_booklet.png in Resources */,
@@ -2513,6 +2629,7 @@
 				68DD98DB1D67B95200A433D6 /* audio.png in Resources */,
 				8247D2D81E455B3000D9D3B1 /* pack_sb_resoruces_cd_math.png in Resources */,
 				68DD9BB41D67B95200A433D6 /* tba_snoopy_and_charlie_brown_the_peanuts_movie.jpg in Resources */,
+				8242BD581E460BE5004598F8 /* digital_book_gumdrops.png in Resources */,
 				68DD99CF1D67B95200A433D6 /* essential.png in Resources */,
 				68DD98F71D67B95200A433D6 /* cefr.png in Resources */,
 				68DD98F81D67B95200A433D6 /* chatting_cd.jpg in Resources */,
@@ -2531,6 +2648,7 @@
 				68DD9BAE1D67B95200A433D6 /* tba_how_to_train_your_dragon.jpg in Resources */,
 				68DD9B191D67B95200A433D6 /* mfls_sb.jpg in Resources */,
 				68DD9B9A1D67B95200A433D6 /* step_up_higher_pack.jpg in Resources */,
+				8242BD6A1E460E77004598F8 /* big_book_tippy_toes.png in Resources */,
 				68DD99D11D67B95200A433D6 /* exam_friendly.png in Resources */,
 				68DD9B1D1D67B95200A433D6 /* microsites_l.png in Resources */,
 				68DD9B0D1D67B95200A433D6 /* media_readers_l.png in Resources */,
@@ -2560,21 +2678,26 @@
 				68DD9B0F1D67B95200A433D6 /* methodology_handbook_l.png in Resources */,
 				68DD9BA41D67B95200A433D6 /* stopwatch.png in Resources */,
 				68DD9B491D67B95200A433D6 /* picture_dictionary_l.png in Resources */,
+				8242BD7D1E461303004598F8 /* teachers_flashcards_crickets.png in Resources */,
 				68DD9B581D67B95200A433D6 /* pt_science_l.png in Resources */,
 				68DD99E91D67B95200A433D6 /* gumdrops_app.jpg in Resources */,
+				8247D2DC1E45739000D9D3B1 /* cd_class_resource_cubby.png in Resources */,
 				822DD0F91E43E2E00072493B /* portadas_superstars_1.jpg in Resources */,
 				68DD99F71D67B95200A433D6 /* hours2_4.png in Resources */,
 				68DD9B9C1D67B95200A433D6 /* step_up_higher_students_book.jpg in Resources */,
 				68DD9B131D67B95200A433D6 /* MFL&S_SB.png in Resources */,
 				68FB19E51D6E595100F4C553 /* cat4F.json in Resources */,
+				8242BD661E460E61004598F8 /* teachers_book_tippy_toes.png in Resources */,
 				82B88CB11E11EDEA00562610 /* azul.png in Resources */,
 				82AA6C251E3A3A760047EE4B /* thumbs_lessons_learned.png in Resources */,
 				68DD9B171D67B95200A433D6 /* mfls_l.png in Resources */,
 				68DD9B1F1D67B95200A433D6 /* mini_dictionary_l.png in Resources */,
+				8242BD7F1E461303004598F8 /* teachers_resource_cd_class_cd_crickets.jpg in Resources */,
 				68DD98C11D67B95200A433D6 /* abracadabra.png in Resources */,
 				68DD9B541D67B95200A433D6 /* pt_literature_l.png in Resources */,
 				68DD9BC91D67B95200A433D6 /* toeic_advanced.jpg in Resources */,
 				68DD9BB61D67B95200A433D6 /* tba_turbo.jpg in Resources */,
+				8242BD841E461338004598F8 /* digital_book_crickets.png in Resources */,
 				68DD9B4C1D67B95200A433D6 /* pocket_dictionary.png in Resources */,
 				68DD9B6B1D67B95200A433D6 /* s_g_l.png in Resources */,
 				68DD99ED1D67B95200A433D6 /* gumdrops_students_book.jpg in Resources */,
@@ -2609,13 +2732,16 @@
 				68DD9B351D67B95200A433D6 /* pathway_gramm_sb.jpg in Resources */,
 				68DD9BC61D67B95200A433D6 /* tippy_toes.png in Resources */,
 				822DD0BD1E43C5860072493B /* richmond_mazes_cefr.png in Resources */,
+				8242BD7B1E461303004598F8 /* teachers_class_cd_crickets.jpg in Resources */,
 				68DD98FF1D67B95200A433D6 /* combined_sb.jpg in Resources */,
 				822DD0D11E43E2B60072493B /* dvd_readers_table.png in Resources */,
 				68DD9B241D67B95200A433D6 /* motion_wb.jpg in Resources */,
 				68DD9AF81D67B95200A433D6 /* levels5.png in Resources */,
 				68DD99B71D67B95200A433D6 /* delta_advanced_skills_cd.jpg in Resources */,
 				823DC63A1E26944600CD8701 /* primariaskyrockets2.png in Resources */,
+				8242BD6C1E460E84004598F8 /* poster_tippy_toes.png in Resources */,
 				68DD9B8F1D67B95200A433D6 /* spot_on_eng_practice_book.jpg in Resources */,
+				8242BD521E4609C5004598F8 /* guia_del_maestro_pebbles.png in Resources */,
 				68DD99FF1D67B95200A433D6 /* hours10.png in Resources */,
 				82AA6C291E3A3A8D0047EE4B /* thumbs_richmond_first_dictionary.png in Resources */,
 				68DD9B031D67B95200A433D6 /* little_readers.png in Resources */,
@@ -2630,6 +2756,7 @@
 				68DD99FB1D67B95200A433D6 /* hours5_75.png in Resources */,
 				68DD98CC1D67B95200A433D6 /* app_crickets.jpg in Resources */,
 				68DD9A011D67B95200A433D6 /* hours45_60.png in Resources */,
+				8242BD5C1E460BF8004598F8 /* classroom_lenguage_cards_gumdrops.png in Resources */,
 				68DD991B1D67B95200A433D6 /* cub_cd_students.jpg in Resources */,
 				68DD9B0C1D67B95200A433D6 /* mazes.png in Resources */,
 				68DD98CF1D67B95200A433D6 /* app_letters.jpg in Resources */,
@@ -2646,11 +2773,13 @@
 				68DD99FE1D67B95200A433D6 /* hours7.png in Resources */,
 				68DD9AF11D67B95200A433D6 /* ket_schools.png in Resources */,
 				82AA6C131E3A2F660047EE4B /* thumb_infoquest.jpg in Resources */,
+				8242BD871E4616C5004598F8 /* math_adventures_teacher_guide.png in Resources */,
 				68DD99D91D67B95200A433D6 /* Full Image-100.png in Resources */,
 				68DD9B5D1D67B95200A433D6 /* rpt_cambridge_first_sb_w_ans.jpg in Resources */,
 				68DD99EA1D67B95200A433D6 /* gumdrops_l.png in Resources */,
 				68DD9BDA1D67B95200A433D6 /* vle_l.png in Resources */,
 				68DD98BB1D67B95200A433D6 /* abracadabra_l.png in Resources */,
+				8242BD5E1E460C0B004598F8 /* teacher_cd_rom1_gumdrops.png in Resources */,
 				68DD99131D67B95200A433D6 /* crickets_practice_book.jpg in Resources */,
 				68DD9B9D1D67B95200A433D6 /* step_up_l.png in Resources */,
 				68DD9B6F1D67B95200A433D6 /* seven_l.png in Resources */,
@@ -2660,6 +2789,7 @@
 				68DD99C91D67B95200A433D6 /* eng_id_swb.jpg in Resources */,
 				82AA6C121E3A2F660047EE4B /* thumb_dvd_readers.jpg in Resources */,
 				822DD0FA1E43E2E00072493B /* portadas_superstars_2.jpg in Resources */,
+				8242BD881E4616C5004598F8 /* math_adventures_teacher_resource_cd.png in Resources */,
 				68D46DA41D59150900E54B46 /* Main.storyboard in Resources */,
 				68DD9B8D1D67B95200A433D6 /* spot_on_eng_pack_sbpbascdtheth.jpg in Resources */,
 				822DD0A31E43B4040072493B /* spotlight_on_english_cefr.png in Resources */,
@@ -2671,6 +2801,7 @@
 				68DD99BC1D67B95200A433D6 /* dictionary_illustrated_l.png in Resources */,
 				68DD98D11D67B95200A433D6 /* app_pathway.jpg in Resources */,
 				8247D2CA1E4555AB00D9D3B1 /* tales_students_crickets.png in Resources */,
+				8242BD561E4609DB004598F8 /* flash_cards_pebbles.png in Resources */,
 				68DD9B921D67B95200A433D6 /* spotlight_neeta.jpg in Resources */,
 				68DD98DF1D67B95200A433D6 /* awesome_practice.jpg in Resources */,
 				68DD99D81D67B95200A433D6 /* framework.png in Resources */,
@@ -2702,6 +2833,7 @@
 				68DD99D31D67B95200A433D6 /* first_dictionary.png in Resources */,
 				68DD99021D67B95200A433D6 /* compact_dictionary_l.png in Resources */,
 				68DD98C31D67B95200A433D6 /* achievers_l.png in Resources */,
+				8242BD601E460C17004598F8 /* posters_cutouts_gumdrops.png in Resources */,
 				68DD9B451D67B95200A433D6 /* pet_cd.jpg in Resources */,
 				68DD9B3D1D67B95200A433D6 /* pathway_to_math_reinforcement.jpg in Resources */,
 				68DD99B61D67B95200A433D6 /* d_tippy_puppets.jpg in Resources */,
@@ -2718,6 +2850,7 @@
 				822DD0F21E43E2E00072493B /* portadas_popcorn_2.jpg in Resources */,
 				68DD98E91D67B95200A433D6 /* beep.png in Resources */,
 				68DD990D1D67B95200A433D6 /* crickets_language_flashcards.jpg in Resources */,
+				8242BD8C1E4616DA004598F8 /* digital_book_math.png in Resources */,
 				68DD9B6C1D67B95200A433D6 /* s_g.png in Resources */,
 				68DD9B431D67B95200A433D6 /* pebbles_students_activity_pad.jpg in Resources */,
 				68DD9B831D67B95200A433D6 /* sp_literature_l.png in Resources */,
@@ -2762,6 +2895,7 @@
 				68DD9BA11D67B95200A433D6 /* stopwatch_sb_wb_cd.jpg in Resources */,
 				68DD98D61D67B95200A433D6 /* asp_l.png in Resources */,
 				68DD9BA71D67B95200A433D6 /* super_stars.png in Resources */,
+				8242BD6E1E460E8D004598F8 /* fun_activity_mat_tippy_toes.png in Resources */,
 				822DD09B1E43B35D0072493B /* oathway_to_grammar_cefr.png in Resources */,
 				68DD99EB1D67B95200A433D6 /* gumdrops_pack_sb_cd_rsc.jpg in Resources */,
 				68DD99B81D67B95200A433D6 /* delta_advanced_skills_toefl.jpg in Resources */,
@@ -2771,12 +2905,14 @@
 				822DD0B11E43C4AB0072493B /* stopwatch_cefr.png in Resources */,
 				82AA6C2A1E3A3A8D0047EE4B /* thumbs_richmond_picture_dictionary.png in Resources */,
 				68DD9B3F1D67B95200A433D6 /* pebbles_pack.jpg in Resources */,
+				8242BD8A1E4616CE004598F8 /* microsite_math.png in Resources */,
 				68DD9AED1D67B95200A433D6 /* kaleidoscope.png in Resources */,
 				68DD9B751D67B95200A433D6 /* site_math.jpg in Resources */,
 				68DD991F1D67B95200A433D6 /* cub_students.jpg in Resources */,
 				68DD9B4F1D67B95200A433D6 /* primary_method_cd.jpg in Resources */,
 				68DD9B051D67B95200A433D6 /* math_adv_pack.jpg in Resources */,
 				68DD9BC41D67B95200A433D6 /* tippy_toes_students_book.jpg in Resources */,
+				8242BD741E46102C004598F8 /* class_cd_mfls.png in Resources */,
 				68FB19E31D6E595100F4C553 /* cat2F.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

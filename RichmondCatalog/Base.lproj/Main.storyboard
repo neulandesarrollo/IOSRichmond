@@ -71,7 +71,7 @@
                                                     <rect key="frame" x="330" y="4" width="37" height="81"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESCHOOL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBV-ZB-XZO">
-                                                    <rect key="frame" x="81" y="28" width="249" height="34"/>
+                                                    <rect key="frame" x="81" y="28.5" width="249" height="33"/>
                                                     <fontDescription key="fontDescription" name="LeagueGothic-Regular" family="League Gothic" pointSize="28"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -400,7 +400,7 @@
                                                     <constraint firstAttribute="width" constant="30" id="BeV-x2-Ded"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" misplaced="YES" image="04F1E00F-1743-412E-8A24-64054F74DEA1" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-2S-i5c">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" misplaced="YES" image="73779071-8422-4032-A5A1-F968EBE2E73E" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-2S-i5c">
                                                 <rect key="frame" x="62" y="46" width="249" height="169"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="169" id="ZL4-RS-sUL"/>
@@ -839,7 +839,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="DDE124AC-57EE-4FAD-9036-AD7B96CBBE9B" id="WzF-J2-Tul">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="8E5D756C-68DA-4951-AB7F-981F01A67221" id="WzF-J2-Tul">
                                             <rect key="frame" x="15" y="0.0" width="44" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
@@ -1400,7 +1400,7 @@
                                                             <action selector="openModal:" destination="aYu-lO-Bsa" eventType="touchUpInside" id="VxH-LC-cJB"/>
                                                         </connections>
                                                     </button>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="2A458586-EB7B-4558-AE82-8FFDEC077F2E" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-TR-Bf2">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="0D2CADD4-0815-453D-BBE8-CD24658FCCF1" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-TR-Bf2">
                                                         <rect key="frame" x="62" y="46" width="253" height="169"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="169" id="1Wh-Ll-T3Z"/>
@@ -1568,11 +1568,11 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cubbyhouse.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Wt-6A-K1A">
-                                                        <rect key="frame" x="68" y="670" width="240" height="240"/>
+                                                        <rect key="frame" x="68" y="770" width="240" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vPj-mB-pdk">
-                                                        <rect key="frame" x="23" y="930" width="330" height="100"/>
+                                                        <rect key="frame" x="23" y="1030" width="330" height="100"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
@@ -1580,11 +1580,11 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDz-ef-AiB">
-                                                        <rect key="frame" x="68" y="1060" width="240" height="240"/>
+                                                        <rect key="frame" x="68" y="1160" width="240" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Mti-fu-eTC">
-                                                        <rect key="frame" x="22" y="1320" width="330" height="100"/>
+                                                        <rect key="frame" x="22" y="1420" width="330" height="100"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
@@ -1592,11 +1592,11 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lj3-f7-hPD">
-                                                        <rect key="frame" x="68" y="1440" width="240" height="240"/>
+                                                        <rect key="frame" x="68" y="1540" width="240" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KPg-cI-tM3">
-                                                        <rect key="frame" x="22" y="1700" width="330" height="100"/>
+                                                        <rect key="frame" x="22" y="1800" width="330" height="100"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
@@ -1604,11 +1604,11 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4BQ-af-HAO">
-                                                        <rect key="frame" x="68" y="1780" width="240" height="240"/>
+                                                        <rect key="frame" x="68" y="1880" width="240" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JWw-ab-RvW">
-                                                        <rect key="frame" x="22" y="2020" width="330" height="100"/>
+                                                        <rect key="frame" x="22" y="2120" width="330" height="100"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
@@ -1622,7 +1622,7 @@
                                                 <rect key="frame" x="-1" y="-22" width="375" height="1526"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMPONENTS &amp; RESOURCES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdB-vX-Aq3">
-                                                        <rect key="frame" x="24" y="60" width="375" height="21"/>
+                                                        <rect key="frame" x="24" y="10" width="375" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -1642,6 +1642,100 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <string key="text">In the Teacher’s Guide, teacher’s will  nd instructions to build a play house—similar to those in the Values section—where students can develop their creativity and motor skills.  Teachers will also  nd suggestions to use the cubby houses— children can keep their toys or school materials inside or get in to color and play.  By building their cubby houses, students will enjoy themselves while understanding and visualizing the value in a more memorable way!</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cubbyhouse.png" translatesAutoresizingMaskIntoConstraints="NO" id="X3q-4p-8QT">
+                                                        <rect key="frame" x="68" y="30" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F5J-D2-4td">
+                                                        <rect key="frame" x="24" y="290" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cubbyhouse.png" translatesAutoresizingMaskIntoConstraints="NO" id="ynX-6J-OSL">
+                                                        <rect key="frame" x="67" y="400" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4om-jI-8rY">
+                                                        <rect key="frame" x="22" y="660" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cubbyhouse.png" translatesAutoresizingMaskIntoConstraints="NO" id="xlc-VT-dCQ">
+                                                        <rect key="frame" x="67" y="770" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Each unit ends with a page to review vocabulary and language." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Mil-2y-ruA">
+                                                        <rect key="frame" x="22" y="1030" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RZZ-0f-rmS">
+                                                        <rect key="frame" x="67" y="1160" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EzT-NX-fTQ">
+                                                        <rect key="frame" x="22" y="1420" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUa-A3-Qx1">
+                                                        <rect key="frame" x="67" y="1540" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="CLIL lessons explore an area related to the topic of the lesson." translatesAutoresizingMaskIntoConstraints="NO" id="D8L-Sp-wIK">
+                                                        <rect key="frame" x="22" y="1800" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H9B-Ao-eQC">
+                                                        <rect key="frame" x="67" y="1880" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-wq-TmJ">
+                                                        <rect key="frame" x="22" y="2120" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWX-gO-qXY">
+                                                        <rect key="frame" x="67" y="2200" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="isl-xK-xBx">
+                                                        <rect key="frame" x="22" y="2440" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfs-pm-b5p">
+                                                        <rect key="frame" x="67" y="2520" width="240" height="240"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2jM-65-T8I">
+                                                        <rect key="frame" x="22" y="2760" width="330" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <string key="text">There are beautiful pop- outs in Level 1 and cut-outs in Levels 2 and 3 to complete some activities in the Student’s Book pages.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
@@ -1753,6 +1847,14 @@
                         <outlet property="imgDet4" destination="jDz-ef-AiB" id="Ueo-ei-GQ4"/>
                         <outlet property="imgDet5" destination="lj3-f7-hPD" id="2Ja-9Y-klN"/>
                         <outlet property="imgDet6" destination="4BQ-af-HAO" id="1K5-4G-bT7"/>
+                        <outlet property="imgDetT1" destination="X3q-4p-8QT" id="4JB-T4-8CI"/>
+                        <outlet property="imgDetT2" destination="ynX-6J-OSL" id="qD3-GO-yIg"/>
+                        <outlet property="imgDetT3" destination="xlc-VT-dCQ" id="iuN-n7-TEC"/>
+                        <outlet property="imgDetT4" destination="RZZ-0f-rmS" id="fWC-Gy-v2O"/>
+                        <outlet property="imgDetT5" destination="PUa-A3-Qx1" id="Dsp-qW-kqz"/>
+                        <outlet property="imgDetT6" destination="H9B-Ao-eQC" id="Sj5-CH-xvp"/>
+                        <outlet property="imgDetT7" destination="rWX-gO-qXY" id="5Eq-KX-VNx"/>
+                        <outlet property="imgDetT8" destination="bfs-pm-b5p" id="v2U-AE-fUb"/>
                         <outlet property="imgDetailSerie" destination="JE5-TR-Bf2" id="aXu-Qc-8Bs"/>
                         <outlet property="imgIsnew" destination="McQ-au-TmT" id="RJf-Z5-eHR"/>
                         <outlet property="imgSampleUnit" destination="Q1f-7c-Vuc" id="iOd-L7-0eK"/>
@@ -1778,6 +1880,14 @@
                         <outlet property="txtDet4" destination="Mti-fu-eTC" id="HAe-KV-Mzy"/>
                         <outlet property="txtDet5" destination="KPg-cI-tM3" id="f5Q-yf-AvK"/>
                         <outlet property="txtDet6" destination="JWw-ab-RvW" id="fzb-k5-B5D"/>
+                        <outlet property="txtDetT1" destination="F5J-D2-4td" id="Qf1-lN-4U6"/>
+                        <outlet property="txtDetT2" destination="4om-jI-8rY" id="Le0-wo-ywF"/>
+                        <outlet property="txtDetT3" destination="Mil-2y-ruA" id="Q4f-BL-6e5"/>
+                        <outlet property="txtDetT4" destination="EzT-NX-fTQ" id="gQL-6s-CIb"/>
+                        <outlet property="txtDetT5" destination="D8L-Sp-wIK" id="MPg-l6-Z0D"/>
+                        <outlet property="txtDetT6" destination="gLV-wq-TmJ" id="ti9-uf-aQQ"/>
+                        <outlet property="txtDetT7" destination="isl-xK-xBx" id="V1z-EP-tEq"/>
+                        <outlet property="txtDetT8" destination="2jM-65-T8I" id="b8y-kp-0PG"/>
                         <outlet property="txtISBNStudents" destination="Kyr-ac-2Vg" id="0rK-pr-PsI"/>
                         <outlet property="txtISBNTeachers" destination="xa9-yI-DhK" id="jfC-8b-vbl"/>
                         <outlet property="txtMoreComponentsTeachers" destination="E0t-qS-rzO" id="H9l-8S-eAT"/>
@@ -2640,7 +2750,7 @@
     </scenes>
     <resources>
         <image name=" flecha_back" width="174" height="213"/>
-        <image name="04F1E00F-1743-412E-8A24-64054F74DEA1" width="400" height="200">
+        <image name="0D2CADD4-0815-453D-BBE8-CD24658FCCF1" width="400" height="200">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -8027,7 +8137,7 @@ AATsBwAE7A4ABOwWAATsIwAE7CgABOwqAATsLAAE7DEABOw5AATsPAAE7EEABOxJAATsTAAE7F4ABOxh
 AATsZgAAAAAAAAQBAAAAAAAAAEEAAAAAAAAAAAAAAAAABOxoA
 </mutableData>
         </image>
-        <image name="2A458586-EB7B-4558-AE82-8FFDEC077F2E" width="400" height="200">
+        <image name="73779071-8422-4032-A5A1-F968EBE2E73E" width="400" height="200">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -13414,8 +13524,7 @@ AATsBwAE7A4ABOwWAATsIwAE7CgABOwqAATsLAAE7DEABOw5AATsPAAE7EEABOxJAATsTAAE7F4ABOxh
 AATsZgAAAAAAAAQBAAAAAAAAAEEAAAAAAAAAAAAAAAAABOxoA
 </mutableData>
         </image>
-        <image name="CRICKETS_APP.jpg" width="129" height="128"/>
-        <image name="DDE124AC-57EE-4FAD-9036-AD7B96CBBE9B" width="129" height="128">
+        <image name="8E5D756C-68DA-4951-AB7F-981F01A67221" width="129" height="128">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -14588,6 +14697,7 @@ egABEH0AARCCAAEQigABEI0AARCfAAEQogABEKcAAAAAAAAEAQAAAAAAAAA+AAAAAAAAAAAAAAAAAAEQ
 qQ
 </mutableData>
         </image>
+        <image name="CRICKETS_APP.jpg" width="129" height="128"/>
         <image name="audio.png" width="100" height="100"/>
         <image name="cubbyhouse.png" width="300" height="305"/>
         <image name="flechaCat.png" width="174" height="213"/>

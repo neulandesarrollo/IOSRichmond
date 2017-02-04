@@ -114,6 +114,24 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var txtDet5: UITextView!
     @IBOutlet weak var txtDet6: UITextView!
     
+    @IBOutlet weak var imgDetT1: UIImageView!
+    @IBOutlet weak var imgDetT2: UIImageView!
+    @IBOutlet weak var imgDetT3: UIImageView!
+    @IBOutlet weak var imgDetT4: UIImageView!
+    @IBOutlet weak var imgDetT5: UIImageView!
+    @IBOutlet weak var imgDetT6: UIImageView!
+    @IBOutlet weak var imgDetT7: UIImageView!
+    @IBOutlet weak var imgDetT8: UIImageView!
+    
+    @IBOutlet weak var txtDetT1: UITextView!
+    @IBOutlet weak var txtDetT2: UITextView!
+    @IBOutlet weak var txtDetT3: UITextView!
+    @IBOutlet weak var txtDetT4: UITextView!
+    @IBOutlet weak var txtDetT5: UITextView!
+    @IBOutlet weak var txtDetT6: UITextView!
+    @IBOutlet weak var txtDetT7: UITextView!
+    @IBOutlet weak var txtDetT8: UITextView!
+    
     @IBOutlet weak var imgTable: UIImageView!
     
     var colorsSegments = [
@@ -366,9 +384,29 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         txtDet5.isHidden = true;
         txtDet6.isHidden = true;
         
+        imgDetT1.isHidden = true;
+        imgDetT2.isHidden = true;
+        imgDetT3.isHidden = true;
+        imgDetT4.isHidden = true;
+        imgDetT5.isHidden = true;
+        imgDetT6.isHidden = true;
+        imgDetT7.isHidden = true;
+        imgDetT8.isHidden = true;
+        
+        txtDetT1.isHidden = true;
+        txtDetT2.isHidden = true;
+        txtDetT3.isHidden = true;
+        txtDetT4.isHidden = true;
+        txtDetT5.isHidden = true;
+        txtDetT6.isHidden = true;
+        txtDetT7.isHidden = true;
+        txtDetT8.isHidden = true;
+        
         /* Edition start */
         if viaSegueSerie == 1 {
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false;
             imgDet2.isHidden = false;
@@ -388,13 +426,33 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet1.text = "Student’s Book\n\n El Student’s Book contiene páginas con ilustraciones o fotografías a todo color para representar el léxico y las estructuras de forma más clara, memorable y atractiva."
             self.txtDet2.text = "Student’s CD\n\n Cubby House incluye un CD con las canciones, cantos, rimas e historias de la serie, para que los alumnos pueden escucharlos cuantas veces quieran y consoliden lo aprendido en clase."
             
-            self.txtComponentsTeachers.text = "- Guía del Maestro (In Spanish)\n\n- Class & Resource CD\n\n- Story Cards\n\n- Flashcards"
-            self.txtMoreComponentsTeachers.text = "In the Teacher’s Guide, teacher’s will  nd instructions to build a play house—similar to those in the Values section—where students can develop their creativity and motor skills.\n\nTeachers will also  nd suggestions to use the cubby houses— children can keep their toys or school materials inside or get in to color and play.\n\nBy building their cubby houses, students will enjoy themselves while understanding and visualizing the value in a more memorable way!"
+            imgDetT1.isHidden = false;
+            imgDetT2.isHidden = false;
+            imgDetT3.isHidden = false;
+            imgDetT4.isHidden = false;
+            
+            txtDetT1.isHidden = false;
+            txtDetT2.isHidden = false;
+            txtDetT3.isHidden = false;
+            txtDetT4.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "guia_maestro_cubby.png")
+            imgDetT2.image = UIImage(named: "cd_class_resource_cubby.png")
+            imgDetT3.image = UIImage(named: "story_cards_cubby.png")
+            imgDetT4.image = UIImage(named: "flash_cards_cubby.png")
+            
+            self.txtDetT1.text = "Guía del Maestro (In Spanish)\n\nLa Guía del Maestro incluye notas detalladas para desarrollar cada lección, las actividades de valores, habilidades motrices, la revisión y el ciclo de lectura."
+            self.txtDetT2.text = "Class & Resource CD\n\nIncluye un CD de Recursos para el profesor, donde encontrará las grabaciones de las canciones, cantos, rimas e historias, así como los worksheets y assessments, actividades de festividades (Holidays) y la Unidad Cero."
+            self.txtDetT3.text = "Story Cards\n\nCubby House incluye una historia por unidad, ilustrada en tarjetas de gran tamaño o Story Cards. Las historiasse relacionan con el tema y las estructuras de cada unidad, de modo que los alumnos puedan repasarlas en contextos y situaciones que les sean atractivos y significativos."
+            self.txtDetT4.text = "Flashcards\n\nCubby House contiene flashcards que ilustran las palabras de uso más frecuente en cada unidad."
+            
             self.txtISBNStudents.text = "Pack Cubby House (SB+CD)\nLevel 1          7506009844452\nLevel 2          7506009844469\nLevel 3          7506009844476"
             self.txtISBNTeachers.text = "Pack Cubby House (GUIA+CLASS +FLASH)\nLevel 1          7506009845176\nLevel 2          7506009845206\nLevel 3          7506009845183\n\nStory Cards\nLevel 1          7506009843745\nLevel 2          7506009843752\nLevel 3          7506009843769"
             
         } else if viaSegueSerie == 2 {
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false
             imgDet2.isHidden = false
@@ -424,13 +482,33 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             dosBtn.isHidden = false
             tresBtn.isHidden = false
             
-            self.txtComponentsTeachers.text = "-Teacher’s Guide in Spanish\n \n-Class CD\n \n-Flashcards\n \n-Fun Activity Mat with Pebble Puppet\n \n"
-            self.txtMoreComponentsTeachers.isHidden = true
+            imgDetT1.isHidden = false;
+            imgDetT2.isHidden = false;
+            imgDetT3.isHidden = false;
+            imgDetT4.isHidden = false;
+            
+            txtDetT1.isHidden = false;
+            txtDetT2.isHidden = false;
+            txtDetT3.isHidden = false;
+            txtDetT4.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "guia_del_maestro_pebbles.png")
+            imgDetT2.image = UIImage(named: "class_cd_pebbles.png")
+            imgDetT3.image = UIImage(named: "flash_cards_pebbles.png")
+            imgDetT4.image = UIImage(named: "hans_on_activity_pad_pebbles.png")
+            
+            self.txtDetT1.text = "Teacher’s Guide in Spanish\n\nLa Guía del Maestro de Pebbles cuenta con instrucciones para el maestro sobre el manejo de cada lección y con las páginas del Student’s Book intercaladas, para una rápida referencia"
+            self.txtDetT2.text = "Class CD\n\nIncluyen las grabaciones de todas las canciones, rimas, así como de las palabras del vocabulario de cada nivel"
+            self.txtDetT3.text = "Flashcards\n\nPebbles cuenta con un número de tarjetas para cada unidad, las cuales son un útil y atractivo apoyo visual para presentar y practicar el vocabulario y las estructuras."
+            self.txtDetT4.text = "Fun Activity Mat with Pebble Puppet"
+            
             self.txtISBNStudents.text = "Pack Pebbles (SB+CD+RSC Booklet+AP)\nLevel 1          7506009834934\nLevel 2          7506009834941\nLevel 3          7506009834958"
             self.txtISBNTeachers.text = "Pack Pebbles (Guia + Class CD)\nLevel 1          7506009835405\nLevel 2          7506009835412\nLevel 3          7506009835429\n\nFlashcards\nLevel 1          9786070605161\nLevel 2          9786070605208\nLevel 3          9786070605246\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663"
             
         } else if viaSegueSerie == 3 {
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false
             imgDet2.isHidden = false
@@ -456,6 +534,40 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet4.text = "Student’s Audio/Interactive CD-ROM (Levels 2 and 3)"
             self.txtDet5.text = "Student’s (Resource Pack)\n\n- Finger and Stick Puppets\n- Stickers\n- Mini-flashcards"
             
+            imgDetT1.isHidden = false;
+            imgDetT2.isHidden = false;
+            imgDetT3.isHidden = false;
+            imgDetT4.isHidden = false;
+            imgDetT5.isHidden = false;
+            imgDetT6.isHidden = false;
+            imgDetT7.isHidden = false;
+            
+            txtDetT1.isHidden = false;
+            txtDetT2.isHidden = false;
+            txtDetT3.isHidden = false;
+            txtDetT4.isHidden = false;
+            txtDetT5.isHidden = false;
+            txtDetT6.isHidden = false;
+            txtDetT7.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "teacher_guide_gumdrops.png")
+            imgDetT2.image = UIImage(named: "big_book_gumdrops.png")
+            imgDetT3.image = UIImage(named: "posters_cutouts_gumdrops.png")
+            imgDetT4.image = UIImage(named: "teacher_cd_rom1_gumdrops.png")
+            imgDetT5.image = UIImage(named: "class_audio_gumdrops1.png")
+            imgDetT6.image = UIImage(named: "classroom_lenguage_cards_gumdrops.png")
+            imgDetT7.image = UIImage(named: "digital_book_gumdrops.png")
+            
+            self.txtDetT1.text = "Teacher’s Guide\n\nGumdrops Teacher’s Guide offers comprehensive, step-by-step notes that are interleaved with the Student’s Book and Activity Pad pages."
+            self.txtDetT2.text = "Big Books\n\nThe Big Book is a beautifully illustrated collection of original and traditional stories and chants that will delight and animate " +
+            "students while exposing them to natural language."
+            self.txtDetT3.text = "Posters & Cutouts\n\nGumdrops posters provide the teacher with an eff ective visual tool to introduce and reinforce target vocabulary and language. Each unit comes with large, theme-related cut-out cards."
+            self.txtDetT4.text = "Teacher’s Resource CD-ROM\n\nThis includes the Gumdrops Support Booklet, which contains the series philosophy and methodology, as well as valuable tips for " +
+            "presenting language and vocabulary, developing skills and making the most of all of the Gumdrops components."
+            self.txtDetT5.text = "Class Audio\n\nThe Class Audio includes recordings by native English speakers of all the songs chants, rhymes and stories."
+            self.txtDetT6.text = "Classroom Language Cards\n\nThese visual cue cards vividly illustrate common classroom commands. Use them when you are giving students instructions along with the English command."
+            self.txtDetT7.text = "Digital Book"
+            
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels4.png")
             tresImg.image = UIImage(named: "hours3_5.png")
@@ -470,13 +582,13 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
-            self.txtComponentsTeachers.text = "- Teacher’s Guide\n \n-Big Books\n \n-Posters &amp; Cutouts\n \n-Teacher’s Resource CD-ROM\n \n-Class Audio\n \n-Classroom Language Cards\n \n-Digital Book\n \n"
-            self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "Pack Gumdrops (SB&TN+CD&CLASS CD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009837508\n\nPack Gumdrops (SB+CD+RSC Pack)\nLevel 1          7506009837515\nLevel 2          7506009837522\nLevel 3          7506009837539\nLevel N          N/A\n\nActivity Pad\nLevel 1          9786070607394\nLevel 2          9786070607400\nLevel 3          9786070607417\nLevel N          N/A"
             self.txtISBNTeachers.text = "Pack Gumdrops (TG+Class CD)\nLevel 1          7506009837546\nLevel 2          7506009837553\nLevel 3          7506009837560\nLevel N          N/A\n\nBig Book\nLevel 1          9786070607424\nLevel 2          9786070607431\nLevel 3          9786070607448\nLevel N          N/A\n\nPosters & Posters Cutouts\nLevel 1          7506009836471\nLevel 2          7506009836488\nLevel 3          7506009836495\nLevel N          N/A\n\nTeacher's Resource CD-ROM\nLevel 1          7506009836402\nLevel 2          7506009836433\nLevel 3          7506009836464\nLevel N          N/A\n\nClassroom Language Cards (Level 1,2 and 3)\nLevel 1          9786070607455\nLevel 2          9786070607455\nLevel 3          9786070607455\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844179\nLevel 2          7506009844179\nLevel 3          7506009844179\nLevel N          N/A"
             
         } else if viaSegueSerie == 4 {
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false
             imgDet2.isHidden = false
@@ -522,8 +634,38 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             seisBtn.isHidden = false
             sieteBtn.isHidden = false
             
-            self.txtComponentsTeachers.text = "-Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
-            self.txtMoreComponentsTeachers.isHidden = true
+            imgDetT1.isHidden = false;
+            imgDetT2.isHidden = false;
+            imgDetT3.isHidden = false;
+            imgDetT4.isHidden = false;
+            imgDetT5.isHidden = false;
+            imgDetT6.isHidden = false;
+            imgDetT7.isHidden = false;
+            
+            txtDetT1.isHidden = false;
+            txtDetT2.isHidden = false;
+            txtDetT3.isHidden = false;
+            txtDetT4.isHidden = false;
+            txtDetT5.isHidden = false;
+            txtDetT6.isHidden = false;
+            txtDetT7.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "teachers_book_tippy_toes.png")
+            imgDetT2.image = UIImage(named: "class_cd_tippy_toes.png")
+            imgDetT3.image = UIImage(named: "big_book_tippy_toes.png")
+            imgDetT4.image = UIImage(named: "poster_tippy_toes.png")
+            imgDetT5.image = UIImage(named: "fun_activity_mat_tippy_toes.png")
+            imgDetT6.image = UIImage(named: "puppet_tippy.png")
+            imgDetT7.image = UIImage(named: "digital_book_tippy.png")
+            
+            self.txtDetT1.text = "Teacher’s Guide\n\nThe Teacher’s Guide contains easy to follow teacher’s notes"
+            self.txtDetT2.text = "Class CD\n\nThe Class CD includes recordings by native English speakers of all the songs, chants, rhymes, and stories."
+            self.txtDetT3.text = "Big Book\n\nThe Big Book is a collection of original and traditional children’s literature that will delight and animate students."
+            self.txtDetT4.text = "Posters & Cutouts\n\nThere is an interactive poster with cutouts for each unit. These large and colorful visual aids allow the teacher to present and practice language simply and clearly."
+            self.txtDetT5.text = "Fun Activity Mat"
+            self.txtDetT6.text = "Puppets (Level 3)"
+            self.txtDetT7.text = "Digital Book"
+            
             self.txtISBNStudents.text = "Pack Tippy Toes (SB+CD+STK+MY FIRST...)\nLevel 1          7506009842755\nLevel 2          7506009842762\nLevel 3          7506009842779\n\nActivity Book\nLevel 1          9786070602641\nLevel 2          9786070602658\nLevel 3          9786070602665"
             self.txtISBNTeachers.isHidden = false
             self.txtISBNTeachers.text = "Teacher’s Guide\nLevel 1          9786070602672\nLevel 2          9786070602689\nLevel 3          9786070602696\n\nClass CD\nLevel 1          7506009807518\nLevel 2          7506009807525\nLevel 3          7506009807532\n\nBig Book\nLevel 1          9786070602702\nLevel 2          9786070602719\nLevel 3          9786070602726\n\nPosters & Cutouts\nLevel 1          7506009807181\nLevel 2          7506009807198\nLevel 3          7506009807204\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663\n\nPuppets (Level 3)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          7506009807846\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844162\nLevel 2          7506009844162\nLevel 3          7506009844162"
@@ -531,6 +673,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 11 {
             
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false
             imgDet2.isHidden = false
@@ -562,21 +706,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
+            imgDetT1.isHidden = false;
             
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
-            self.txtMoreComponentsTeachers.text = "THE CRICKETS METHODOLOGY\n\n\n" +
-                "The 5 Es instructional model relies on the constructivist approach to learning, which proposes that students build their own understanding and knowledge of the world, through experiencing things and re ecting on those experiences by asking questions, exploring and assessing what they know.\n\n" +
-                "The model enables preschool children to develop cognitive, language and metacognitive skills and represents  ve stages of a sequence for teaching and learning:\n\n" +
-                "Engage:\n" +
-                "This phase starts the process. Its purpose is to raise students’ interest and get them personally involved in the lesson and allows them to make connections between past and present learning experiences.\n\n" +
-                "Explore:\n" +
-                "Students actively explore concepts or manipulate materials.\n\n" +
-                "Explain:\n" +
-                "Students explain the concepts they have been exploring or demonstrate new skills and behaviors.\n\n" +
-                "Elaborate:\n" +
-                "Its purpose is to extend students’ conceptual understanding and allow them to practice skills and behaviors through new experiences.\n\n" +
-                "Evaluate:\n" +
-            "This stage encourages learners to assess their understanding and abilities."
+            txtDetT1.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "class_cd_mfls.png")
+            
+            self.txtDetT1.text = "Class CD"
+            
             self.txtISBNStudents.text = "Pack Crickets Nursery (SB+CLASS & RCD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009842489\n\nPack Crickets (SB+CD+TALES)\nLevel 1          7506009842571\nLevel 2          7506009842588\nLevel 3          7506009842595\nLevel N          N/A\nPractice Book\nLevel 1          9786070610783\nLevel 2          9786070610738\nLevel 3          9786070610745\nLevel N          N/A"
             self.txtISBNTeachers.isHidden = false
             self.txtISBNTeachers.text = "Pack Crickets Teacher (TG+TR+SC+F+TA+CLF)\nLevel 1          7506009842601\nLevel 2          7506009842618\nLevel 3          7506009842625\nLevel N          N/A\n\nFlashcards (Level N)\nLevel 1          7506009842502\nLevel 2          N/A\nLevel 3          N/A\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          N/A\nLevel 2          7506009844186\nLevel 3          7506009844186\nLevel N          7506009844186"
@@ -585,6 +722,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 5 {
             
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false
             imgDet2.isHidden = false
@@ -624,21 +763,42 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
+            imgDetT1.isHidden = false;
+            imgDetT2.isHidden = false;
+            imgDetT3.isHidden = false;
+            imgDetT4.isHidden = false;
+            imgDetT5.isHidden = false;
+            imgDetT6.isHidden = false;
+            imgDetT7.isHidden = false;
+            imgDetT8.isHidden = false;
             
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
-            self.txtMoreComponentsTeachers.text = "THE CRICKETS METHODOLOGY\n\n\n" +
-            "The 5 Es instructional model relies on the constructivist approach to learning, which proposes that students build their own understanding and knowledge of the world, through experiencing things and re ecting on those experiences by asking questions, exploring and assessing what they know.\n\n" +
-            "The model enables preschool children to develop cognitive, language and metacognitive skills and represents  ve stages of a sequence for teaching and learning:\n\n" +
-            "Engage:\n" +
-            "This phase starts the process. Its purpose is to raise students’ interest and get them personally involved in the lesson and allows them to make connections between past and present learning experiences.\n\n" +
-            "Explore:\n" +
-            "Students actively explore concepts or manipulate materials.\n\n" +
-            "Explain:\n" +
-            "Students explain the concepts they have been exploring or demonstrate new skills and behaviors.\n\n" +
-            "Elaborate:\n" +
-            "Its purpose is to extend students’ conceptual understanding and allow them to practice skills and behaviors through new experiences.\n\n" +
-            "Evaluate:\n" +
-            "This stage encourages learners to assess their understanding and abilities."
+            txtDetT1.isHidden = false;
+            txtDetT2.isHidden = false;
+            txtDetT3.isHidden = false;
+            txtDetT4.isHidden = false;
+            txtDetT5.isHidden = false;
+            txtDetT6.isHidden = false;
+            txtDetT7.isHidden = false;
+            txtDetT8.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "teachers_guide_crickets.png")
+            imgDetT2.image = UIImage(named: "teachers_resource_cd_class_cd_crickets.jpg")
+            imgDetT3.image = UIImage(named: "teachers_class_cd_crickets.jpg")
+            imgDetT4.image = UIImage(named: "teachers_story_cards_crickets.jpg")
+            imgDetT5.image = UIImage(named: "teachers_flashcards_crickets.png")
+            imgDetT6.image = UIImage(named: "teachers_classroom_languaje_flashcards_crickets.png")
+            imgDetT7.image = UIImage(named: "tales_crickets.png")
+            imgDetT8.image = UIImage(named: "digital_book_crickets.png")
+            
+            self.txtDetT1.text = "Teacher’s Guide\n\nThe Crickets Teacher’s Guide offers comprehensive, step-by-step notes that are interleaved with the Student’s Book pages."
+            self.txtDetT2.text = "Teacher’s Resource CD\n\nYou can fi nd a variety of resources on this component"
+            self.txtDetT3.text = "Class CD\n\nThe Class CD includes recordings of class activities and all the songs, chants, and stories."
+            self.txtDetT4.text = "Story Cards\n\nCrickets stories expose children to authentic language used naturally. The stories are divided into scenes."
+            self.txtDetT5.text = "Flashcards\n\nCrickets features 112 fl ashcards depicting the most frequent words used per unit. The flashcards include photographs to exemplify concepts vividly."
+            self.txtDetT6.text = "Classroom Language Flashcards\n\nThese visual cue cards vividly illustrate common classroom commands. Use them when you are giving students instructions."
+            self.txtDetT7.text = "Cricket Tales\n\nThis useful component, for both students and teachers, features fun reading activities related to each of the stories from Crickets."
+            self.txtDetT8.text = "Digital Book"
+            
             self.txtISBNStudents.text = "Pack Crickets Nursery (SB+CLASS & RCD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009842489\n\nPack Crickets (SB+CD+TALES)\nLevel 1          7506009842571\nLevel 2          7506009842588\nLevel 3          7506009842595\nLevel N          N/A\nPractice Book\nLevel 1          9786070610783\nLevel 2          9786070610738\nLevel 3          9786070610745\nLevel N          N/A"
             self.txtISBNTeachers.isHidden = false
             self.txtISBNTeachers.text = "Pack Crickets Teacher (TG+TR+SC+F+TA+CLF)\nLevel 1          7506009842601\nLevel 2          7506009842618\nLevel 3          7506009842625\nLevel N          N/A\n\nFlashcards (Level N)\nLevel 1          7506009842502\nLevel 2          N/A\nLevel 3          N/A\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          N/A\nLevel 2          7506009844186\nLevel 3          7506009844186\nLevel N          7506009844186"
@@ -647,6 +807,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 8 {
             
             self.txtComponents.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
+            self.txtMoreComponentsTeachers.isHidden = true
             
             imgDet1.isHidden = false
             imgDet2.isHidden = false
@@ -682,8 +844,30 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
-            self.txtComponentsTeachers.text = "- Teacher’s Guide with Pocket Cube\n \n- Resource Pack \n \n- Teacher’s Resource CD \n \n- Digital Book\n \n"
-            self.txtMoreComponentsTeachers.isHidden = true
+            imgDetT1.isHidden = false;
+            imgDetT2.isHidden = false;
+            imgDetT3.isHidden = false;
+            imgDetT4.isHidden = false;
+            imgDetT5.isHidden = false;
+            
+            txtDetT1.isHidden = false;
+            txtDetT2.isHidden = false;
+            txtDetT3.isHidden = false;
+            txtDetT4.isHidden = false;
+            txtDetT5.isHidden = false;
+            
+            imgDetT1.image = UIImage(named: "math_adventures_teacher_guide.png")
+            imgDetT2.image = UIImage(named: "math_adventures_resource_pack.png")
+            imgDetT3.image = UIImage(named: "math_adventures_teacher_resource_cd.png")
+            imgDetT4.image = UIImage(named: "digital_book_math.png")
+            imgDetT5.image = UIImage(named: "microsite_math.png")
+            
+            self.txtDetT1.text = "Teacher’s Guide with Pocket Cube\n\nOffers comprehensive, step-by-step notes that are interleaved with the Student’s Book pages."
+            self.txtDetT2.text = "Resource Pack"
+            self.txtDetT3.text = "Teacher’s Resource CD\n\nProvides teachers with additional resources to enrich their lessons."
+            self.txtDetT4.text = "Digital Book"
+            self.txtDetT5.text = "Microsite\n\nwww.richmond.com.mx/mathadventures"
+            
             self.txtISBNStudents.text = "Pack Math A. (SB+RESOURCE+SRCD)\nLevel 2          7506009842816\nLevel 3          7506009842823"
             self.txtISBNTeachers.text = "Pack Math A. (TG+TCD+RES+CUBE)\nLevel 2          7506009842359\nLevel 3          7506009842366"
             
