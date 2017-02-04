@@ -234,10 +234,10 @@
 		"scope": ""
   }, {
 		"idSerie": "11",
-		"category_idCategory": "2",
-		"name": "Fun Way",
-        "author" : "Andrew Starling, Claudia Bonilla, Ana Foncerrada and Roxanne Scott",
-		"description": "Andrew Starling, Claudia Bonilla, Ana Foncerrada and Roxanne Scott\nFun Way is a six-level series for primary school children. It provides attractive and stimulating materials within a well-structured program and offers extensive practice of target vocabulary and grammar. The course includes literature and a variety of authentic texts to stimulate an appreciation for reading. The program also includes songs, games and dialogs to motivate and encourage active participation in class.\nWith Fun Way students will:\n\u2022 participate in multiple intelligence activities\n\u2022 practice and reinforce their pronunciation\n\u2022 read original stories and varied texts\n                                          ",
+		"category_idCategory": "1",
+		"name": "My First Letters and Sounds",
+        "author" : "Rachel Gonin - Rebecca Lee Williams",
+		"description": "My First Letters and Sounds is a three-part component that allows children to develop phonemic awareness while reinforcing the vocabulary presented in each unit. Each activity page contains clear and simple instructions. Games and activities are suggested to introduce and practice each sound.\n \nPhonics are an important feature in learning to read. My first Letters and Sounds series introduces children to the most common sounds and provides a foundation to literacy.\n \n\n \n\n \n\n \n\n ",
 		"levels": "6",
 		"hours": "2\/4",
 		"new": "0",
@@ -1598,7 +1598,7 @@
   }, {
 		"idSerie": "58",
 		"category_idCategory": "6",
-		"name": "Delta\u00b4s Key to the TOEFL iBT: Essential Grammar for the iBT",
+		"name": "Delta\u00b4s Key to the TOEFL iBT",
         "author" : "",
 		"description": "no authors\nNancy Gallagher\nDelta\u2019s Key to the TOEFL Test\u00ae: Essential Grammar for the iBT reviews the\ngrammar that is fundamental to success on the Internet-based TOEFL, the paper based\nTOEFL, and other tests of English proficiency. The book may be used along\nwith other texts in the Delta\u2019s Key to the Next Generation TOEFL\u00ae Test series or as\na stand-alone grammar text for intermediate and advanced students.\nKey Features:\n\u2022 20 units covering vital points of sentence structure\n\u2022 Abundant practice in TOEFL-like questions\n\u2022 Compact disk with all audio texts\n\u2022 Diagnostic test, quizzes, and review test\n\u2022 Answer key, audio scripts, and index",
 		"levels": "0",

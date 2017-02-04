@@ -476,6 +476,36 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Pack Gumdrops (TG+Class CD)\nLevel 1          7506009837546\nLevel 2          7506009837553\nLevel 3          7506009837560\nLevel N          N/A\n\nBig Book\nLevel 1          9786070607424\nLevel 2          9786070607431\nLevel 3          9786070607448\nLevel N          N/A\n\nPosters & Posters Cutouts\nLevel 1          7506009836471\nLevel 2          7506009836488\nLevel 3          7506009836495\nLevel N          N/A\n\nTeacher's Resource CD-ROM\nLevel 1          7506009836402\nLevel 2          7506009836433\nLevel 3          7506009836464\nLevel N          N/A\n\nClassroom Language Cards (Level 1,2 and 3)\nLevel 1          9786070607455\nLevel 2          9786070607455\nLevel 3          9786070607455\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844179\nLevel 2          7506009844179\nLevel 3          7506009844179\nLevel N          N/A"
             
         } else if viaSegueSerie == 4 {
+            self.txtComponents.isHidden = true
+            
+            imgDet1.isHidden = false
+            imgDet2.isHidden = false
+            imgDet3.isHidden = false
+            imgDet4.isHidden = false
+            imgDet5.isHidden = false
+            imgDet6.isHidden = false
+            
+            txtDet1.isHidden = false
+            txtDet2.isHidden = false
+            txtDet3.isHidden = false
+            txtDet4.isHidden = false
+            txtDet5.isHidden = false
+            txtDet6.isHidden = false
+            
+            imgDet1.image = UIImage(named: "student_book_tippy_toes.png")
+            imgDet2.image = UIImage(named: "stickers_tippy_toes.png")
+            imgDet3.image = UIImage(named: "activity_book_tippy_toes.png")
+            imgDet4.image = UIImage(named: "student_cd_tippy_toes.png")
+            imgDet5.image = UIImage(named: "interactive_cd_rom_tippy_toes.png")
+            imgDet6.image = UIImage(named: "app_tippy_toes.png")
+            
+            self.txtDet1.text = "Student’s Book\n\nThe Student’s Book contains 152 full-color pages with a variety of fun and beautiful illustrations."
+            self.txtDet2.text = "Stickers\n\nTippy Toes off ers colorful and fun Stickers that are used in every unit along with the Student’s Book. Th ey off er a motivational element to the course."
+            self.txtDet3.text = "Activity Book\n\nThe Activity Book reinforces what students learn in the classroom through a wide variety of activities."
+            self.txtDet4.text = "Student’s CD\n\nThe Student’s CD contains all the songs, rhymes, chants and stories from Level 1 for students to listen outside the classroom."
+            self.txtDet5.text = "Interactive CD (Levels 2 and 3)"
+            self.txtDet6.text = "Tippy Toes App (Level 1)"
+            
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels3.png")
             tresImg.image = UIImage(named: "hours3_5.png")
@@ -492,20 +522,32 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             seisBtn.isHidden = false
             sieteBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book\n \n-Stickers\n \n-Activity Book\n \n-Student’s CD\n \n-Interactive CD (Levels 2 and 3)\n \n-Tippy Toes App (Level 1)"
-            imgDet1.image = UIImage(named: "schoolcricketss1.png")
-            imgDet2.image = UIImage(named: "schoolcricketss2.png")
-            imgDet3.isHidden = true
-            self.txtDet1.text = "The pages of the lessons present the materials, objectives, structures and vocabulary."
-            self.txtDet2.text = "Each lesson is divided into four sections."
-            self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "-Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "Pack Tippy Toes (SB+CD+STK+MY FIRST...)\nLevel 1          7506009842755\nLevel 2          7506009842762\nLevel 3          7506009842779\n\nActivity Book\nLevel 1          9786070602641\nLevel 2          9786070602658\nLevel 3          9786070602665"
             self.txtISBNTeachers.isHidden = false
             self.txtISBNTeachers.text = "Teacher’s Guide\nLevel 1          9786070602672\nLevel 2          9786070602689\nLevel 3          9786070602696\n\nClass CD\nLevel 1          7506009807518\nLevel 2          7506009807525\nLevel 3          7506009807532\n\nBig Book\nLevel 1          9786070602702\nLevel 2          9786070602719\nLevel 3          9786070602726\n\nPosters & Cutouts\nLevel 1          7506009807181\nLevel 2          7506009807198\nLevel 3          7506009807204\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663\n\nPuppets (Level 3)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          7506009807846\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844162\nLevel 2          7506009844162\nLevel 3          7506009844162"
             
-        } else if viaSegueSerie == 5 {
+        } else if viaSegueSerie == 11 {
+            
+            self.txtComponents.isHidden = true
+            
+            imgDet1.isHidden = false
+            imgDet2.isHidden = false
+            imgDet3.isHidden = false
+            
+            txtDet1.isHidden = false
+            txtDet2.isHidden = false
+            txtDet3.isHidden = false
+            
+            imgDet1.image = UIImage(named: "student_book_mfls.png")
+            imgDet2.image = UIImage(named: "student_cd_mfls.png")
+            imgDet3.image = UIImage(named: "app_mfls.png")
+            
+            self.txtDet1.text = "Student’s Book"
+            self.txtDet2.text = "Student’s CD"
+            self.txtDet3.text = "App"
+            
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels4.png")
             tresImg.image = UIImage(named: "hours3_5.png")
@@ -520,13 +562,69 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book\n \n-Stickers\n \n-Activity Book\n \n-Student’s CD\n \n-Interactive CD (Levels 2 and 3)\n \n-Tippy Toes App (Level 1)"
-            imgDet1.image = UIImage(named: "schooltippytoess1.png")
-            imgDet2.image = UIImage(named: "schooltippytoess2.png")
-            imgDet3.isHidden = true
-            self.txtDet1.text = "CLIL lessons explore an area related to the topic of the lesson."
-            self.txtDet2.text = "The Student’s Book includes the Mini-  ashcards section, a mini reproduction of the  ashcards that students can also use as a picture dictionary."
-            self.txtDet3.isHidden = true
+            
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
+            self.txtMoreComponentsTeachers.text = "THE CRICKETS METHODOLOGY\n\n\n" +
+                "The 5 Es instructional model relies on the constructivist approach to learning, which proposes that students build their own understanding and knowledge of the world, through experiencing things and re ecting on those experiences by asking questions, exploring and assessing what they know.\n\n" +
+                "The model enables preschool children to develop cognitive, language and metacognitive skills and represents  ve stages of a sequence for teaching and learning:\n\n" +
+                "Engage:\n" +
+                "This phase starts the process. Its purpose is to raise students’ interest and get them personally involved in the lesson and allows them to make connections between past and present learning experiences.\n\n" +
+                "Explore:\n" +
+                "Students actively explore concepts or manipulate materials.\n\n" +
+                "Explain:\n" +
+                "Students explain the concepts they have been exploring or demonstrate new skills and behaviors.\n\n" +
+                "Elaborate:\n" +
+                "Its purpose is to extend students’ conceptual understanding and allow them to practice skills and behaviors through new experiences.\n\n" +
+                "Evaluate:\n" +
+            "This stage encourages learners to assess their understanding and abilities."
+            self.txtISBNStudents.text = "Pack Crickets Nursery (SB+CLASS & RCD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009842489\n\nPack Crickets (SB+CD+TALES)\nLevel 1          7506009842571\nLevel 2          7506009842588\nLevel 3          7506009842595\nLevel N          N/A\nPractice Book\nLevel 1          9786070610783\nLevel 2          9786070610738\nLevel 3          9786070610745\nLevel N          N/A"
+            self.txtISBNTeachers.isHidden = false
+            self.txtISBNTeachers.text = "Pack Crickets Teacher (TG+TR+SC+F+TA+CLF)\nLevel 1          7506009842601\nLevel 2          7506009842618\nLevel 3          7506009842625\nLevel N          N/A\n\nFlashcards (Level N)\nLevel 1          7506009842502\nLevel 2          N/A\nLevel 3          N/A\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          N/A\nLevel 2          7506009844186\nLevel 3          7506009844186\nLevel N          7506009844186"
+            
+            
+        } else if viaSegueSerie == 5 {
+            
+            self.txtComponents.isHidden = true
+            
+            imgDet1.isHidden = false
+            imgDet2.isHidden = false
+            imgDet3.isHidden = false
+            imgDet4.isHidden = false
+            imgDet5.isHidden = false
+            
+            txtDet1.isHidden = false
+            txtDet2.isHidden = false
+            txtDet3.isHidden = false
+            txtDet4.isHidden = false
+            txtDet5.isHidden = false
+            
+            imgDet1.image = UIImage(named: "student_book_crickets.png")
+            imgDet2.image = UIImage(named: "practice_book_crickets.png")
+            imgDet3.image = UIImage(named: "students_cd_crickets.png")
+            imgDet4.image = UIImage(named: "tales_students_crickets.png")
+            imgDet5.image = UIImage(named: "app_crickets.png")
+            
+            self.txtDet1.text = "Student’s Book\n\nThe Student’s Book contains full-colored pages with both illustrations and photographs that represent concepts vividly and clearly."
+            self.txtDet2.text = "Practice Book\n\nThe Crickets Practice Book is for use in the classroom or at home. Activities in the Practice Book correspond to the stages Explore, Explain and Evaluate of the 5Es methodology."
+            self.txtDet3.text = "Student’s CD\n\nThe Student’s CD includes recordings by native English speakers of all the stories, songs and chants."
+            self.txtDet4.text = "Cricket Tales\n\nThis useful component, for both students and teachers, features fun reading activities related to each of the stories from Crickets."
+            self.txtDet5.text = "Crickets App\n\nCrickets Nursery and Level 1 feature an App with fun activities to review and practice everywhere children go!"
+            
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n-Class CD\n \n-Big Book\n \n-Posters &amp; Cutouts \n \n-Fun Activity Mat \n \n-Puppets (Level 3) \n \n-Digital Book\n \n"
             self.txtMoreComponentsTeachers.text = "THE CRICKETS METHODOLOGY\n\n\n" +
             "The 5 Es instructional model relies on the constructivist approach to learning, which proposes that students build their own understanding and knowledge of the world, through experiencing things and re ecting on those experiences by asking questions, exploring and assessing what they know.\n\n" +
@@ -547,6 +645,29 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         
             
         } else if viaSegueSerie == 8 {
+            
+            self.txtComponents.isHidden = true
+            
+            imgDet1.isHidden = false
+            imgDet2.isHidden = false
+            imgDet3.isHidden = false
+            imgDet4.isHidden = false
+            
+            txtDet1.isHidden = false
+            txtDet2.isHidden = false
+            txtDet3.isHidden = false
+            txtDet4.isHidden = false
+            
+            imgDet1.image = UIImage(named: "math_adventures_student_book.png")
+            imgDet2.image = UIImage(named: "math_adventures_student_cd.png")
+            imgDet3.image = UIImage(named: "pack_sb_resoruces_cd_math.png")
+            imgDet4.image = UIImage(named: "microsite_students_math.png")
+            
+            self.txtDet1.text = "Student’s Book\n\nHas eight contextualized units. Each unit includes twelve core lesson pages and two review pages."
+            self.txtDet2.text = "Student’s CD\n\nIncludes math-related songs and chants for students to listen to in and outside the classroom."
+            self.txtDet3.text = "Resource Pack\n\nProvides a collection of manipulative materials for children’s use. These are different types of cutouts that are used repeatedly throughout the course."
+            self.txtDet4.text = "Microsite\n\nwww.richmond.com.mx/mathadventures"
+            
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels4.png")
             tresImg.image = UIImage(named: "hours3_5.png")
@@ -561,13 +682,6 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book \n \n- Resource Pack \n \n- Student’s CD"
-            imgDet1.isHidden = true
-            imgDet2.isHidden = true
-            imgDet3.isHidden = true
-            self.txtDet1.isHidden = true
-            self.txtDet2.isHidden = true
-            self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Guide with Pocket Cube\n \n- Resource Pack \n \n- Teacher’s Resource CD \n \n- Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "Pack Math A. (SB+RESOURCE+SRCD)\nLevel 2          7506009842816\nLevel 3          7506009842823"
@@ -1146,7 +1260,250 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
-        } else if viaSegueSerie == 70 {
+        } else if viaSegueSerie == 58 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 51 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 52 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 55 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 57 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 61 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 50 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 53 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 54 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        }  else if viaSegueSerie == 70 {
             
             unoImg.image = UIImage(named: "richmondlearning.png")
             dosImg.image = UIImage(named: "levels6.png")
