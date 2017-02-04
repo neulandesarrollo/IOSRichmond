@@ -1267,11 +1267,251 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroImg.image = UIImage(named: "british.png")
             cincoImg.image = UIImage(named: "learning.png")
             
+        } else if viaSegueSerie == 65 {
+            unoImg.image = UIImage(named: "videos.png")
+            dosImg.image = UIImage(named: "digital_resources.png")
+            tresImg.image = UIImage(named: "learning.png")
+            cuatroImg.image = UIImage(named: "british.png")
+            cincoImg.image = UIImage(named: "levels2.png")
+            seisImg.image = UIImage(named: "hours45.png")
+            
             unoBtn.isHidden = false
             dosBtn.isHidden = false
             tresBtn.isHidden = false
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 67 {
+            unoImg.image = UIImage(named: "videos.png")
+            dosImg.image = UIImage(named: "digital_resources.png")
+            tresImg.image = UIImage(named: "british.png")
+            cuatroImg.image = UIImage(named: "learning.png")
+            cincoImg.image = UIImage(named: "hours35.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 39 {
+            unoImg.image = UIImage(named: "digital_book.png")
+            dosImg.image = UIImage(named: "app.png")
+            tresImg.image = UIImage(named: "audio.png")
+            cuatroImg.image = UIImage(named: "levels2.png")
+            cincoImg.image = UIImage(named: "learning.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 40 {
+            unoImg.image = UIImage(named: "audio.png")
+            dosImg.image = UIImage(named: "british.png")
+            tresImg.image = UIImage(named: "levels2.png")
+            cuatroImg.image = UIImage(named: "learning.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 41 {
+            unoImg.image = UIImage(named: "british.png")
+            dosImg.image = UIImage(named: "levels2.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 42 {
+            unoImg.image = UIImage(named: "videos.png")
+            dosImg.image = UIImage(named: "dvd.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 78 {
+            unoImg.image = UIImage(named: "new_icon.png")
+
+            
+            unoBtn.isHidden = false
+
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 43 {
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 44 {
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 45 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 46 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 47 {
+            unoImg.image = UIImage(named: "app.png")
+            
+            unoBtn.isHidden = false
+
             
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -1334,6 +1574,31 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 55 {
+            unoImg.image = UIImage(named: "exam_friendly.png")
+            dosImg.image = UIImage(named: "audio.png")
+            tresImg.image = UIImage(named: "digital_resources.png")
+            cuatroImg.image = UIImage(named: "british.png")
+            cincoImg.image = UIImage(named: "learning.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
+        } else if viaSegueSerie == 56 {
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
