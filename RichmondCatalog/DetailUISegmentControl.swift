@@ -1547,7 +1547,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level 2(K1)\nWhat Shape Is It? :9786070606038\nFarm Animals : 9786070606021\nMy Clothes : 9786070606014\nHelping My Family: 9786070606052\n\n Level 3 (K2):\nEveryday Jobs :9786070606403\nWild Animals: 9786070606045\nMy New School : 9786070606069\nHow Do We Get There?: 9786070606533 \n\n Level 4 (K3):\nOur Living Earth: 9786070606564\n My Senses at Work: 9786070606311\nAnimals through the Seasons : 9786070606328\nTake a Ride: 9786070606557 \n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 71 {
@@ -1575,7 +1576,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Level 2 (K1):\nWhat Shape Is It?: 9786070606038\nFarm Animals: 9786070606021\nMy Clothes: 9786070606014\nHelping My Family: 9786070606052\n\nLevel 3 (K2):\n     Everyday Jobs: 9786070606403\nWild Animals: 9786070606045\nMy New School: 9786070606069\nHow Do We Get There?: 9786070606533\n\nLevel 4 (K3):\nOur Living Earth: 9786070606564\nMy Senses at Work: 9786070606311\nAnimals through the Seasons: 9786070606328\nTake a Ride: 9786070606557"
+            self.txtISBNStudents.text = "Level 1\nCrickle, Crackle, Pop: 9789707392229\n\n Level 2:\nShake and Shver : 9789707392236 \n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 72 {
@@ -1603,8 +1605,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level 1\nIn My Garden: 9789707392267\nDown on the Farm : 9789707392281\nJeepers Creepers : 9789707392250\n\n Level 2:\nFun and Games :9789707392311\nThose Animals: 9789707392304\nWhat´s Cooking?: 9789707392328\n\n Level 3:\nTap into Sap: 9789707392366\n\nLevel 4\nGrassland Safari :9789707392380\nOn the Wild Side : 9789707392403\n\n Level 5:\nA Way with Words:9789707392410\nGetting Together: 99789707392441\nCell City: 9789707392434\n\n Level 6:\nClose Up on Careers: 9789707392458\n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+
             
         } else if viaSegueSerie == 73 {
             txtTitleDetailReaders.isHidden = false
@@ -1631,7 +1635,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Early Reader 1:\nBe Healthy: 9786070606113\nButterfly Life Cycle : 9786070606168\nFace Painting: 9786070606618\nMeet a Beekeeper: 9786070606571\nMeet an Astronaut: 9786070606144\nGrow Grass Creatures: 9786070606199\nMy Community: 9786070606489\nOur Earth: 9786070606588\nWhy We Need Sleep: 9786070606601\n\nEarly Reader 2:\nTadpo le to Frog: 9786070606137\nWater for Life : 9786070606472\nSchool yard Games: 9786070606182\nMonkeys and Apes: 9786070606076\nDangerous Jobs: 9786070606175\nExplore Eclipses: 9786070606090\nAll about Sharks: 9786070606083\nMelting Ice: 9786070606120\n\nSolo Reader 1:\nWhales and Dolphins: 9786070606625\nWild Wind storms : 9786070606151\nEnd angered Animals: 9786070606465\nOn Safari: 9786070606373\nRecycling Race: 9786070606366\nSpace Junk: 9786070606106\nMaking Masks: 9786070606243\nExperiment with magnets: 9786070606205\n\nSolo Reader 2:\nSpace Stations: 9786070606250\nPuppets Making : 9786070606274\nMy Family Tree: 9786070606212\nDesert Animals: 9786070606342\nWhy Volcanoes Erupt: 9786070606519\nWorking with Apes: 9786070606229\nRadical Robos: 9786070606335\nAnimals in captivity: 9786070606236\n\nFluent Reader 1:\nThe Games: 9786070606540\nGlobal Warming : 9786070606267\nOur Greatest Inventions: 9786070606298\nHow Animals Defend Themselves: 9786070606359\nGreat Moments in History: 9786070606281\nSuper Science Experiments: 9786070606304\nMagnificent Mummies: 9786070606526\nSecret Codes: 9786070606397\n\nFluent Reader 2:\nCreating Cool Gadgets: 9786070606632\nExplore Extreme Sports:9786070606434\nHow the Brain Works: 9786070606427\nIt’s a Mystery: 9786070606595\nMake Your Own Web Page: 9786070606441\nHow Aircraft Fly: 9786070606496\nReptiles and Amphibians: 9786070606380\nWhy Earth quakes Occur: 9786070606502\nBody Smart: 9786070606458\n\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 74 {
@@ -1659,8 +1664,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Starter Level:\nMeet the Turtles: 9781909221819\nMeet the Smurfs!: 9781910173442\nWho are the Smurfs?: 9781910173435\nSpongeBob squarepants: Underwater Friends: 9781909221833\nMr. Bean: A day at the beach: 9781909221796\nHow to Tra in Your Dragon: Hic up and Friends: 9781910173756\nSpongeBob squarepants : SpongeBob’s New Toy:  9781909221895\nMr. Bean: Guide to London : 9781910173046\nMeet the Croods: 9781910173770\nThe Animals of Kung Fu Panda: 9781910173794\n\nLevel 1:\nIce Age 4: 9781407169910\nThe Jungle Book : Man Trap : 9781908351500\nMr. Bean Royal Bean: 9781906861469\nMadagascar: 9781906861575\nShrek: 9781906861551\nOver the Hedge: 9781909221291\nKung Fu Panda : Holidays: 9781909221284\nRio: Blu and Jewel: 9781908351258\nThe Penguins of Madagascar: 9781909221307\nGargamel’s Magic Spell : 9781910173558\nSpongeBob Square Pants :Talent Show: 9781909221901\nCloudy with the Chane of Meatballs: 9781910173459\nRise of the Turtles: 9781909221888\nIce Age: 9781906861599\nThe Jungle Book :Cobra’s Egg: 9781908351524\nSnoopy and Charlie Brown:The Peanuts Movie: 9781910173510\nHow to Train Your Dragon: 9781910173817\n\nLevel 2:\nThe little prince & the rose: 9781407169941\nAngry Birds: 9781407169927\nMadagascar: Escape Africa: 9781906861650\nMr. Bean: Toothache: 9781906861483\nPUSS in boots : The Outlaw: 9781909221338\nShrek 2: 9781906861636\nThe Smurfs 2: 9781910173541\nRango: 9781906861995\nPeanuts classic:Snoopy and Friends: 9781910173565\nCloudy with the Chance of Meatballs 2 : 9781910173466\nTime Jump : Back to the Stone Age: 9781908351647\nThe Turtles : Kraang Attack!: 9781910173015\nHow to Train Your Dragon 2: 9781910173831\nTurbo: 9781910173855\nSpongeBob Square Pants : Wormy: 9781910173008\n\nLevel 3:\nThe Smurfs : The Lost Village: 9781407169958\nHome: 9781910173879\nSpongeBob Square Pants :DoodleBob: 9781909221826\nRio: Looking for Blu: 9781908351128\nThe Turtles : Donnie’s Robot: 9781910173022\nShrek Forever After: 9781906861308\nMadagascar 3: Europe’s Most Wanted: 9781909221352\nPeanuts classic: The Ice-Skating Competition: 9781910173572\nKung Fu Panda 2: 9781906861834\nShrek the Third : 9781906861735\nMr.Bean: The palace of bean: 9781906861506\nIce Age 3: Dawn of the Dinosaurs:9781906861773\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
+            
             
         } else if viaSegueSerie == 75 {
             txtTitleDetailReaders.isHidden = false
@@ -1687,7 +1694,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Starter Level:\nRobin Hood: The Taxman: 9788466812214\nZoey 101: Dance Contest: 9781906861063\nBlog Love: 9780956857705\nStorm Hawks: 9781906861056\n\nLevel 1:\nMalala: 9781910173602\nMr. Bean’s Holiday : 9788466810197\nBuffy the vampire slayer: 9781904720331\nTransformers: 9781905775446\nHotel for Dogs: 9781905775897\nMonster House: 9788466808729\nTHE ADVENTURES OF MERLIN: Arthur and the Unicorn : 9781905775873\nOne Direct ion:Making the dream real: 9781909221864\nThe city of ember: 9781905775460\nSMALLVILLE ARRIVAL: 9788466808668\n\nLevel 2:\nMuhammad Ali: 9781407169972\nGreat Expectations: 9781909221994\nSelma: 9781910173718\nSherlock :The Sign of Three: 9781910173497\nThe Pink Panther: 9788466818704, 9781904720751\nRomeo and Juliet: 9781910173534\nThe In-Crowd: 9788466819046\nJohnny English Reborn: 9781407133720\nABOUT TIME: 9781910173473\nTHE DEVIL WEARS PRADA: 9788466812245\nSTAR WARS: THE CLONE WARS : 9781905775521\nSENSE AND SENSIBILITY: 9781905775620\nGLEE: FOREING EXCHANGE: 9781909221215\nHOOT: 9788466810241\nNIGHT AT THE MUSEUM: SECRET OF THE TOMB: 9781910173589\nThe OC: The Outsider: 9781904720836\nThe Mask of Zorro: 9781906861162\nBandslam: 9781905775972\nJane Eyre: 9788466810227\nBatman Begins: 9788466818698\nGlee : The Beginning: 9781908351333\nSenna: 9781909221192\nNelson Mandela: 9781908351166\nTRANSFORMERS: Revenge of the Fallen: 9781909221222\nROBIN HOOD: The Silver Arrow and the Slaves: 9788466810234\nDJ Ambition: 9788466819053\n\nLevel 3:\n12 Years a Slave:  9781910173527\nSuffragette: 9781910173398\nThe Imitation Game: 9781910173411\nBlack Gold: 9781905775569\nBob Marley: 9781908351982\nMICHAEL JACKS ON : The Man, The Music, The Mystery: 9788466812771\nAngela’s Ashes: 9788466810302\nMade in Dagenham: 9781908351203\nGlee : Summer Break: 9781909221253\nTRANSFORMERS : THE DARK OF MOON : 9781909221260\nPride & Prejudice: 9788466810265\nSHERLOCK: The Hounds of Basker ville: 9781909221246\nLife of PI: 9781909221789\nTouching the Void: 9781905775095\nThe Story of Chanel: 9781906861858\nThe Queen: 9788466812276\nThe OC: The Gambled : 9781904720850\nThe OC: The Misfits: 9781904720874\nVANITY FAIR: 9781906861186\n\nLevel 4:\nAn Education: 9781906861018\nNowhere Boy: Before The Beatles– the story of John Lennon: 9781906861032\nA Lion Called Christian: 9781906861223\nSlumdog Millionaire: 9781906861216\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 76 {
@@ -1715,7 +1723,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level 3:\nP.R. and Prejudice: 9788466817370\nThe Canterville Ghost: 9788466815987\nDr. Jekyll & Mr. Hyde: 9788466815963\nFrankenstein: 9788466815970\n\nLevel 4:\nMedical Match: 9788466817363\nA Floral Arrangement : 9788466817387\nSense & Sensibility: 9788466816021\nDracula: 9788466816007\nA Trip to London: 9788466815994\n\nLevel 5:\nElizabet h II:The Diamond Queen: 9788466816076\nSteve Jobs : the man behind Apple: 9788466816069\nSHERLOCK HOLMES: 9788466816113\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 77 {
@@ -1743,7 +1752,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
+            self.txtISBNStudents.text = "Level A2:\nBrilliant Brita in: The Seaside: 9786070606915\nTake Away My Takeaway : Hong Kong: 9786070606861\nTake Away My Takeaway : Texas: 9786070606854\n999 Emergency: 9781909221383\nThe British Royal Family:9781909221390\n\nLevel B1:\nBrilliant Britain: Tea: 9786070606908\nChanging World : 9781909221413\nTake Away My Takeaway : Italy: 9786070606878\nEccentric Britain: 9781909221406\nBrilliant Britain: Breakfasts: 9786070606892\nTake Away My Takeaway :New Orleans: 9786070606885\n\n\n"
+            self.txtISBNTeachers.isHidden = true
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 66 {
