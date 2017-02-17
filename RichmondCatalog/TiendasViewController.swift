@@ -93,13 +93,15 @@ class TiendasViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             
         }
         print("latitude: \(markNear[0]) longitude: \(markNear[1]) distance: \(markNear[2])")
-        let nearLat = markNear[0]
-        let nearLon = markNear[1]
+        //let nearLat = markNear[0]
+        //let nearLon = markNear[1]
+        //let nearLat = self.locationManager.location?.coordinate.latitude
+        //let nearLon = self.locationManager.location?.coordinate.longitude
         // inicializar mapa
         
-        let center = CLLocationCoordinate2DMake(nearLat as! CLLocationDegrees,nearLon as! CLLocationDegrees)
+        let center = self.locationManager.location?.coordinate
         let span     = MKCoordinateSpan(latitudeDelta: 1,longitudeDelta: 1)
-        let region   = MKCoordinateRegion(center: center, span:span)
+        let region   = MKCoordinateRegion(center: center!, span:span)
         
         mapView.setRegion(region, animated: true)
         self.locationManager.stopUpdatingLocation()

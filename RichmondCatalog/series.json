@@ -8,7 +8,7 @@
 		"description": "Fanny Riva Palacio & Stefania Villarreal\nCubby House is a new three-level preschool series that incorporates multiple teaching methodologies to provide children with the best learning experience. The series focuses on fostering cognitive skills and motor skills development.\nWith Cubby House students will:\n\u2022 acquire the English language while developing their cognitive skills\n\u2022 develop their fine and gross motor skills through activities such as running, dancing, jumping, imitating animal movements, drawing, tracing lines and numbers, cutting with scissors and more\n\u2022 learn values for building a sense of community and well-being\n\u2022 complete a project per unit that will allow them to be creative and reinforce their fine motor skills\n\u2022 be involved in age-appropriate activities to develop mathematical thinking, such as recognizing numbers, counting, identifying more and less, etc.\n\u2022 develop their reading skills through original and fun stories\n",
 		"levels": "3",
 		"hours": "1\/3",
-		"new": "1",
+		"new": "0",
 		"british": "0",
 		"digitalResources": "1",
 		"dvd": "0",
@@ -201,8 +201,8 @@
 		"CEFR": "0",
 		"imagePathA": "abracadabra",
 		"imagePathB": "abracadabra_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/abracadabra/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSAbracadabra_g.pdf"
   }, {
 		"idSerie": "10",
 		"category_idCategory": "2",
@@ -230,14 +230,14 @@
 		"CEFR": "0",
 		"imagePathA": "beep",
 		"imagePathB": "beep_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/beep/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSBeep_g.pdf"
   }, {
 		"idSerie": "11",
 		"category_idCategory": "1",
 		"name": "My First Letters and Sounds",
         "author" : "Rachel Gonin - Rebecca Lee Williams",
-		"description": "My First Letters and Sounds is a three-part component that allows children to develop phonemic awareness while reinforcing the vocabulary presented in each unit. Each activity page contains clear and simple instructions. Games and activities are suggested to introduce and practice each sound.\n \nPhonics are an important feature in learning to read. My first Letters and Sounds series introduces children to the most common sounds and provides a foundation to literacy.\n \n\n \n\n \n\n \n\n ",
+		"description": "Rachel Gonin - Rebecca Lee Williams\nMy First Letters and Sounds is a three-part component that allows children to develop phonemic awareness while reinforcing the vocabulary presented in each unit. Each activity page contains clear and simple instructions. Games and activities are suggested to introduce and practice each sound.\n \nPhonics are an important feature in learning to read. My first Letters and Sounds series introduces children to the most common sounds and provides a foundation to literacy.\n \n\n \n\n \n\n \n\n ",
 		"levels": "6",
 		"hours": "2\/4",
 		"new": "0",
@@ -257,19 +257,19 @@
 		"learning": "0",
 		"announced": "0",
 		"CEFR": "0",
-		"imagePathA": "fun_way",
-		"imagePathB": "fun_way_l",
+		"imagePathA": "mflspack.png",
+		"imagePathB": "mflspack.png",
 		"sampleunit": "",
 		"scope": ""
   }, {
 		"idSerie": "12",
 		"category_idCategory": "2",
-		"name": "Cool Kids",
+		"name": "Cool Kids Second Edition",
         "author" : "Gabriela Zapiain, Silvia Zapiain, Joep van der Werff, Andrew Starling, Jeanette Greenwell and Ana Foncerrada",
 		"description": "Gabriela Zapiain, Silvia Zapiain, Joep van der Werff, Andrew Starling, Jeanette Greenwell and Ana Foncerrada\nCool Kids is a six-level series for primary school children. It caters to different learning styles and encourages student participation, giving them opportunities to use the language in meaningful ways. It also fosters learner autonomy.\nWith Cool Kids students will: \n\u2022 learn and reinforce vocabulary using Cool Pictionary\n\u2022 use everyday expressions included in the Cool Expressions section\n\u2022 develop creative skills and consolidate learning through crafts\n             ",
 		"levels": "6",
 		"hours": "3\/5",
-		"new": "0",
+		"new": "1",
 		"british": "0",
 		"digitalResources": "1",
 		"dvd": "0",
@@ -286,10 +286,10 @@
 		"learning": "0",
 		"announced": "0",
 		"CEFR": "0",
-		"imagePathA": "cool_kids",
-		"imagePathB": "cool_kids_l",
-		"sampleunit": "",
-		"scope": ""
+		"imagePathA": "cool_kids_second.png",
+		"imagePathB": "cool_kids_second.png",
+		"sampleunit": "http://www.richmond.com.mx/",
+		"scope": "http://www.richmond.com.mx/"
   }, {
 		"idSerie": "13",
 		"category_idCategory": "2",
@@ -317,8 +317,8 @@
 		"CEFR": "0",
 		"imagePathA": "lighthouse",
 		"imagePathB": "lighthouse_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/lighthouse/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSlighthouse_g.pdf"
   }, {
 		"idSerie": "14",
 		"category_idCategory": "2",
@@ -346,12 +346,12 @@
 		"CEFR": "0",
 		"imagePathA": "skyrocket",
 		"imagePathB": "skyrocket_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/skyrocket/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSSkyrocket_g.pdf"
   }, {
 		"idSerie": "15",
 		"category_idCategory": "2",
-		"name": "Thumbs Up!",
+		"name": "Thumbs Up! Second Edition",
         "author" : "Sarah Fash, Suzanne Harris, Martyn Hobbs and Julia Keddle",
 		"description": "Sarah Fash, Suzanne Harris, Martyn Hobbs and Julia Keddle\nThumbs Up! is a six-level primary series that motivates children to learn English while developing other areas of knowledge. Every child is an individual with unique abilities and strengths, and Thumbs Up! helps students discover their own pathway to learning.                                                                                                                             Through cross-curricular themes, games, multiple intelligence activities, poems, songs and values, Thumbs Up! fosters students\u2019 critical thinking skills, creativity and natural curiosity in other curriculum subjects.\nWith Thumbs Up! students will:\n\u2022 discover grammar rules at their own pace over several presentations \n\u2022 focus on meaning rather than on form, as in first language acquisition\n\u2022 have a structured reading skills program with original stories, a comprehensive phonics and spelling program, and a six-level writing program\n\u2022 have a values program, featuring the Thumbs Up! Gang comic strip\n",
 		"levels": "6",
@@ -375,8 +375,8 @@
 		"CEFR": "0",
 		"imagePathA": "thumbs",
 		"imagePathB": "thumbs_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/pathwaytoscience/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSpathwaytoscience_g.pdf"
   }, {
 		"idSerie": "16",
 		"category_idCategory": "2",
@@ -433,8 +433,8 @@
 		"CEFR": "0",
 		"imagePathA": "s_g",
 		"imagePathB": "s_g_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/scienceandgeography/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSScienceG_g.pdf"
   }, {
 		"idSerie": "18",
 		"category_idCategory": "2",
@@ -462,8 +462,8 @@
 		"CEFR": "0",
 		"imagePathA": "pt_science",
 		"imagePathB": "pt_science_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/pathwaytoscience/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSpathwaytoscience_g.pdf"
   }, {
 		"idSerie": "19",
 		"category_idCategory": "2",
@@ -491,8 +491,8 @@
 		"CEFR": "0",
 		"imagePathA": "pt_literature",
 		"imagePathB": "pt_literature_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/pathwaytoliterature/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSPathway_Literature.pdf"
   }, {
 		"idSerie": "20",
 		"category_idCategory": "2",
@@ -520,8 +520,8 @@
 		"CEFR": "0",
 		"imagePathA": "pt_math",
 		"imagePathB": "pt_math_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/pathwaytomath/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSpathwaytomath_g.pdf"
   }, {
 		"idSerie": "21",
 		"category_idCategory": "2",
@@ -549,8 +549,8 @@
 		"CEFR": "0",
 		"imagePathA": "pt_grammar",
 		"imagePathB": "pt_grammar_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/pathwaytogrammar/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSPathwaytogrammar.pdf"
   }, {
 		"idSerie": "22",
 		"category_idCategory": "2",
@@ -578,8 +578,8 @@
 		"CEFR": "0",
 		"imagePathA": "sp_english",
 		"imagePathB": "sp_english_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/spotlightonenglish/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSspotlight_g.pdf"
   }, {
 		"idSerie": "23",
 		"category_idCategory": "3",
@@ -607,8 +607,8 @@
 		"CEFR": "0",
 		"imagePathA": "stopwatch",
 		"imagePathB": "stopwatch_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/stopwatch/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSStopwatch.pdf"
   }, {
 		"idSerie": "24",
 		"category_idCategory": "3",
@@ -636,8 +636,8 @@
 		"CEFR": "0",
 		"imagePathA": "next_step",
 		"imagePathB": "next_step_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/nextstep/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSnextstep_g.pdf"
   }, {
 		"idSerie": "25",
 		"category_idCategory": "3",
@@ -665,12 +665,12 @@
 		"CEFR": "0",
 		"imagePathA": "english_motion",
 		"imagePathB": "english_motion_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/englishinmotion/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSenglishin_g.pdf"
   }, {
 		"idSerie": "26",
 		"category_idCategory": "3",
-		"name": "Awesome",
+		"name": "Awesome New Edition",
         "author" : "Carol Lethaby & Simon Brewster",
 		"description": "Carol Lethaby & Simon Brewster\nAwesome New Edition is a four-level course in general English for the 21st Century that takes students from an elementary level to an upper-intermediate level. By the end of the course, students will have reached the Vantage (B2 or Cambridge First) level of the Common European Framework for Languages. The lessons take the best from Communicative Language Teaching and feature elements of the Lexical Approach, Task and Content Based Learning and Integrated Skills teaching methods.\n With Awesome New Edition students will:\n\u2022 learn grammar, vocabulary and functions\n\u2022 develop reading and listening skills through contextualized texts\n\u2022 communicate in varied situations \n\u2022 use online resources to create presentations, videos, slideshows, blogs and web pages\n\u2022 participate in autonomous learning activities\n\u2022 develop IT literacy",
 		"levels": "4",
@@ -694,8 +694,8 @@
 		"CEFR": "0",
 		"imagePathA": "awesome",
 		"imagePathB": "awesome_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/awesome/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSAwesome_g.pdf"
   }, {
 		"idSerie": "27",
 		"category_idCategory": "3",
@@ -723,8 +723,8 @@
 		"CEFR": "0",
 		"imagePathA": "achievers",
 		"imagePathB": "achievers_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/achievers/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSAchievers.pdf"
   }, {
 		"idSerie": "28",
 		"category_idCategory": "3",
@@ -752,8 +752,8 @@
 		"CEFR": "0",
 		"imagePathA": "sp_literature",
 		"imagePathB": "sp_literature_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/spotlightonliterature/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSSpotlightL_g.pdf"
   }, {
 		"idSerie": "29",
 		"category_idCategory": "3",
@@ -781,8 +781,8 @@
 		"CEFR": "0",
 		"imagePathA": "combined_science",
 		"imagePathB": "combined_science_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/combinedsciences/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSCombinedSciences.pdf"
   }, {
 		"idSerie": "30",
 		"category_idCategory": "4",
@@ -840,7 +840,7 @@
 		"imagePathA": "identities",
 		"imagePathB": "identities_l",
 		"sampleunit": "http://www.richmond.com.mx/SU/identities/index.html",
-		"scope": ""
+		"scope": "http://www.richmond.com.mx/SS/SSIdentities.pdf"
   }, {
 		"idSerie": "32",
 		"category_idCategory": "4",
@@ -868,8 +868,8 @@
 		"CEFR": "0",
 		"imagePathA": "abp",
 		"imagePathB": "abp_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/americanbigpicture/index.html",
+		"scope": "http://www.richmond.com.mx/SS/SSAmericanBigPicture.pdf"
   }, {
 		"idSerie": "33",
 		"category_idCategory": "4",
@@ -926,8 +926,8 @@
 		"CEFR": "0",
 		"imagePathA": "work",
 		"imagePathB": "work_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/atwork.pdf",
+		"scope": "http://www.richmond.com.mx/SS/SSAtWork.pdf"
   }, {
 		"idSerie": "35",
 		"category_idCategory": "4",
@@ -1100,8 +1100,8 @@
 		"CEFR": "0",
 		"imagePathA": "vocabulary_builder",
 		"imagePathB": "vocabulary_builder_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/VocabularyBuilder.pdf",
+		"scope": "http://www.richmond.com.mx/SS/SSVocabularyBuilder.pdf"
   }, {
 		"idSerie": "41",
 		"category_idCategory": "5",
@@ -1129,8 +1129,8 @@
 		"CEFR": "0",
 		"imagePathA": "grammar_steps",
 		"imagePathB": "grammar_steps_l",
-		"sampleunit": "",
-		"scope": ""
+		"sampleunit": "http://www.richmond.com.mx/SU/VisualGrammar.pdf",
+		"scope": "http://www.richmond.com.mx/SS/SSVisualGrammar.pdf"
   }, {
 		"idSerie": "42",
 		"category_idCategory": "5",
@@ -1185,14 +1185,14 @@
 		"learning": "0",
 		"announced": "0",
 		"CEFR": "0",
-		"imagePathA": "methodology_handbook",
-		"imagePathB": "methodology_handbook_l",
+		"imagePathA": "lessons_learned",
+		"imagePathB": "lessons_learned",
 		"sampleunit": "",
 		"scope": ""
   }, {
 		"idSerie": "43",
 		"category_idCategory": "5",
-		"name": "Primary Handbooks For Teachers",
+		"name": "Primary Handbook For Teachers",
         "author" : "Paul Seligson, Andy Baxter, Amanda Cant, Emma Dafouz, Michele C. Guerrini, Susan House, Ricky Lowes, Genevieve Roth, Wendy Superfine, Francesca Target and Julie Tice",
 		"description": "Paul Seligson, Andy Baxter, Amanda Cant, Emma Dafouz, Michele C. Guerrini, Susan House, Ricky Lowes, Genevieve Roth, Wendy Superfine, Francesca Target and Julie Tice\nThe Richmond Handbooks for Teachers are a series of highly practical and accessible methodology guides written by teachers for teachers. Ideal for both new and experienced teachers, they contain a mixture of analysis, development work, ideas and photocopiable resources for the classroom and can be used in training courses or for personal development. Each title offers practical solutions to the everyday problems faced by English teachers in the primary or secondary classroom, but will also be of use to any language teacher, teacher of young adults or trainee teacher. The classroom activities are designed for lower level classes but most can be easily adapted to higher levels. The series also includes a handbook for CLIL practitioners which features a collection of CLIL case studies and experiences from the primary, secondary and tertiary sectors.\nWith Richmond Handbooks for Teachers, teachers will:\n\u2022 be given practical, realistic suggestions for the language classroom\n\u2022 learn theory and methodology with jargon-free explanations\n\u2022 read about current educational methodologies and reforms\n\u2022 develop their teaching skills\n\u2022 learn to deal with everyday problems faced in the foreign language classroom\n\u2022 find photocopiable activity worksheets\n          ",
 		"levels": "0",
@@ -1330,8 +1330,8 @@
 		"learning": "0",
 		"announced": "0",
 		"CEFR": "0",
-		"imagePathA": "mini_dictionary",
-		"imagePathB": "mini_dictionary_l",
+		"imagePathA": "richmond_com_poc_min_dictionary",
+		"imagePathB": "richmond_com_poc_min_dictionary",
 		"sampleunit": "",
 		"scope": ""
   }, {
@@ -1395,7 +1395,7 @@
   }, {
 		"idSerie": "50",
 		"category_idCategory": "6",
-		"name": "Richmond Practice Test: YLE",
+		"name": "Richmond Practice Tests: YLE",
         "author" : "",
 		"description": "no authors\nRichmond Practice Tests Starters, Movers and Flyers offer a friendly and\naccessible way to familiarize children with the three levels of the Cambridge\nYoung Learners English Tests. Written by experienced examiners, each book is\nbeautifully illustrated in full colour and includes three complete practice tests.\nThe series is also accompanied by downloadable Teacher\u2019s Resources, containing\naudio transcripts, answer keys, mark schemes and useful information about the tests.\nWith Richmond Practice Tests students will:\n\u2022 Get to know the style of the Cambridge Young Learners\u2019 Tests\n\u2022 Gain confidence by practicing the language and test format of each level\n\u2022 Practice the Cambridge YLE grammar and vocabulary syllabus\n\nWith Richmond Practice Test students will:\n\n-Get to know the style of the Cambridge Young Learners's Tests\n",
 		"levels": "3",
@@ -1574,7 +1574,7 @@
 		"description": "Language Testing 123\nRichmond Practice Tests for Cambrid ge English: Advanced has been written by experienced examiners and offers comprehensive exam preparation and practice in print and online. It provides five complete practice tests for Cambridge English: Advanced (CAE). Interactive versions of the tests are also provided on the Richmond Learning Platform, along with two additional online practice tests for the exam.",
 		"levels": "0",
 		"hours": "0",
-		"new": "1",
+		"new": "0",
 		"british": "1",
 		"digitalResources": "1",
 		"dvd": "0",
@@ -1627,7 +1627,7 @@
   }, {
 		"idSerie": "58",
 		"category_idCategory": "6",
-		"name": "DELTA'S Key to the TOEFL iBT",
+		"name": "DELTA Key to the TOEFL iBT",
         "author" : "",
 		"description": "no authors\nNancy Gallagher\nDelta\u2019s Key to the TOEFL Test\u00ae: Essential Grammar for the iBT reviews the\ngrammar that is fundamental to success on the Internet-based TOEFL, the paper based\nTOEFL, and other tests of English proficiency. The book may be used along\nwith other texts in the Delta\u2019s Key to the Next Generation TOEFL\u00ae Test series or as\na stand-alone grammar text for intermediate and advanced students.\nKey Features:\n\u2022 20 units covering vital points of sentence structure\n\u2022 Abundant practice in TOEFL-like questions\n\u2022 Compact disk with all audio texts\n\u2022 Diagnostic test, quizzes, and review test\n\u2022 Answer key, audio scripts, and index",
 		"levels": "0",
@@ -2181,6 +2181,35 @@
 		"name": "DVD Readers",
         "author" : "",
 		"description": "no authors\nDVD Readers are a series of non-fiction graded readers for teenagers, with supporting DVD material adapted from popular TV documentaries and films. Each title presents students with engaging content that is directly linked to a curriculum content area. The DVD exposes students to authentic English, supported by easy-to-use voiceover and subtitle options.",
+		"levels": "0",
+		"hours": "0",
+		"new": "0",
+		"british": "0",
+		"digitalResources": "0",
+		"dvd": "1",
+		"audio": "0",
+		"app": "0",
+		"microsite": "0",
+		"videos": "0",
+		"CLIL": "0",
+		"digitalBook": "0",
+		"examFriendly": "0",
+		"iBook": "0",
+		"spiral": "0",
+		"solution": "0",
+		"learning": "0",
+		"announced": "0",
+		"CEFR": "0",
+		"imagePathA": "dvd_readers",
+		"imagePathB": "dvd_readers_l",
+		"sampleunit": "",
+		"scope": ""
+  }, {
+		"idSerie": "78",
+		"category_idCategory": "4",
+		"name": "The Big Picture",
+    "author" : "Ben Goldstein - Ceri Jones - Bess Bradfield - Carol Lethaby - Alastair Lane",
+		"description": "Ben Goldstein - Ceri Jones - Bess Bradfield - Carol Lethaby - Alastair Lane\nThe Big Picture is a beautifully designed six-level general English course for adult and young adult learners. It uses striking imagery to present core vocabulary, capture the learner’s attention and encourage critical discussion.\n \nThe content is genuinely international and the course takes a refreshingly new look at many familiar topics. It also offers both students and teachers access to The Big Picture Learning Platform, a comprehensive online resource which includes the Richmond Virtual Learning Environment and a user friendly test generator.\n \nKey Features:\n \n- Fully integrated core vocabulary syllabus\n \n- Extra skills development pages in the workbook\n \n- Functional language pages in every unit that focus on practical everyday English\n \n- Bring It Together skills-based tasks\n \n- Clear, user friendly grammar and vocabulary panels\n \n- Blogs, vodcasts and other fun widgets on the Big Picture Learning Platform\n \n\n \n\n \n\n \n",
 		"levels": "0",
 		"hours": "0",
 		"new": "0",
