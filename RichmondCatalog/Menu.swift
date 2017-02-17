@@ -113,7 +113,7 @@ class Subcategoria {
         var subcategoria = [Subcategoria]()
         subcategoria.append(Subcategoria(titulo: "ABRACADABRA", icono: #imageLiteral(resourceName: "abracadabra.png"), subtitulo: "Lenore Cohen - Sarah Fash"))
         subcategoria.append(Subcategoria(titulo: "BEEP", icono: #imageLiteral(resourceName: "beep.png"), subtitulo: "Brendan Dunne - Robin Newton"))
-        subcategoria.append(Subcategoria(titulo: "COOL KIDS", icono: #imageLiteral(resourceName: "cool_kids.png"), subtitulo: "Gabriela Zapiain - Silvia Zapiain - Joep van der Werff - Andrew Starling - Jeanette Greenwell - Ana Foncerrada"))
+        subcategoria.append(Subcategoria(titulo: "COOL KIDS SECOND EDITION", icono: #imageLiteral(resourceName: "thumbs_cool_kids_second.png"), subtitulo: "Gabriela Zapiain - Silvia Zapiain - Joep van der Werff - Andrew Starling - Jeanette Greenwell - Ana Foncerrada"))
         subcategoria.append(Subcategoria(titulo: "LIGHTHOUSE", icono: #imageLiteral(resourceName: "lighthouse.png"), subtitulo: "Robin Newton - Brendan Dunne - David Gray - Michael Downie - Juan M. Jiménez"))
         subcategoria.append(Subcategoria(titulo: "THUMBS UP! SECOND EDITION", icono: #imageLiteral(resourceName: "tup.jpg"), subtitulo: "Sarah Fash - Suzanne Harris - Martyn Hobbs - Julia Keddle"))
         subcategoria.append(Subcategoria(titulo: "PATHWAY TO GRAMMAR", icono: #imageLiteral(resourceName: "pt_grammar.png"), subtitulo: "Noelle Child"))
@@ -129,7 +129,7 @@ class Subcategoria {
     class func getSecundary() -> [Subcategoria]{
         var subcategoria = [Subcategoria]()
         subcategoria.append(Subcategoria(titulo: "ACHIEVERS", icono: #imageLiteral(resourceName: "achievers.png"), subtitulo: "Carolyn Barraclough - Leanne Gray - Martyn Hobbs - Julia Keddle - Jane Revell - Ken Wilson"))
-        subcategoria.append(Subcategoria(titulo: "AWESOME", icono: #imageLiteral(resourceName: "awesome.png"), subtitulo: "Carol Lethaby - Simon Brewster"))
+        subcategoria.append(Subcategoria(titulo: "AWESOME NEW EDITION", icono: #imageLiteral(resourceName: "awesome.png"), subtitulo: "Carol Lethaby - Simon Brewster"))
         subcategoria.append(Subcategoria(titulo: "COMBINED SCIENCES", icono: #imageLiteral(resourceName: "combined_science.png"), subtitulo: "Hina Hashmi - Vali Tamm - Carol Haddox-Baldwin - Bernice Richter"))
         subcategoria.append(Subcategoria(titulo: "ENGLISH IN MOTION", icono: #imageLiteral(resourceName: "english_motion.png"), subtitulo: "Robert Campbell - Gill Holley - Rob Metcalf"))
         subcategoria.append(Subcategoria(titulo: "NEXT STEP", icono: #imageLiteral(resourceName: "next_step.png"), subtitulo: "Carol Lethaby - Simon Brewster"))
@@ -169,7 +169,7 @@ class Subcategoria {
     
     class func getExams() -> [Subcategoria]{
         var subcategoria = [Subcategoria]()
-        subcategoria.append(Subcategoria(titulo: "DELTA'S Key to the TOEFL iBT", icono: #imageLiteral(resourceName: "toefl_ibt.png"), subtitulo: "Nancy Gallagher"))
+        subcategoria.append(Subcategoria(titulo: "DELTA KEY TO THE TOEFL IBT", icono: #imageLiteral(resourceName: "toefl_ibt.png"), subtitulo: "Nancy Gallagher"))
         subcategoria.append(Subcategoria(titulo: "TARGET KET FOR SCHOOLS", icono: #imageLiteral(resourceName: "ket_schools.png"), subtitulo: "Sue Ireland - Joanna Kosta"))
         subcategoria.append(Subcategoria(titulo: "TARGET PET", icono: #imageLiteral(resourceName: "pet.png"), subtitulo: "Sue Ireland - Joanna Kosta"))
         subcategoria.append(Subcategoria(titulo: "RICHMOND PRACTICE TESTS FOR CAMBRIDGE ENGLISH: ADVANCED", icono: #imageLiteral(resourceName: "cambridge_advanced.png"), subtitulo: "Language Testing 123"))

@@ -46,7 +46,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     
     @IBOutlet weak var heightConstraint: NSLayoutConstraint!
     
-    // OUTLETS   
+    // OUTLETS  
+    
     @IBOutlet weak var collectionComplements: UICollectionView!
     @IBOutlet weak var collectionHrLevels: UICollectionView!
     @IBOutlet weak var SegmentDetail: UISegmentedControl!
@@ -67,6 +68,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var seisImg: UIImageView!
     @IBOutlet weak var sieteImg: UIImageView!
     @IBOutlet weak var ochoImg: UIImageView!
+    @IBOutlet weak var nueveImg: UIImageView!
+    @IBOutlet weak var diezImg: UIImageView!
+    @IBOutlet weak var onceImg: UIImageView!
+    @IBOutlet weak var doceImg: UIImageView!
     
     @IBOutlet weak var unoBtn: UIButton!
     @IBOutlet weak var dosBtn: UIButton!
@@ -76,6 +81,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var seisBtn: UIButton!
     @IBOutlet weak var sieteBtn: UIButton!
     @IBOutlet weak var ochoBtn: UIButton!
+    @IBOutlet weak var nueveBtn: UIButton!
+    @IBOutlet weak var diezBtn: UIButton!
+    @IBOutlet weak var onceBtn: UIButton!
+    @IBOutlet weak var doceBtn: UIButton!
     
     @IBOutlet weak var imgDetailSerie: UIImageView!
     @IBOutlet weak var imgSampleUnit: UIImageView!
@@ -89,17 +98,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     
     @IBOutlet weak var txtTitleDetailReaders: UILabel!
     @IBOutlet weak var txtAuthDetailReaders: UILabel!
-    @IBOutlet weak var txtDescriptionDetailReaders: UITextView!
+    @IBOutlet weak var txtDescriptionDetailReaders: UILabel!
     
     @IBOutlet weak var txtTitleComponents: UILabel!
     @IBOutlet weak var txtTitleComponentsTeachers: UILabel!
     @IBOutlet weak var txtTitleISBNStudents: UILabel!
     @IBOutlet weak var txtTitleISBNTeachers: UILabel!
-    @IBOutlet weak var txtComponents: UITextView!
-    @IBOutlet weak var txtComponentsTeachers: UITextView!
-    @IBOutlet weak var txtMoreComponentsTeachers: UITextView!
-    @IBOutlet weak var txtISBNStudents: UITextView!
-    @IBOutlet weak var txtISBNTeachers: UITextView!
+    @IBOutlet weak var txtComponents: UILabel!
+    @IBOutlet weak var txtComponentsTeachers: UILabel!
+    @IBOutlet weak var txtMoreComponentsTeachers: UILabel!
+    @IBOutlet weak var txtISBNStudents: UILabel!
+    @IBOutlet weak var txtISBNTeachers: UILabel!
     @IBOutlet weak var imgDet1: UIImageView!
     @IBOutlet weak var imgDet2: UIImageView!
     @IBOutlet weak var imgDet3: UIImageView!
@@ -107,12 +116,12 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var imgDet5: UIImageView!
     @IBOutlet weak var imgDet6: UIImageView!
     
-    @IBOutlet weak var txtDet1: UITextView!
-    @IBOutlet weak var txtDet2: UITextView!
-    @IBOutlet weak var txtDet3: UITextView!
-    @IBOutlet weak var txtDet4: UITextView!
-    @IBOutlet weak var txtDet5: UITextView!
-    @IBOutlet weak var txtDet6: UITextView!
+    @IBOutlet weak var txtDet1: UILabel!
+    @IBOutlet weak var txtDet2: UILabel!
+    @IBOutlet weak var txtDet3: UILabel!
+    @IBOutlet weak var txtDet4: UILabel!
+    @IBOutlet weak var txtDet5: UILabel!
+    @IBOutlet weak var txtDet6: UILabel!
     
     @IBOutlet weak var imgDetT1: UIImageView!
     @IBOutlet weak var imgDetT2: UIImageView!
@@ -123,16 +132,18 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
     @IBOutlet weak var imgDetT7: UIImageView!
     @IBOutlet weak var imgDetT8: UIImageView!
     
-    @IBOutlet weak var txtDetT1: UITextView!
-    @IBOutlet weak var txtDetT2: UITextView!
-    @IBOutlet weak var txtDetT3: UITextView!
-    @IBOutlet weak var txtDetT4: UITextView!
-    @IBOutlet weak var txtDetT5: UITextView!
-    @IBOutlet weak var txtDetT6: UITextView!
-    @IBOutlet weak var txtDetT7: UITextView!
-    @IBOutlet weak var txtDetT8: UITextView!
+    @IBOutlet weak var txtDetT1: UILabel!
+    @IBOutlet weak var txtDetT2: UILabel!
+    @IBOutlet weak var txtDetT3: UILabel!
+    @IBOutlet weak var txtDetT4: UILabel!
+    @IBOutlet weak var txtDetT5: UILabel!
+    @IBOutlet weak var txtDetT6: UILabel!
+    @IBOutlet weak var txtDetT7: UILabel!
+    @IBOutlet weak var txtDetT8: UILabel!
     
     @IBOutlet weak var imgTable: UIImageView!
+    
+    @IBOutlet weak var imgPortada: UIImageView!
     
     var colorsSegments = [
         UIColor(red:0.965,  green:0.585,  blue:0.116, alpha:1),
@@ -361,6 +372,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             imgScope.isHidden = true
         }
         imgTable.isHidden = true;
+        imgPortada.isHidden = true;
+        
         unoBtn.isHidden = true
         dosBtn.isHidden = true
         tresBtn.isHidden = true
@@ -402,6 +415,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         txtDetT7.isHidden = true;
         txtDetT8.isHidden = true;
         
+        let font = UIFont(name: "Helvetica", size: 14.0)
+        
         /* Edition start */
         if viaSegueSerie == 1 {
             self.txtComponents.isHidden = true
@@ -419,9 +434,13 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             unoImg.image = UIImage(named: "levels3.png")
             dosImg.image = UIImage(named: "hours1_3.png")
+            tresImg.image = UIImage(named: "audio.png")
+            cuatroImg.image = UIImage(named: "digital_resources.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
             
             self.txtDet1.text = "Student’s Book\n\n El Student’s Book contiene páginas con ilustraciones o fotografías a todo color para representar el léxico y las estructuras de forma más clara, memorable y atractiva."
             self.txtDet2.text = "Student’s CD\n\n Cubby House incluye un CD con las canciones, cantos, rimas e historias de la serie, para que los alumnos pueden escucharlos cuantas veces quieran y consoliden lo aprendido en clase."
@@ -620,11 +639,12 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels3.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
+            tresImg.image = UIImage(named: "hours7.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
             cincoImg.image = UIImage(named: "audio.png")
             seisImg.image = UIImage(named: "digital_resources.png")
-            sieteImg.image = UIImage(named: "digital_resources.png")
+            sieteImg.image = UIImage(named: "app.png")
+            ochoImg.image = UIImage(named: "videos.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -633,6 +653,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
             
             imgDetT1.isHidden = false;
             imgDetT2.isHidden = false;
@@ -715,8 +736,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDetT1.text = "Class CD"
             
             self.txtISBNStudents.text = "Pack Crickets Nursery (SB+CLASS & RCD)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          N/A\nLevel N          7506009842489\n\nPack Crickets (SB+CD+TALES)\nLevel 1          7506009842571\nLevel 2          7506009842588\nLevel 3          7506009842595\nLevel N          N/A\nPractice Book\nLevel 1          9786070610783\nLevel 2          9786070610738\nLevel 3          9786070610745\nLevel N          N/A"
+            
             self.txtISBNTeachers.isHidden = false
             self.txtISBNTeachers.text = "Pack Crickets Teacher (TG+TR+SC+F+TA+CLF)\nLevel 1          7506009842601\nLevel 2          7506009842618\nLevel 3          7506009842625\nLevel N          N/A\n\nFlashcards (Level N)\nLevel 1          7506009842502\nLevel 2          N/A\nLevel 3          N/A\nLevel N          N/A\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          N/A\nLevel 2          7506009844186\nLevel 3          7506009844186\nLevel N          7506009844186"
+            
             
             
         } else if viaSegueSerie == 5 {
@@ -751,10 +774,12 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
+            tresImg.image = UIImage(named: "hours10.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
             cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            seisImg.image = UIImage(named: "app.png")
+            sieteImg.image = UIImage(named: "microsite.png")
+            ochoImg.image = UIImage(named: "clil.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -762,6 +787,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
             
             imgDetT1.isHidden = false;
             imgDetT2.isHidden = false;
@@ -830,17 +857,11 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.text = "Resource Pack\n\nProvides a collection of manipulative materials for children’s use. These are different types of cutouts that are used repeatedly throughout the course."
             self.txtDet4.text = "Microsite\n\nwww.richmond.com.mx/mathadventures"
             
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
+            dosImg.image = UIImage(named: "levels2.png")
             cincoImg.image = UIImage(named: "audio.png")
             seisImg.image = UIImage(named: "digital_resources.png")
             
-            unoBtn.isHidden = false
             dosBtn.isHidden = false
-            tresBtn.isHidden = false
-            cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
             
@@ -873,6 +894,21 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
         } else if viaSegueSerie == 9 {
             imgCEFR.image = UIImage(named: "abracadabra_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "hours1_3.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
             self.txtComponents.text = "- Student’s Book \n \n- Student’s CD"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
@@ -888,12 +924,12 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 10 {
             imgCEFR.image = UIImage(named: "beep_cefr.png")
             
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "hours1_3.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
             cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            seisImg.image = UIImage(named: "clil.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -917,12 +953,13 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 12 {
             imgCEFR.image = UIImage(named: "cool_kids_second_edition_cefr.png")
             
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
             tresImg.image = UIImage(named: "hours3_5.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
             cincoImg.image = UIImage(named: "audio.png")
             seisImg.image = UIImage(named: "digital_resources.png")
+            sieteImg.image = UIImage(named: "microsite.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -930,6 +967,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book \n \n- Workbook \n \n- Student’s CD \n \n- Cool Reading"
             imgDet1.isHidden = true
@@ -948,19 +986,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 13 {
             imgCEFR.image = UIImage(named: "lighthouse_cefr.png")
             
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
             tresImg.image = UIImage(named: "hours3_5.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
             cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
             tresBtn.isHidden = false
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
-            seisBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book\n \n- Student’s CD \n \n- Activity Book \n \n- Stickers"
             imgDet1.isHidden = true
@@ -978,6 +1014,20 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         } else if viaSegueSerie == 21 {
             imgCEFR.image = UIImage(named: "oathway_to_grammar_cefr.png")
             
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "richmondsolution.png")
+            cuatroImg.image = UIImage(named: "app.png")
+            cincoImg.image = UIImage(named: "exam_friendly.png")
+            seisImg.image = UIImage(named: "british.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
             self.txtComponents.text = "- Student’s Book with Audio CD"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
@@ -991,6 +1041,20 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Teacher’s Booklet\nLevel 1          9786070610837\nLevel 2          9786070610981\nLevel 3          9786070610998\nLevel 4          9786070611001\nLevel 5          9786070611018\nLevel 6          9786070611025"
             
         } else if viaSegueSerie == 20 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "clil.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "american_english.png")
+            seisImg.image = UIImage(named: "microsite.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            
             self.txtComponents.text = "- Student’s Book with Activity Cards"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
@@ -1031,11 +1095,34 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
         } else if viaSegueSerie == 19 {
             unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "microsite.png")
+            cuatroImg.image = UIImage(named: "american_english.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book with Activity Cards"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Guide\n \n- Reinforcement and Extension Worksheets\n \n- Evaluations \n \n- Digital Book\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "Student’s Book\nLevel 1          9786070611087\nLevel 2          9786070611032\nLevel 3          9786070611094\nLevel 4          9786070611100\nLevel 5          976070611049\nLevel 6          9786070611056"
+            self.txtISBNTeachers.text = "Teacher’s Resource CD\nLevel 1          7506009842403\nLevel 2          7506009842410\nLevel 3          7506009842427\nLevel 4          7506009842434\nLevel 5          7506009842441\nLevel 6          7506009842458\n"
+            
+        } else if viaSegueSerie == 18 {
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "clil.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            cincoImg.image = UIImage(named: "american_english.png")
+            seisImg.image = UIImage(named: "videos.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1053,24 +1140,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet3.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Guide\n \n- Reinforcement and Extension Worksheets\n \n- Evaluations \n \n- Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
-            self.txtISBNStudents.text = "Student’s Book\nLevel 1          9786070611087\nLevel 2          9786070611032\nLevel 3          9786070611094\nLevel 4          9786070611100\nLevel 5          976070611049\nLevel 6          9786070611056"
-            self.txtISBNTeachers.text = "Teacher’s Resource CD\nLevel 1          7506009842403\nLevel 2          7506009842410\nLevel 3          7506009842427\nLevel 4          7506009842434\nLevel 5          7506009842441\nLevel 6          7506009842458\n"
-            
-        } else if viaSegueSerie == 18 {
-            self.txtComponents.text = "- Student’s Book with Activity Cards"
-            imgDet1.isHidden = true
-            imgDet2.isHidden = true
-            imgDet3.isHidden = true
-            self.txtDet1.isHidden = true
-            self.txtDet2.isHidden = true
-            self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Guide\n \n- Reinforcement and Extension Worksheets\n \n- Evaluations \n \n- Digital Book\n \n"
-            self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "Pack Pathway to Science (SB + SB/AC)\nLevel 1          7506009840041\nLevel 2          7506009840058\nLevel 3          7506009840065\nLevel 4          7506009840072\nLevel 5          7506009840089\nLevel 6          7506009840096\n"
             self.txtISBNTeachers.text = "Pack Pathway to Science (Tg+Evaluations+R&E)\nLevel 1          7506009840409\nLevel 2          7506009840416\nLevel 3          7506009840423\nLevel 4          7506009840430\nLevel 5          7506009840447\nLevel 6          7506009840454"
             
         } else if viaSegueSerie == 17 {
             imgCEFR.image = UIImage(named: "science_and_geography_cefr.png")
+            
+            unoImg.image = UIImage(named: "clil.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book"
             imgDet1.isHidden = true
@@ -1093,8 +1173,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroImg.image = UIImage(named: "digital_book.png")
             cincoImg.image = UIImage(named: "audio.png")
             seisImg.image = UIImage(named: "digital_resources.png")
-            sieteImg.image = UIImage(named: "british.png")
+            sieteImg.image = UIImage(named: "american_english.png")
             ochoImg.image = UIImage(named: "microsite.png")
+            nueveImg.image = UIImage(named: "richmondspiral.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1104,6 +1185,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             seisBtn.isHidden = false
             sieteBtn.isHidden = false
             ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book\n \n- Practice Book\n \n- Student’s CD\n \n- Richmond Spiral Platform"
             imgDet1.image = UIImage(named: "primariaskyrockets1.png")
@@ -1123,8 +1205,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             imgCEFR.image = UIImage(named: "spotlight_on_english_cefr.png")
             
-            unoImg.image = UIImage(named: "british.png")
-            dosImg.image = UIImage(named: "levels6.png")
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels7.png")
             tresImg.image = UIImage(named: "hours10.png")
             cuatroImg.image = UIImage(named: "clil.png")
             cincoImg.image = UIImage(named: "audio.png")
@@ -1155,12 +1237,12 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             unoImg.image = UIImage(named: "richmondspiral.png")
             dosImg.image = UIImage(named: "levels6.png")
-            tresImg.image = UIImage(named: "hours5.png")
+            tresImg.image = UIImage(named: "hours5_10.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
-            sieteImg.image = UIImage(named: "british.png")
-            ochoImg.image = UIImage(named: "microsite.png")
+            cincoImg.image = UIImage(named: "video.png")
+            seisImg.image = UIImage(named: "richmondsolution.png")
+            sieteImg.image = UIImage(named: "american_english.png")
+            ochoImg.image = UIImage(named: "exam_friendly.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1184,6 +1266,28 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Pack Achievers (TG+TRB+AUDIO MATERIAL)\nLevel 1          7506009843646\nLevel 2          7506009843615\nLevel 3          7506009843622\nLevel 4          7506009843639\nLevel 5          7506009843653\nLevel 6          7506009844483\n\nTeacher’s l-Book\nLevel 1          9788466829571\nLevel 2          9788466829380\nLevel 3          9788466829106\nLevel 4          9788466829557\nLevel 5          9788466829915\nLevel 6          TBA"
             
         } else if viaSegueSerie == 26 {
+            imgCEFR.image = UIImage(named: "achievers_cefr.png")
+            
+            unoImg.image = UIImage(named: "richmondspiral.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "digital_resources.png")
+            sieteImg.image = UIImage(named: "british.png")
+            ochoImg.image = UIImage(named: "microsite.png")
+            nueveImg.image = UIImage(named: "richmondsolution.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
+            
             self.txtComponents.text = "- Student’s Book \n \n- Workbook \n \n- Audio CD \n \n- Richmond Spiral Platform"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
@@ -1197,13 +1301,15 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Awesome NE Teacher’s Book\nLevel 1          9786070609909\nLevel 2          9786070609916\nLevel 3          9786070609923\nLevel 4          9786070609930\n\nAwesome NE Resource Book\nLevel 1          9786070609985\nLevel 2          9786070609992\nLevel 3          9786070610004\nLevel 4          9786070610011\n\nAwesome NE Teacher’s CD Pack (Class+Interactive)\nLevel 1          7506009841178\nLevel 2          7506009841185\nLevel 3          7506009841192\nLevel 4          7506009841208\n\nAwesome NE Poster\nLevel 1          7506009840782\nLevel 2          7506009840799\nLevel 3          7506009840805\nLevel 4          7506009840812\n\nAwesome NE Digital Book DVD\nLevel 1          9786070613067\nLevel 2          9786070613098\nLevel 3          9786070613128\nLevel 4          9786070613111"
             
         } else if viaSegueSerie == 29 {
+            imgCEFR.image = UIImage(named: "combined_sciences_cefr.png")
             
             unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
+            dosImg.image = UIImage(named: "levels3.png")
+            tresImg.image = UIImage(named: "microsite.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            cincoImg.image = UIImage(named: "clil.png")
+            seisImg.image = UIImage(named: "video.png")
+            sieteImg.image = UIImage(named: "ibook.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1211,6 +1317,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book \n \n- Practice Book\n \n- Reference Guide"
             imgDet1.isHidden = true
@@ -1225,6 +1332,30 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.isHidden = true
             
         } else if viaSegueSerie == 25 {
+            imgCEFR.image = UIImage(named: "english_in_motion_cefr.png")
+            
+            unoImg.image = UIImage(named: "richmondsolution.png")
+            dosImg.image = UIImage(named: "levels4.png")
+            tresImg.image = UIImage(named: "hours3_5.png")
+            cuatroImg.image = UIImage(named: "digital_book.png")
+            cincoImg.image = UIImage(named: "audio.png")
+            seisImg.image = UIImage(named: "dvd.png")
+            sieteImg.image = UIImage(named: "clil.png")
+            ochoImg.image = UIImage(named: "microsite.png")
+            nueveImg.image = UIImage(named: "british.png")
+            diezImg.image = UIImage(named: "videos.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
+            diezBtn.isHidden = false
+            
             self.txtComponents.text = "- Student’s Book\n \n- Workbook\n \n- Student’s Multi-ROM\n \n- My Portfolio downloadable online"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
@@ -1238,7 +1369,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "English In motion Teacher’s Book\nLevel 1          9788466808538\nLevel 2          9788466813594\nLevel 3          9788466813884\nLevel 4          9788466814072\n\nEnglish In motion Class CD\nLevel 1          8431300228733\nLevel 2          8431300228740\nLevel 3          8431300228757\nLevel 4          8431300228771\n\nPack English In motion (Test Book + CD Audio)\nLevel 1          7506009838833\nLevel 2          7506009838840\nLevel 3          7506009838857\nLevel 4          7506009838864\n\nEnglish In motion Test Pack+CD\nLevel 1          7506009838833\nLevel 2          7506009838840\nLevel 3          7506009838857\nLevel 4          7506009838864\n\nEnglish In motion DVD\nLevel 1          8431300228788\nLevel 2          8431300228801\nLevel 3          8431300228818\nLevel 4          8431300228825\n\nEnglish In motion Digital CD-ROM\nLevel 1          8431300230415\nLevel 2          8431300230422\nLevel 3          8431300230439\nLevel 4          8431300230446\n\nEnglish In motion All-In-One Resource Book\nLevel 1          9788466812856\nLevel 2          9788466813624\nLevel 3          9788466814041\nLevel 4          9788466814102"
             
         } else if viaSegueSerie == 24 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
+            imgCEFR.image = UIImage(named: "next_step_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
             dosImg.image = UIImage(named: "levels4.png")
             tresImg.image = UIImage(named: "hours3_5.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
@@ -1265,6 +1398,16 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Next Step Teacher’s Book\nLevel 1          9786070604201\nLevel 2          9786070604218\nLevel 3          9786070604225\nLevel 4          9786070604232\n\nNext Step Posters\nLevel 1          7506009808454\nLevel 2          7506009808461\nLevel 3          7506009808478\nLevel 4          7506009831032\n\nNext Step Teacher’s CD Pack\nLevel 1          7506009809185\nLevel 2          7506009809192\nLevel 3          7506009809208\nLevel 4          7506009809215"
             
         } else if viaSegueSerie == 28 {
+            imgCEFR.image = UIImage(named: "spotlight_on_literature_new_edition_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            
             self.txtComponents.text = "- Student’s Book (with integrated workbook)"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
@@ -1279,19 +1422,19 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             
         } else if viaSegueSerie == 23 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
+            imgCEFR.image = UIImage(named: "stopwatch_cefr.png")
+            
+            unoImg.image = UIImage(named: "app.png")
+            dosImg.image = UIImage(named: "levels6.png")
             tresImg.image = UIImage(named: "hours3_5.png")
             cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            cincoImg.image = UIImage(named: "american_english.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
             tresBtn.isHidden = false
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
-            seisBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book with integrated Workbook and Audio CD\n\n- App"
             imgDet1.image = UIImage(named: "secundariastopwatchs1.png")
@@ -1310,12 +1453,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Pack Stopwatch (TCH+TOOLKIT CD+DB)\nLevel 1          7506009845213\nLevel 2          7506009845220\nLevel 3          7506009845237\nLevel 4          7506009846111\nLevel 5          7506009846128\nLevel 6          7506009846135"
             
         } else if viaSegueSerie == 32 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            imgCEFR.image = UIImage(named: "american_big_picture_cefr.png")
+            
+            unoImg.image = UIImage(named: "richmondlearning.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "hours90_120.png")
+            cuatroImg.image = UIImage(named: "app.png")
+            cincoImg.image = UIImage(named: "digital_book.png")
+            seisImg.image = UIImage(named: "audio.png")
+            sieteImg.image = UIImage(named: "digital_resources.png")
+            ochoImg.image = UIImage(named: "american_english.png")
+            nueveImg.image = UIImage(named: "videos.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1323,6 +1471,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book\n \n- Workbook\n \n- Audio CD\n \n- Downloadable audio online\n \n- Split Edition Available\n \n- Interactive online activities\n \n- Learning Platform"
             imgDet1.isHidden = true
@@ -1337,12 +1488,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Pack American Big Picture (Tch + CD)\nA1          7506009835436\nA2          7506009835443\nB1          7506009835450\nB1+         7506009835467\nB2          7506009835474\nC1          7506009835481\n\nAmerican Big Picture Digital Book CD-ROM\nA1          9786070608742\nA2          9786070607059\nB1          9786070607356\nB1+         9786070607363\nB2          9786070608124\nC1          9786070608759"
             
         } else if viaSegueSerie == 34 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
+            imgCEFR.image = UIImage(named: "a_work_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
             dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
+            tresImg.image = UIImage(named: "hours80_120.png")
+            cuatroImg.image = UIImage(named: "videos.png")
+            cincoImg.image = UIImage(named: "british.png")
             seisImg.image = UIImage(named: "digital_resources.png")
+            sieteImg.image = UIImage(named: "audio.png")
+            ochoImg.image = UIImage(named: "digital_book.png")
+            nueveImg.image = UIImage(named: "richmondlearning.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1350,6 +1506,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book with access code\n \n- Workbook \n \n- Audio CD \n \n- eWorkbook"
             imgDet1.isHidden = true
@@ -1364,12 +1523,19 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Teacher’s Book\nElementary          9788466813600\nPre-intermediate          9788466814027\nIntermediate          9788466814089\nUpper-intermediate          9788466814157\n\nClass Audio CD\nElementary          8431300228405\nPre-intermediate          8431300228436\nIntermediate          8431300228467\nUpper-intermediate          8431300228498\n\n@Work Digital Book\nElementary          8431300228412\nPre-intermediate          8431300228443\nIntermediate          8431300228474\nUpper-intermediate          8431300228504"
             
         } else if viaSegueSerie == 30 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
+            imgCEFR.image = UIImage(named: "english_id_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
             dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            tresImg.image = UIImage(named: "hours80_120.png")
+            cuatroImg.image = UIImage(named: "dvd.png")
+            cincoImg.image = UIImage(named: "british.png")
+            seisImg.image = UIImage(named: "videos.png")
+            sieteImg.image = UIImage(named: "digital_book.png")
+            ochoImg.image = UIImage(named: "audio.png")
+            nueveImg.image = UIImage(named: "digital_resources.png")
+            diezImg.image = UIImage(named: "richmondlearning.png")
+
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1377,6 +1543,10 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
+            diezBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -1391,12 +1561,15 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "English ID Teacher’s Book\nStarter          9786070607714\nLevel 1          9786070607752\nLevel 2          9786070607721\nLevel 3          9786070607738\n\nEnglish ID Class CD\nStarter          7506009836716\nLevel 1          7506009836730\nLevel 2          7506009839137\nLevel 3          7506009839076\n\nEnglish ID DVD\nStarter          7506009836723\nLevel 1          7506009836747\nLevel 2          7506009836761\nLevel 3          7506009836785\n\nEnglish ID Digital Book CD-ROM\nStarter          9786070607899\nLevel 1          9786070607882\nLevel 2          9786070607905\nLevel 3          9786070607912"
             
         } else if viaSegueSerie == 36 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            imgCEFR.image = UIImage(named: "going_pro_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels6.png")
+            tresImg.image = UIImage(named: "hours90_120.png")
+            cuatroImg.image = UIImage(named: "dvd.png")
+            cincoImg.image = UIImage(named: "videos.png")
+            seisImg.image = UIImage(named: "audio.png")
+            sieteImg.image = UIImage(named: "digital_book.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1404,6 +1577,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book \n \n- Student’s Audio CD\n \n"
             imgDet1.image = UIImage(named: "adultsgoingpros1.png")
@@ -1418,12 +1592,17 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "Pack Going Pro (TB+TRCD+DVD)\nLevel 1          7506009843165\nLevel 2          7506009843172\nLevel 3          7506009843189\nLevel 4         7506009843196\nLevel 5          7506009843141\nLevel 6          7506009843295\n\nGoing Pro Digital Book CD\nLevel 1          9786070611520\nLevel 2          9786070611537\nLevel 3          9786070611544\nLevel 4         9786070611551\nLevel 5          9786070611568\nLevel 6          9786070611575"
             
         } else if viaSegueSerie == 31 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            imgCEFR.image = UIImage(named: "identities_cefr.png")
+            
+            unoImg.image = UIImage(named: "american_english.png")
+            dosImg.image = UIImage(named: "levels2.png")
+            tresImg.image = UIImage(named: "hours90_120.png")
+            cuatroImg.image = UIImage(named: "dvd.png")
+            cincoImg.image = UIImage(named: "videos.png")
+            seisImg.image = UIImage(named: "digital_book.png")
+            sieteImg.image = UIImage(named: "digital_resources.png")
+            ochoImg.image = UIImage(named: "audio.png")
+            nueveImg.image = UIImage(named: "richmondlearning.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1431,6 +1610,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            nueveBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -1445,13 +1627,34 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 58 {
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
-            cuatroImg.image = UIImage(named: "british.png")
-            cincoImg.image = UIImage(named: "learning.png")
+            cuatroImg.image = UIImage(named: "american_english.png")
+            cincoImg.image = UIImage(named: "richmondlearning.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "Essential Grammar for the iBT\n7506009841765\n\nSEVEN Practice Tests - Revised Edition\n9788466820851\n\nAdvanced Skill Practice - Revised Edition\n7506009841758"
+            self.txtISBNTeachers.isHidden = true
             
         } else if viaSegueSerie == 65 {
+            imgCEFR.image = UIImage(named: "business_skills_cefr.png")
+            
             unoImg.image = UIImage(named: "videos.png")
             dosImg.image = UIImage(named: "digital_resources.png")
             tresImg.image = UIImage(named: "learning.png")
@@ -1479,6 +1682,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 67 {
+            imgCEFR.image = UIImage(named: "business_theories_cefr.png")
+            
             unoImg.image = UIImage(named: "videos.png")
             dosImg.image = UIImage(named: "digital_resources.png")
             tresImg.image = UIImage(named: "british.png")
@@ -1504,6 +1709,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 39 {
+            imgCEFR.image = UIImage(named: "visual_grammar_cefr.png")
+            
             unoImg.image = UIImage(named: "digital_book.png")
             dosImg.image = UIImage(named: "app.png")
             tresImg.image = UIImage(named: "audio.png")
@@ -1529,6 +1736,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 40 {
+            imgCEFR.image = UIImage(named: "vocabulary_builder_cefr.png")
+            
             unoImg.image = UIImage(named: "audio.png")
             dosImg.image = UIImage(named: "british.png")
             tresImg.image = UIImage(named: "levels2.png")
@@ -1553,6 +1762,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 41 {
+            imgCEFR.image = UIImage(named: "english_grammar_in_steps_cefr.png")
+            
             unoImg.image = UIImage(named: "british.png")
             dosImg.image = UIImage(named: "levels2.png")
             
@@ -1638,19 +1849,6 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 45 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
-            
-            unoBtn.isHidden = false
-            dosBtn.isHidden = false
-            tresBtn.isHidden = false
-            cuatroBtn.isHidden = false
-            cincoBtn.isHidden = false
-            seisBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -1665,19 +1863,6 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 46 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
-            
-            unoBtn.isHidden = false
-            dosBtn.isHidden = false
-            tresBtn.isHidden = false
-            cuatroBtn.isHidden = false
-            cincoBtn.isHidden = false
-            seisBtn.isHidden = false
             
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -1710,6 +1895,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 51 {
+            imgCEFR.image = UIImage(named: "target_ket_for_schools_cefr.png")
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
@@ -1733,6 +1920,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 52 {
+            imgCEFR.image = UIImage(named: "richmond_practice_test_ket_and_pet_cefr.png")
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
@@ -1758,6 +1947,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 55 {
+            imgCEFR.image = UIImage(named: "richmond_practice_test_for_cambridge_english_first_cefr.png")
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
@@ -1783,6 +1974,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 56 {
+            imgCEFR.image = UIImage(named: "richmond_pratice_test_for_cambridge_english_advanced_cefr.png")
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
@@ -1808,6 +2001,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 57 {
+            imgCEFR.image = UIImage(named: "richmond_pratice_test_for_cambridge_english_advanced_cefr.png")
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
@@ -1836,7 +2031,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
-            cuatroImg.image = UIImage(named: "british.png")
+            cuatroImg.image = UIImage(named: "american_english.png")
             cincoImg.image = UIImage(named: "levels3.png")
             
             unoBtn.isHidden = false
@@ -1881,6 +2076,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 53 {
+            imgCEFR.image = UIImage(named: "richmond_practice_test_ket_and_pet_cefr.png")
+            
             unoImg.image = UIImage(named: "exam_friendly.png")
             dosImg.image = UIImage(named: "audio.png")
             tresImg.image = UIImage(named: "digital_resources.png")
@@ -1931,24 +2128,6 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
         }  else if viaSegueSerie == 70 {
             
-            unoImg.image = UIImage(named: "richmondlearning.png")
-            dosImg.image = UIImage(named: "levels6.png")
-            tresImg.image = UIImage(named: "hours90_120.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "videos.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
-            sieteImg.image = UIImage(named: "british.png")
-            ochoImg.image = UIImage(named: "app.png")
-            
-            unoBtn.isHidden = false
-            dosBtn.isHidden = false
-            tresBtn.isHidden = false
-            cuatroBtn.isHidden = false
-            cincoBtn.isHidden = false
-            seisBtn.isHidden = false
-            sieteBtn.isHidden = false
-            ochoBtn.isHidden = false
-            
             txtTitleDetailReaders.isHidden = false
             txtAuthDetailReaders.isHidden = false
             txtDescriptionDetailReaders.isHidden = false
@@ -1958,11 +2137,50 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            
+            let imageT = UIImage(named: "ready_set_go_table.png")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
+            imgPortada.isHidden = false
+            
+            let imageP = UIImage(named: "portadas_ready_set_go.jpg")
+            
+            let xPositionPortada = imgPortada.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionPortada = imgPortada.frame.origin.y
+            
+            
+            let heightImageP = imageP?.size.height
+            let widthImageP = imageP?.size.width
+            
+            imgPortada.frame = CGRect(x: xPositionPortada, y: yPositionPortada, width: widthImageP!, height: heightImageP! )
+            
+            imgPortada.image = imageP
+            
+            let newVista1H = txtDescriptionDetailSerie.frame.origin.y + txtDescriptionDetailSerie.frame.size.height + 20 + imgTable.frame.size.height + 20 + imgPortada.frame.size.height + 20
+            
+            print (newVista1H)
+            
+            vista1.frame = CGRect(x: vista1.frame.origin.x, y: vista1.frame.origin.y, width: vista1.frame.size.width, height: newVista1H)
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -1974,7 +2192,8 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "Level 2(K1)\nWhat Shape Is It? :9786070606038\nFarm Animals : 9786070606021\nMy Clothes : 9786070606014\nHelping My Family: 9786070606052\n\n Level 3 (K2):\nEveryday Jobs :9786070606403\nWild Animals: 9786070606045\nMy New School : 9786070606069\nHow Do We Get There?: 9786070606533 \n\n Level 4 (K3):\nOur Living Earth: 9786070606564\n My Senses at Work: 9786070606311\nAnimals through the Seasons : 9786070606328\nTake a Ride: 9786070606557 \n\n\n\n"
-            self.txtISBNTeachers.isHidden = true
+            
+            self.txtISBNTeachers.isHidden = false
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 71 {
@@ -1987,11 +2206,27 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "portadas_little_readers.jpg")
+            
+            let imageT = UIImage(named: "portadas_little_readers.jpg")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2016,11 +2251,33 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "portadas_infoquest.jpg")
+            
+            let imageT = UIImage(named: "portadas_infoquest.jpg")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.updateConstraintsIfNeeded()
+            
+            print(heightImage!)
+            
+            imgTable.image = imageT
+            
+            
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2046,11 +2303,44 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            
+            let imageT = UIImage(named: "super_stars_table.png")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
+            imgPortada.isHidden = false
+            
+            let imageP = UIImage(named: "portadas_superstars.jpg")
+            
+            let xPositionPortada = imgPortada.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionPortada = imgPortada.frame.origin.y
+            
+            
+            let heightImageP = imageP?.size.height
+            let widthImageP = imageP?.size.width
+            
+            //imgPortada.frame = CGRect(x: xPositionPortada, y: yPositionPortada, width: widthImageP!, height: heightImageP! )
+            
+            imgPortada.image = imageP
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2075,11 +2365,44 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            
+            let imageT = UIImage(named: "popcorn_readers_table.png")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
+            imgPortada.isHidden = false
+            
+            let imageP = UIImage(named: "portadas_popcorn.jpg")
+            
+            let xPositionPortada = imgPortada.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionPortada = imgPortada.frame.origin.y
+            
+            
+            let heightImageP = imageP?.size.height
+            let widthImageP = imageP?.size.width
+            
+            imgPortada.frame = CGRect(x: xPositionPortada, y: yPositionPortada, width: widthImageP!, height: heightImageP! )
+            
+            imgPortada.image = imageP
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2105,11 +2428,44 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            
+            let imageT = UIImage(named: "media_readers_table.png")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
+            imgPortada.isHidden = false
+            
+            let imageP = UIImage(named: "portadas_media_readers.jpg")
+            
+            let xPositionPortada = imgPortada.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionPortada = imgPortada.frame.origin.y
+            
+            
+            let heightImageP = imageP?.size.height
+            let widthImageP = imageP?.size.width
+            
+            imgPortada.frame = CGRect(x: xPositionPortada, y: yPositionPortada, width: widthImageP!, height: heightImageP! )
+            
+            imgPortada.image = imageP
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2134,11 +2490,44 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            
+            let imageT = UIImage(named: "richmond_readers_table.png")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
+            imgPortada.isHidden = false
+            
+            let imageP = UIImage(named: "portadas_richmond_readers.jpg")
+            
+            let xPositionPortada = imgPortada.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionPortada = imgPortada.frame.origin.y
+            
+            
+            let heightImageP = imageP?.size.height
+            let widthImageP = imageP?.size.width
+            
+            imgPortada.frame = CGRect(x: xPositionPortada, y: yPositionPortada, width: widthImageP!, height: heightImageP! )
+            
+            imgPortada.image = imageP
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2163,11 +2552,44 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             txtDescriptionDetailSerie.isHidden = true
             
             txtTitleDetailReaders.text = txtTitleDetailSerie.text
-            txtAuthDetailReaders.text = txtAuthDetailSerie.text
+            txtAuthDetailReaders.text = ""
             txtDescriptionDetailReaders.text = txtDescriptionDetailSerie.text
+            txtDescriptionDetailReaders.sizeToFit()
             
             imgTable.isHidden = false
-            imgTable.image = UIImage(named: "ready_set_go_table.png")
+            
+            let imageT = UIImage(named: "dvd_readers_table.png")
+            
+            let xPositionTable = imgTable.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionTable = imgTable.frame.origin.y
+            
+            
+            let heightImage = imageT?.size.height
+            let widthImage = imageT?.size.width
+            
+            imgTable.frame = CGRect(x: xPositionTable, y: yPositionTable, width: widthImage!, height: heightImage! )
+            
+            imgTable.image = imageT
+            
+            imgPortada.isHidden = false
+            
+            let imageP = UIImage(named: "portadas_dvd_readers.jpg")
+            
+            let xPositionPortada = imgPortada.frame.origin.x
+            
+            //View will slide 20px up
+            let yPositionPortada = imgPortada.frame.origin.y
+            
+            
+            let heightImageP = imageP?.size.height
+            let widthImageP = imageP?.size.width
+            
+            imgPortada.frame = CGRect(x: xPositionPortada, y: yPositionPortada, width: widthImageP!, height: heightImageP! )
+            
+            imgPortada.image = imageP
+            
             imgDetailSerie.isHidden = true
             self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
             imgDet1.isHidden = true
@@ -2183,19 +2605,15 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
             
         } else if viaSegueSerie == 66 {
-            unoImg.image = UIImage(named: "richmondsolution.png")
+            imgCEFR.image = UIImage(named: "richmond_mazes_cefr.png")
+            
+            unoImg.image = UIImage(named: "british.png")
             dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            tresImg.image = UIImage(named: "app.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
             tresBtn.isHidden = false
-            cuatroBtn.isHidden = false
-            cincoBtn.isHidden = false
-            seisBtn.isHidden = false
             
             self.txtComponents.isHidden = true
             imgDet1.isHidden = true
@@ -2208,6 +2626,39 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.isHidden = true
             self.txtISBNTeachers.isHidden = true
+            
+        } else if viaSegueSerie == 78 {
+            imgCEFR.image = UIImage(named: "the_big_picture_cefr.png")
+            
+            unoImg.image = UIImage(named: "richmondlearning.png")
+            dosImg.image = UIImage(named: "american_english.png")
+            tresImg.image = UIImage(named: "levels6.png")
+            cuatroImg.image = UIImage(named: "hours90_120.png")
+            cincoImg.image = UIImage(named: "videos.png")
+            seisImg.image = UIImage(named: "app.png")
+            sieteImg.image = UIImage(named: "digital_book.png")
+            ochoImg.image = UIImage(named: "digital_resources.png")
+            
+            unoBtn.isHidden = false
+            dosBtn.isHidden = false
+            tresBtn.isHidden = false
+            cuatroBtn.isHidden = false
+            cincoBtn.isHidden = false
+            seisBtn.isHidden = false
+            sieteBtn.isHidden = false
+            ochoBtn.isHidden = false
+            
+            self.txtComponents.text = "- Student's Book\n \n- Workbook\n \n- Audio CD\n \n- Downloadable audio online\n \n- Split Edition Available\n \n- Interactive online activities\n \n- Learning Platform App"
+            imgDet1.isHidden = true
+            imgDet2.isHidden = true
+            imgDet3.isHidden = true
+            self.txtDet1.isHidden = true
+            self.txtDet2.isHidden = true
+            self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.text = "- Teacher’s Book\n \n- Class Audio CD\n \n- Digital Book\n \n- Test Studio\n \n- Online videos and author interviews\n \n- Learning Platform\n \n"
+            self.txtMoreComponentsTeachers.isHidden = true
+            self.txtISBNStudents.text = "The BIG Picture Student’s Book\nLevel A1          9788466815673\nLevel A2          9788466820769\nLevel A3          9788466820776\n\nThe BIG Picture Pack (WB+CD)\nLevel A1          7506009839595\nLevel A2          7506009834248\nLevel A3          7506009834255"
+            self.txtISBNTeachers.text = "The BIG Picture Teacher’s Book\nLevel A1          9788466815697\nLevel A2          9788466810579\nLevel A3          9788466810609\n\nThe BIG Picture Class Audio CDs\nLevel A1          9788466815703\nLevel A2          9788466812801\nLevel A3          9788466812825\n\nThe BIG Picture Digital Book\nLevel A1          9788466815710\nLevel A2          9788466812818\nLevel A3          9788466812832"
             
         } else {
             self.txtComponents.text = "- Student’s Book \n \n- Student’s CD"
@@ -2222,6 +2673,55 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtISBNStudents.text = "Pack Pebbles (SB+CD+RSC Booklet+AP)\nLevel 1          7506009834934\nLevel 2          7506009834941\nLevel 3          7506009834958"
             self.txtISBNTeachers.text = "Pack Pebbles (Guia + Class CD)\nLevel 1          7506009835405\nLevel 2          7506009835412\nLevel 3          7506009835429\n\nFlashcards\nLevel 1          9786070605161\nLevel 2          9786070605208\nLevel 3          9786070605246\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663"
         }
+        
+        self.txtComponents.sizeToFit()
+        self.txtComponentsTeachers.sizeToFit()
+        
+        self.txtISBNStudents.sizeToFit()
+        
+        let heightISBNS = heightForView(text: self.txtISBNStudents.text!, font: font!, width: 360.0)
+        
+        let xPositionISBNTT = txtTitleISBNTeachers.frame.origin.x
+        
+        //View will slide 20px up
+        let yPositionISBNTT = txtISBNStudents.frame.origin.y + heightISBNS + 75
+        
+        print(yPositionISBNTT)
+        
+        let heightISBNTT = txtTitleISBNTeachers.frame.size.height
+        let widthISBNTT = txtTitleISBNTeachers.frame.size.width
+        
+        txtTitleISBNTeachers.frame = CGRect(x: xPositionISBNTT, y: yPositionISBNTT, width: widthISBNTT, height: heightISBNTT)
+        
+        self.txtISBNTeachers.sizeToFit()
+        
+        let xPositionISBNTXT = txtISBNTeachers.frame.origin.x
+        
+        //View will slide 20px up
+        let yPositionISBNTXT = txtISBNStudents.frame.origin.y + heightISBNS + 50 + heightISBNTT + 50
+        
+        print(yPositionISBNTXT)
+        
+        let heightISBNTXT = txtISBNTeachers.frame.size.height
+        let widthISBNTXT = txtISBNTeachers.frame.size.width
+        
+        txtISBNTeachers.frame = CGRect(x: xPositionISBNTXT, y: yPositionISBNTXT, width: widthISBNTXT, height: heightISBNTXT )
+        
+        self.txtDet1.sizeToFit()
+        self.txtDet2.sizeToFit()
+        self.txtDet3.sizeToFit()
+        self.txtDet4.sizeToFit()
+        self.txtDet5.sizeToFit()
+        self.txtDet6.sizeToFit()
+        
+        self.txtDetT1.sizeToFit()
+        self.txtDetT2.sizeToFit()
+        self.txtDetT3.sizeToFit()
+        self.txtDetT4.sizeToFit()
+        self.txtDetT5.sizeToFit()
+        self.txtDetT6.sizeToFit()
+        self.txtDetT7.sizeToFit()
+        self.txtDetT8.sizeToFit()
         
   
     }
@@ -2242,6 +2742,23 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             alpha: 0.4)
         vc.modalTransitionStyle = .crossDissolve
         present(vc, animated: true, completion: nil)
+    }
+    
+    func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat{
+        
+        var currHeight:CGFloat!
+        
+        let label:UILabel = UILabel(frame: CGRect(x:0, y:0, width: width, height: CGFloat.greatestFiniteMagnitude))
+        label.numberOfLines = 0
+        label.lineBreakMode = NSLineBreakMode.byWordWrapping
+        label.font = font
+        label.text = text
+        label.sizeToFit()
+        
+        currHeight = label.frame.height
+        label.removeFromSuperview()
+        
+        return currHeight
     }
     
     func enviarLinkScope(sender: UIGestureRecognizer){
@@ -2535,6 +3052,13 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
         }
             
     }
+    
+    @IBAction func home(){
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CategoriasTableViewController") as! CategoriasTableViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+        //print("Tiendas")
+    }
+    
     /*func obtenerTeachers (idCategoria: Int, idSerie : Int) -> [tuplaStudents]{
         
         let path: String = Bundle.main.path(forResource: "cate\(idCategoria)F", ofType: "json")as String!
