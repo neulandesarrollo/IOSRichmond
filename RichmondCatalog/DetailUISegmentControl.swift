@@ -1536,14 +1536,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             tresBtn.isHidden = false
             cuatroBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book\n \n-Workbook\n \n-CD-ROM"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-Teacher’s Book \n \n-Class Audio CD\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
@@ -1561,14 +1561,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book\n \n-Workbook\n \n-CD-ROM"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-Teacher’s Book\n \n-Class Audio CD\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
@@ -1586,14 +1586,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book\n \n-Student’s Book with answers\n \n-Learning Platform"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-Teacher’s Book\n \n-Class Audio CDs\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
@@ -1611,13 +1611,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book with answers\n-Learning Platform"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
+            self.txtComponentsTeachers.isHidden = true
             self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
@@ -1636,14 +1637,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
 
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book with answers\n \n-Learning Platform\n \n-CD-ROM"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-NO APLICA"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
@@ -1661,14 +1662,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book\n \n-Audioscripts\n \n-Course CD\n \n-Online Practice Test"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-NO APLICA\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
@@ -1708,14 +1709,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             tresBtn.isHidden = false
             cuatroBtn.isHidden = false
 
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book\n \n-Student’s CD-ROM"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-Teacher’s Book\n \n-Class Audio CD\n \n-Website\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
@@ -1733,14 +1734,14 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cuatroBtn.isHidden = false
             cincoBtn.isHidden = false
             
-            self.txtComponents.text = "- Student’s Book (with portal access code)\n \n- eWorkbook\n \n- Split editions (except for Starter)\n \n- Learning Platform extra practice, audio and video"
+            self.txtComponents.text = "-Student’s Book\n \n-Workbook with Audio CD\n \n-Learning Platform"
             imgDet1.isHidden = true
             imgDet2.isHidden = true
             imgDet3.isHidden = true
             self.txtDet1.isHidden = true
             self.txtDet2.isHidden = true
             self.txtDet3.isHidden = true
-            self.txtComponentsTeachers.text = "- Teacher’s Book \n \n- Class CD\n \n- DVD (ID Café) \n \n- Digital Book\n \n- Learning Platform with a full range of digital resources\n \n"
+            self.txtComponentsTeachers.text = "-Teacher’s Book\n \n-Class Audio CDs\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "iDentities Student’s Book\nLevel 1          978846682083\nLevel 2          *TBA\n\niDentities Workbook\nLevel 1          9788466820851\nLevel 2          *TBA"
             self.txtISBNTeachers.text = "iDentities Teacher’s Book\nLevel 1          9788466820844\nLevel 2          *TBA\n\niDentities Class CD\nLevel 1          9788466820806\nLevel 2          *TBA"
