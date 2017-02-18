@@ -644,7 +644,6 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             cincoImg.image = UIImage(named: "audio.png")
             seisImg.image = UIImage(named: "digital_resources.png")
             sieteImg.image = UIImage(named: "app.png")
-            ochoImg.image = UIImage(named: "videos.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -689,7 +688,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             
             self.txtISBNStudents.text = "Pack Tippy Toes (SB+CD+STK+MY FIRST...)\nLevel 1          7506009842755\nLevel 2          7506009842762\nLevel 3          7506009842779\n\nActivity Book\nLevel 1          9786070602641\nLevel 2          9786070602658\nLevel 3          9786070602665"
             self.txtISBNTeachers.isHidden = false
-            self.txtISBNTeachers.text = "Teacher’s Guide\nLevel 1          9786070602672\nLevel 2          9786070602689\nLevel 3          9786070602696\n\nClass CD\nLevel 1          7506009807518\nLevel 2          7506009807525\nLevel 3          7506009807532\n\nBig Book\nLevel 1          9786070602702\nLevel 2          9786070602719\nLevel 3          9786070602726\n\nPosters & Cutouts\nLevel 1          7506009807181\nLevel 2          7506009807198\nLevel 3          7506009807204\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663\n\nPuppets (Level 3)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          7506009807846\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844162\nLevel 2          7506009844162\nLevel 3          7506009844162"
+            self.txtISBNTeachers.text = "Teacher’s Guide\nLevel 1          9786070602672\nLevel 2          9786070602689\nLevel 3          9786070602696\n\nClass CD\nLevel 1          7506009807518\nLevel 2          7506009807525\nLevel 3          7506009807532\n\nBig Book\nLevel 1          9786070602702\nLevel 2          9786070602719\nLevel 3          9786070602726\n\nPosters & Cutouts\nLevel 1          7506009807181\nLevel 2          7506009807198\nLevel 3          7506009807204\n\nFun Activity Mat (Level 1,2 and 3)\nLevel 1          9786070606649\nLevel 2          9786070606656\nLevel 3          9786070606663\n\nPuppets (Level 3)\nLevel 1          N/A\nLevel 2          N/A\nLevel 3          7506009807846\n\nDigital Book DVD (Level 1,2 and 3)\nLevel 1          7506009844162\nLevel 2          7506009844162\nLevel 3          7506009844162"
             
         } else if viaSegueSerie == 11 {
             
@@ -713,12 +712,9 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtDet2.text = "Student’s CD"
             self.txtDet3.text = "App"
             
-            unoImg.image = UIImage(named: "richmondsolution.png")
-            dosImg.image = UIImage(named: "levels4.png")
-            tresImg.image = UIImage(named: "hours3_5.png")
-            cuatroImg.image = UIImage(named: "digital_book.png")
-            cincoImg.image = UIImage(named: "audio.png")
-            seisImg.image = UIImage(named: "digital_resources.png")
+            unoImg.image = UIImage(named: "audio.png")
+            dosImg.image = UIImage(named: "app.png")
+
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -780,6 +776,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             seisImg.image = UIImage(named: "app.png")
             sieteImg.image = UIImage(named: "microsite.png")
             ochoImg.image = UIImage(named: "clil.png")
+            nueveImg.image = UIImage(named: "videos.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1076,6 +1073,12 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             unoImg.image = UIImage(named: "richmondsolution.png")
             dosImg.image = UIImage(named: "levels6.png")
             tresImg.image = UIImage(named: "microsite.png")
+            cuatroImg.image = UIImage(named: "american_english.png")
+            cincoImg.image = UIImage(named: "hours7_10.png")
+            seisImg.image = UIImage(named: "richmondspiral.png")
+            sieteImg.image = UIImage(named: "digital_book.png")
+            ochoImg.image = UIImage(named: "clil.png")
+            nueveImg.image = UIImage(named: "audio.png")
             
             unoBtn.isHidden = false
             dosBtn.isHidden = false
@@ -1141,7 +1144,7 @@ class DetailUISegmentControl : UIViewController, UICollectionViewDataSource,UICo
             self.txtComponentsTeachers.text = "- Teacher’s Guide\n \n- Reinforcement and Extension Worksheets\n \n- Evaluations \n \n- Digital Book\n \n"
             self.txtMoreComponentsTeachers.isHidden = true
             self.txtISBNStudents.text = "Pack Pathway to Science (SB + SB/AC)\nLevel 1          7506009840041\nLevel 2          7506009840058\nLevel 3          7506009840065\nLevel 4          7506009840072\nLevel 5          7506009840089\nLevel 6          7506009840096\n"
-            self.txtISBNTeachers.text = "Pack Pathway to Science (Tg+Evaluations+R&E)\nLevel 1          7506009840409\nLevel 2          7506009840416\nLevel 3          7506009840423\nLevel 4          7506009840430\nLevel 5          7506009840447\nLevel 6          7506009840454"
+            self.txtISBNTeachers.text = "Pack Pathway to Science (Tg+Evaluations+R&E)\nLevel 1          7506009840409, 9786070613180\nLevel 2          7506009840416, 9786070613173\nLevel 3          7506009840423, 9786070613166\nLevel 4          7506009840430, 9786070613159\nLevel 5          7506009840447, 9786070613142\nLevel 6          7506009840454, 9786070613135"
             
         } else if viaSegueSerie == 17 {
             imgCEFR.image = UIImage(named: "science_and_geography_cefr.png")

@@ -374,7 +374,7 @@
 		"announced": "0",
 		"CEFR": "0",
 		"imagePathA": "thumbs",
-		"imagePathB": "thumbs_l",
+		"imagePathB": "thumbs_2",
 		"sampleunit": "http://www.richmond.com.mx/SU/pathwaytoscience/index.html",
 		"scope": "http://www.richmond.com.mx/SS/SSpathwaytoscience_g.pdf"
   }, {
@@ -498,7 +498,7 @@
 		"category_idCategory": "2",
 		"name": "Pathway to Math",
         "author" : "Marlina Bahena",
-		"description": "Pathway to Math is a new CLIL course for primary with a variety of activities to help learners develop competencies in math while developing their English language proficiency. Pathway to Math complements any general English course, enabling students to transfer their English skills to another content area while reinforcing their math knowledge.                                                                                                                                                With Pathway to Math students will:\n\u2022 practice age-appropriate math as learned in their native language classes, in English\n\u2022 work together to find solutions, develop math skills and apply different calculation strategies\n\u2022 study mathematical terms included in the illustrated glossary\n\u2022 acquire math exam strategies\n                                                                                                                                 ",
+		"description": "Marlina Bahena\nPathway to Math is a new CLIL course for primary with a variety of activities to help learners develop competencies in math while developing their English language proficiency. Pathway to Math complements any general English course, enabling students to transfer their English skills to another content area while reinforcing their math knowledge.                                                                                                                                                With Pathway to Math students will:\n\u2022 practice age-appropriate math as learned in their native language classes, in English\n\u2022 work together to find solutions, develop math skills and apply different calculation strategies\n\u2022 study mathematical terms included in the illustrated glossary\n\u2022 acquire math exam strategies\n                                                                                                                                 ",
 		"levels": "6",
 		"hours": "0",
 		"new": "1",
