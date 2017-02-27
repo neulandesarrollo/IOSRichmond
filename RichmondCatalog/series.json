@@ -501,7 +501,7 @@
 		"description": "Marlina Bahena\nPathway to Math is a new CLIL course for primary with a variety of activities to help learners develop competencies in math while developing their English language proficiency. Pathway to Math complements any general English course, enabling students to transfer their English skills to another content area while reinforcing their math knowledge.                                                                                                                                                With Pathway to Math students will:\n\u2022 practice age-appropriate math as learned in their native language classes, in English\n\u2022 work together to find solutions, develop math skills and apply different calculation strategies\n\u2022 study mathematical terms included in the illustrated glossary\n\u2022 acquire math exam strategies\n                                                                                                                                 ",
 		"levels": "6",
 		"hours": "0",
-		"new": "1",
+		"new": "0",
 		"british": "0",
 		"digitalResources": "0",
 		"dvd": "0",
@@ -1306,7 +1306,7 @@
 		"sampleunit": "",
 		"scope": ""
   }, {
-		"idSerie": "after",
+		"idSerie": "47",
 		"category_idCategory": "5",
 		"name": "Richmond Dictionaries",
         "author" : "",
@@ -2229,8 +2229,8 @@
 		"learning": "0",
 		"announced": "0",
 		"CEFR": "0",
-		"imagePathA": "dvd_readers",
-		"imagePathB": "dvd_readers_l",
+		"imagePathA": "the_big_picture.png",
+		"imagePathB": "the_big_picture.png",
 		"sampleunit": "",
 		"scope": ""
   }

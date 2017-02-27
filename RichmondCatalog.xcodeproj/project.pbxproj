@@ -2278,7 +2278,7 @@
 				TargetAttributes = {
 					68D46D9A1D59150900E54B46 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = V3UNU9CQU4;
+						DevelopmentTeam = NMWK294CF6;
 						LastSwiftMigration = 0800;
 					};
 					68D46DAE1D59150900E54B46 = {
@@ -3198,11 +3198,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = V3UNU9CQU4;
+				DEVELOPMENT_TEAM = NMWK294CF6;
 				INFOPLIST_FILE = RichmondCatalog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.yanku.RichmondCatalog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richmond.catalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -3217,11 +3217,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = V3UNU9CQU4;
+				DEVELOPMENT_TEAM = NMWK294CF6;
 				INFOPLIST_FILE = RichmondCatalog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.yanku.RichmondCatalog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richmond.catalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
