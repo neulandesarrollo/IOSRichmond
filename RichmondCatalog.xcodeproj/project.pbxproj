@@ -497,6 +497,7 @@
 		8220FD381E150990003D57DA /* StoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220FD371E150990003D57DA /* StoresTableViewCell.swift */; };
 		8220FD3A1E153032003D57DA /* StateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220FD391E153032003D57DA /* StateDetailsViewController.swift */; };
 		8220FD3C1E15C373003D57DA /* SearchSerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220FD3B1E15C373003D57DA /* SearchSerieViewController.swift */; };
+		8226E8ED1E6B150C003C020C /* portadas_ready_set_go_new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8226E8EC1E6B150C003C020C /* portadas_ready_set_go_new.jpg */; };
 		822A1BCA1E3CE9C400E704EB /* ready_set_go_table.png in Resources */ = {isa = PBXBuildFile; fileRef = 822A1BC91E3CE9C400E704EB /* ready_set_go_table.png */; };
 		822DD07E1E439CFA0072493B /* student_book_cubby.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DD07C1E439CFA0072493B /* student_book_cubby.png */; };
 		822DD07F1E439CFA0072493B /* student_cd_cubby.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DD07D1E439CFA0072493B /* student_cd_cubby.png */; };
@@ -556,7 +557,6 @@
 		822DD0F41E43E2E00072493B /* portadas_popcorn_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0DE1E43E2E00072493B /* portadas_popcorn_4.jpg */; };
 		822DD0F51E43E2E00072493B /* portadas_popcorn_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0DF1E43E2E00072493B /* portadas_popcorn_5.jpg */; };
 		822DD0F61E43E2E00072493B /* portadas_popcorn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0E01E43E2E00072493B /* portadas_popcorn.jpg */; };
-		822DD0F71E43E2E00072493B /* portadas_ready_set_go.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0E11E43E2E00072493B /* portadas_ready_set_go.jpg */; };
 		822DD0F81E43E2E00072493B /* portadas_richmond_readers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0E21E43E2E00072493B /* portadas_richmond_readers.jpg */; };
 		822DD0F91E43E2E00072493B /* portadas_superstars_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0E31E43E2E00072493B /* portadas_superstars_1.jpg */; };
 		822DD0FA1E43E2E00072493B /* portadas_superstars_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 822DD0E41E43E2E00072493B /* portadas_superstars_2.jpg */; };
@@ -616,6 +616,7 @@
 		8242BD881E4616C5004598F8 /* math_adventures_teacher_resource_cd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD861E4616C5004598F8 /* math_adventures_teacher_resource_cd.png */; };
 		8242BD8A1E4616CE004598F8 /* microsite_math.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD891E4616CE004598F8 /* microsite_math.png */; };
 		8242BD8C1E4616DA004598F8 /* digital_book_math.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242BD8B1E4616DA004598F8 /* digital_book_math.png */; };
+		8244964C1E6F24570082A565 /* portadas_media_readers_copia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8244964B1E6F24570082A565 /* portadas_media_readers_copia.jpg */; };
 		8247D2B41E45521A00D9D3B1 /* stickers_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2B31E45521A00D9D3B1 /* stickers_tippy_toes.png */; };
 		8247D2B61E45522700D9D3B1 /* student_book_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2B51E45522700D9D3B1 /* student_book_tippy_toes.png */; };
 		8247D2B81E45522D00D9D3B1 /* student_cd_tippy_toes.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247D2B71E45522D00D9D3B1 /* student_cd_tippy_toes.png */; };
@@ -1200,6 +1201,7 @@
 		8220FD371E150990003D57DA /* StoresTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresTableViewCell.swift; sourceTree = "<group>"; };
 		8220FD391E153032003D57DA /* StateDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailsViewController.swift; sourceTree = "<group>"; };
 		8220FD3B1E15C373003D57DA /* SearchSerieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSerieViewController.swift; sourceTree = "<group>"; };
+		8226E8EC1E6B150C003C020C /* portadas_ready_set_go_new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_ready_set_go_new.jpg; sourceTree = "<group>"; };
 		822A1BC91E3CE9C400E704EB /* ready_set_go_table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready_set_go_table.png; sourceTree = "<group>"; };
 		822DD07C1E439CFA0072493B /* student_book_cubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_book_cubby.png; sourceTree = "<group>"; };
 		822DD07D1E439CFA0072493B /* student_cd_cubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_cd_cubby.png; sourceTree = "<group>"; };
@@ -1259,7 +1261,6 @@
 		822DD0DE1E43E2E00072493B /* portadas_popcorn_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_popcorn_4.jpg; sourceTree = "<group>"; };
 		822DD0DF1E43E2E00072493B /* portadas_popcorn_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_popcorn_5.jpg; sourceTree = "<group>"; };
 		822DD0E01E43E2E00072493B /* portadas_popcorn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_popcorn.jpg; sourceTree = "<group>"; };
-		822DD0E11E43E2E00072493B /* portadas_ready_set_go.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_ready_set_go.jpg; sourceTree = "<group>"; };
 		822DD0E21E43E2E00072493B /* portadas_richmond_readers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_richmond_readers.jpg; sourceTree = "<group>"; };
 		822DD0E31E43E2E00072493B /* portadas_superstars_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_superstars_1.jpg; sourceTree = "<group>"; };
 		822DD0E41E43E2E00072493B /* portadas_superstars_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_superstars_2.jpg; sourceTree = "<group>"; };
@@ -1319,6 +1320,7 @@
 		8242BD861E4616C5004598F8 /* math_adventures_teacher_resource_cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_adventures_teacher_resource_cd.png; sourceTree = "<group>"; };
 		8242BD891E4616CE004598F8 /* microsite_math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microsite_math.png; sourceTree = "<group>"; };
 		8242BD8B1E4616DA004598F8 /* digital_book_math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digital_book_math.png; sourceTree = "<group>"; };
+		8244964B1E6F24570082A565 /* portadas_media_readers_copia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadas_media_readers_copia.jpg; sourceTree = "<group>"; };
 		8247D2B31E45521A00D9D3B1 /* stickers_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stickers_tippy_toes.png; sourceTree = "<group>"; };
 		8247D2B51E45522700D9D3B1 /* student_book_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_book_tippy_toes.png; sourceTree = "<group>"; };
 		8247D2B71E45522D00D9D3B1 /* student_cd_tippy_toes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_cd_tippy_toes.png; sourceTree = "<group>"; };
@@ -1533,6 +1535,8 @@
 		68DD958F1D67B82200A433D6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8244964B1E6F24570082A565 /* portadas_media_readers_copia.jpg */,
+				8226E8EC1E6B150C003C020C /* portadas_ready_set_go_new.jpg */,
 				90D849F11E57DC9400932137 /* thumbs_2.png */,
 				826209EF1E53967B00080B1B /* business_theories_cefr.png */,
 				823146C21E5378AF00A3C154 /* cool_kids_second.png */,
@@ -1617,7 +1621,6 @@
 				822DD0DE1E43E2E00072493B /* portadas_popcorn_4.jpg */,
 				822DD0DF1E43E2E00072493B /* portadas_popcorn_5.jpg */,
 				822DD0E01E43E2E00072493B /* portadas_popcorn.jpg */,
-				822DD0E11E43E2E00072493B /* portadas_ready_set_go.jpg */,
 				822DD0E21E43E2E00072493B /* portadas_richmond_readers.jpg */,
 				822DD0E31E43E2E00072493B /* portadas_superstars_1.jpg */,
 				822DD0E41E43E2E00072493B /* portadas_superstars_2.jpg */,
@@ -2647,7 +2650,6 @@
 				68DD9B071D67B95200A433D6 /* math_adv_resource_pack.jpg in Resources */,
 				68DD9BD11D67B95200A433D6 /* toeic.png in Resources */,
 				68DD9BB01D67B95200A433D6 /* tba_malala.jpg in Resources */,
-				822DD0F71E43E2E00072493B /* portadas_ready_set_go.jpg in Resources */,
 				68DD9B621D67B95200A433D6 /* rpt_movers_rescd.jpg in Resources */,
 				68DD9B631D67B95200A433D6 /* RPT_MOVERS_RESCD.png in Resources */,
 				68DD9A081D67B95200A433D6 /* ibook.png in Resources */,
@@ -2776,6 +2778,7 @@
 				68DD9BDB1D67B95200A433D6 /* vle.png in Resources */,
 				A83CA8851DC7EB7700769278 /* homeTabBar.png in Resources */,
 				68DD98EF1D67B95200A433D6 /* cambridge_advanced_l.png in Resources */,
+				8244964C1E6F24570082A565 /* portadas_media_readers_copia.jpg in Resources */,
 				822DD0971E43B2D60072493B /* cool_kids_second_edition_cefr.png in Resources */,
 				68DD9A151D67B95200A433D6 /* infoquest_l.png in Resources */,
 				68DD99FD1D67B95200A433D6 /* hours7_10.png in Resources */,
@@ -2840,6 +2843,7 @@
 				68DD98BB1D67B95200A433D6 /* abracadabra_l.png in Resources */,
 				8242BD5E1E460C0B004598F8 /* teacher_cd_rom1_gumdrops.png in Resources */,
 				68DD99131D67B95200A433D6 /* crickets_practice_book.jpg in Resources */,
+				8226E8ED1E6B150C003C020C /* portadas_ready_set_go_new.jpg in Resources */,
 				68DD9B9D1D67B95200A433D6 /* step_up_l.png in Resources */,
 				68DD9B6F1D67B95200A433D6 /* seven_l.png in Resources */,
 				68DD9B161D67B95200A433D6 /* mfls_cd.jpg in Resources */,

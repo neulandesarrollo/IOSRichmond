@@ -58,7 +58,7 @@ class StoreListViewController: UIViewController,UITableViewDelegate,UITableViewD
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if(indexPath.row == 0 || indexPath.row == 7 || indexPath.row == 8 || indexPath.row == 13 || indexPath.row == 16 || indexPath.row == 28){
+        if(indexPath.row == 7 || indexPath.row == 8 || indexPath.row == 13 || indexPath.row == 16 || indexPath.row == 28){
             let alert = UIAlertController(title: "Alert", message: "No hay tiendas disponibles", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)

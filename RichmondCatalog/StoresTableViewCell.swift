@@ -13,5 +13,7 @@ class StoresTableViewCell: UITableViewCell {
     @IBOutlet weak var lblStoreAddress: UITextView!
     @IBOutlet weak var lblStorePhone: UILabel!
     @IBOutlet weak var lblStoreWebsite: UILabel!
+    @IBOutlet weak var btnLlamar: UIButton!
+    @IBOutlet weak var btnNavegar: UIButton!
 }
 

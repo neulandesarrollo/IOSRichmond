@@ -34,57 +34,57 @@ class StateDetailsViewController: UIViewController,UITableViewDelegate,UITableVi
         self.tableView.dataSource = self
         
         switch stateid {
-        case 1:
+        case 0:
             statenew = 2
-        case 2:
+        case 1:
             statenew = 3
-        case 3:
+        case 2:
             statenew = 4
-        case 4:
+        case 3:
             statenew = 5
-        case 5:
+        case 4:
             statenew = 6
-        case 6:
+        case 5:
             statenew = 9
-        case 9:
+        case 8:
             statenew = 10
-        case 10:
+        case 9:
             statenew = 15
-        case 11:
+        case 10:
             statenew = 11
-        case 12:
+        case 11:
             statenew = 12
-        case 14:
+        case 13:
             statenew = 14
-        case 15:
+        case 14:
             statenew = 16
-        case 17:
+        case 16:
             statenew = 18
-        case 18:
+        case 17:
             statenew = 19
-        case 19:
+        case 18:
             statenew = 20
-        case 20:
+        case 19:
             statenew = 21
-        case 21:
+        case 20:
             statenew = 22
-        case 22:
+        case 21:
             statenew = 23
-        case 23:
+        case 22:
             statenew = 24
-        case 24:
+        case 23:
             statenew = 25
-        case 25:
+        case 24:
             statenew = 26
-        case 26:
+        case 25:
             statenew = 27
-        case 27:
+        case 26:
             statenew = 28
-        case 29:
+        case 28:
             statenew = 30
-        case 30:
+        case 29:
             statenew = 31
-        case 31:
+        case 30:
             statenew = 32
         default:
             statenew = 1
@@ -127,6 +127,29 @@ class StateDetailsViewController: UIViewController,UITableViewDelegate,UITableVi
         self.header.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
     }
     
+    func navegar(sender: AnyObject?) {
+        print((sender?.accessibilityHint!)! as String)
+        let value = (sender?.accessibilityHint)! as String
+        if (UIApplication.shared.canOpenURL(NSURL(string:"comgooglemaps://")! as URL)) {
+            UIApplication.shared.openURL(NSURL(string:value)! as URL)
+            
+        } else {
+            NSLog("No podemos abrir Google Maps");
+        }
+    }
+    
+    func llamar(sender: AnyObject?) {
+        print((sender?.accessibilityHint!)! as String)
+        let value = (sender?.accessibilityHint)! as String
+        
+        if (UIApplication.shared.canOpenURL(NSURL(string:value)! as URL)) {
+            UIApplication.shared.openURL(NSURL(string:value)! as URL)
+            
+        } else {
+            NSLog("No puedes realizar llamadas");
+        }
+    }
+    
     @IBAction func regresar(){
         let _ = self.navigationController?.popViewController(animated: true)
     }
@@ -150,6 +173,15 @@ class StateDetailsViewController: UIViewController,UITableViewDelegate,UITableVi
         cell.lblStoreAddress.text = store.address
         cell.lblStorePhone.text = store.phoneA
         cell.lblStoreWebsite.text = store.website
+        cell.btnNavegar.accessibilityHint = "comgooglemaps://?saddr=&daddr=" + String(store.latitud) + "," + String(store.longitud) + "&directionsmode=driving"
+        cell.btnNavegar.addTarget(self, action: #selector(navegar), for:.touchUpInside)
+        var phone = store.phoneA
+        phone = phone.replacingOccurrences(of: "(", with: "", options: NSString.CompareOptions.literal, range:nil)
+        phone = phone.replacingOccurrences(of: ")", with: "", options: NSString.CompareOptions.literal, range:nil)
+        phone = phone.replacingOccurrences(of: "-", with: "", options: NSString.CompareOptions.literal, range:nil)
+        phone = phone.replacingOccurrences(of: " ", with: "", options: NSString.CompareOptions.literal, range:nil)
+        cell.btnLlamar.accessibilityHint = "tel://"+String(phone)
+        cell.btnLlamar.addTarget(self, action: #selector(llamar), for:.touchUpInside)
         
         return cell
     }

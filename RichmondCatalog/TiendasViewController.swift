@@ -10,6 +10,7 @@ import UIKit
 import SwiftyJSON
 import MapKit
 import CoreLocation
+import Foundation
 
 class TiendasViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
@@ -33,17 +34,79 @@ class TiendasViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
-        mapView.showsUserLocation = true
+        self.mapView.showsUserLocation = true
+        self.mapView.delegate = self
+        
+        for locationMark in obtenerTodasTiendas() {
+            
+            let annotation = MKPointAnnotation()
+            annotation.title = locationMark.name
+            annotation.subtitle = locationMark.address
+            annotation.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(locationMark.latitud) , longitude: CLLocationDegrees(locationMark.longitud))
+            
+            /*let pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: String(annotation.hash))
+            
+            let rightButton = UIButton(type: .contactAdd)
+            rightButton.tag = annotation.hash
+            
+            pinView.animatesDrop = true
+            pinView.canShowCallout = true
+            pinView.rightCalloutAccessoryView = rightButton*/
+            
+            mapView.addAnnotation(annotation)
+            
+        }
         
         let button = UIButton(type: .custom)
-        button.frame = CGRect(x: 280, y: 510, width: 60, height: 60)
-        button.layer.cornerRadius = 0.5 * button.bounds.size.width
-        button.clipsToBounds = true
-        button.setImage(UIImage(named:"search.png"), for: .normal)
-        button.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        button.frame = CGRect(x: 30, y: 510, width: 300, height: 60)
+        //button.layer.cornerRadius = 0.5 * button.bounds.size.width
+        //button.clipsToBounds = true
+        //button.setImage(UIImage(named:"search.png"), for: .normal)
+        //button.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        button.setTitle("Distribuidores", for: .normal)
+        button.setTitleColor(UIColor(red:1,  green:1,  blue:1, alpha:1), for: .normal)
         button.backgroundColor = UIColor(red:0.928,  green:0.331,  blue:0.345, alpha:1)
         button.addTarget(self, action: #selector(thumbsUpButtonPressed), for: .touchUpInside)
         view.addSubview(button)
+    }
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if(annotation is MKUserLocation) {
+            return nil
+        }
+        let reuseID = "pin"
+        var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseID) as? MKPinAnnotationView
+        if(pinView == nil) {
+            pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseID)
+            pinView!.canShowCallout = true
+            pinView!.animatesDrop = true
+        }
+        let button = UIButton(type: .contactAdd)
+        button.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        button.tag = annotation.hash
+        button.accessibilityHint = "comgooglemaps://?saddr=&daddr=" + String(annotation.coordinate.latitude) + "," + String(annotation.coordinate.longitude) + "&directionsmode=driving"
+        button.addTarget(self, action: #selector(btnClicked), for:.touchUpInside)
+        pinView?.rightCalloutAccessoryView = button
+        return pinView
+    }
+    
+    func btnClicked(sender: AnyObject?) {
+        print((sender?.accessibilityHint!)! as String)
+        let value = (sender?.accessibilityHint)! as String
+        if (UIApplication.shared.canOpenURL(NSURL(string:"comgooglemaps://")! as URL)) {
+            UIApplication.shared.openURL(NSURL(string:value)! as URL)
+            
+        } else {
+            NSLog("Can't use comgooglemaps://");
+        }
+    }
+    
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        print("Annotation selected")
+        
+        if let annotation = view.annotation as? MKPointAnnotation {
+            print("Your annotation title: \(annotation.title)");
+        }
     }
     
     func thumbsUpButtonPressed() {
@@ -55,7 +118,7 @@ class TiendasViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-        let location                    = locations.last
+        /*let location                    = locations.last
         var index       : Int           = 0
         var distanceOne : Double        = 0
         var distanceTwo : Double        = 0
@@ -71,7 +134,17 @@ class TiendasViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             annotation.title = locationMark.name
             annotation.subtitle = locationMark.address
             annotation.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(locationMark.latitud) , longitude: CLLocationDegrees(locationMark.longitud))
-            mapView.addAnnotation(annotation)
+            
+            let pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: String(annotation.hash))
+            
+            let rightButton = UIButton(type: .contactAdd)
+            rightButton.tag = annotation.hash
+            
+            pinView.animatesDrop = true
+            pinView.canShowCallout = true
+            pinView.rightCalloutAccessoryView = rightButton
+            
+            mapView.addAnnotation(pinView.annotation!)
             
             if  index == 0{
                 index += 1
@@ -92,7 +165,7 @@ class TiendasViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             }
             
         }
-        print("latitude: \(markNear[0]) longitude: \(markNear[1]) distance: \(markNear[2])")
+        print("latitude: \(markNear[0]) longitude: \(markNear[1]) distance: \(markNear[2])")*/
         //let nearLat = markNear[0]
         //let nearLon = markNear[1]
         //let nearLat = self.locationManager.location?.coordinate.latitude
